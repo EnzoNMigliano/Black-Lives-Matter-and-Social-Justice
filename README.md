@@ -1,9 +1,9 @@
-# Analytics-Dream-Team
+# Black Lives Matter and Social Justice
 This project focus on the Black Lives Matter Movement trough a statistical analysis to compare and contrast the treatment of African Americans and other races in the American society.
 
 # Why, Where, when, and How?
 
-**Why**
+**Why?**
 
 There plenty of evidence of the mistreatment some minorities receive in the american society. So much so that here are some facts about such reality:
 
@@ -17,7 +17,7 @@ There plenty of evidence of the mistreatment some minorities receive in the amer
 
 
 
-## Team Members 
+## Team Members (Analytics-Dream-Team)
 
  - Adrana Ortiz
  
