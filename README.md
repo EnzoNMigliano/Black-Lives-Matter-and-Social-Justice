@@ -32,12 +32,20 @@ There is plenty of evidence of the mistreatment some minorities receive in the A
 
 **Where?**
 
+Our team strived to collect data from different locations to compare and contrast what is happening in different sprectruns such as: 
 
+ - City (e.g., New York City and the stop and frisk police implications)
+ 
+ - Count (e.g., Comparing and contrasting close by counts)  
+ 
+ - State (e.g., State comparison of police brutality indicators)
+ 
+ - United States (e.g., National overview of the social injustice prolblem)
 
 
 **When?**
 
-2020 was a espressive year for the Black Lives Matter movent with protests for racial justice happening around the world.The data of the social injustice, however, is not only expressive in the present time. In fact, the data on social injustice has been expressive for many years. Therefore, our team collected data from different periods of time to better understand the development of the social injustice up to today's society.
+2020 was a espressive year for the Black Lives Matter movement with protests for racial justice happening all around the globe.The data of the social injustice, however, is not only expressive in the present time. In fact, the data on social injustice has been expressive for many years. Therefore, our team collected data from different periods of time to better understand the development of the social injustice up to today's society.
 
 
 **How?**
