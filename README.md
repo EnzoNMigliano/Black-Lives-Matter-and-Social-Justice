@@ -42,13 +42,13 @@ There is plenty of evidence of the mistreatment some minorities receive in the A
 
 **How?**
 
-Our team collected more than 2gb worth of data from different reliable sources such as
+Our team collected more than 2gb worth of data from different reliable sources such as:
  
- - governmental data (e.g., data.gov)
+ - Governmental data (e.g., data.gov).
  
- - news papers (e.g., Whashington Post)
+ - News papers (e.g., Whashington Post).
  
- - reliable private istitutions (e.g., Google, Twitter).
+ - Reliable private istitutions (e.g., Google, Twitter).
  
  The data was utilized for our different staticals analisys ranging from descriptive to predictive analytics, as well as good visualizations of the problems.  
 
