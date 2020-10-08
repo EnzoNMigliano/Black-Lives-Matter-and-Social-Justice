@@ -58,3 +58,6 @@ Our team collected more than 2gb worth of data from different reliable sources s
 
 [4]	US Department of Justice, “Homicide trends in the United States, 1980-2008,” 2011. [Online}. Available: https://www.bjs.gov/content/pub/pdf/htus8008.pdf
 
+
+
+# “Keep calm and be significant”
