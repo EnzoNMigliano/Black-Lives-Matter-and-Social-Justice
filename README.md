@@ -1,4 +1,4 @@
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](https://www.benandjerry.com.br/files/live/sites/br/files/novidades/Black%20Lives%20Matter/BLM-solid-1200x630.png)
 Format: ![Alt Text](url)
 
 
