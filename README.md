@@ -52,7 +52,9 @@ Our team collected more than 2gb worth of data from different reliable sources s
  
  The data was utilized for our different staticals analisys ranging from descriptive to predictive analytics, as well as good visualizations of the problems.  
 
-<font size="0.05">*NOTE: All the data sets and the R code utilizes are available in the project repository*</font>
+element {
+  font-size: 75;
+  *NOTE: All the data sets and the R code utilizes are available in the project repository*}
 
 ### Sample Analysis and Insights
 
