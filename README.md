@@ -37,7 +37,7 @@ There is plenty of evidence of the mistreatment some minorities receive in the A
 
 **When?**
 
-
+2020 was a espressive year for the Black Lives Matter movent with protests for racial justice happening around the world.The data of the social injustice, however, is not only expressive in the present time. In fact, the data on social injustice has been expressive for many years. Therefore, our team collected data from different periods of time to better understand the development of the social injustice up to today's society.
 
 
 **How?**
