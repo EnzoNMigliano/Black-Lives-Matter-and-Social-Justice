@@ -41,7 +41,7 @@ Our team strived to collect data from different locations to compare and contras
  
  - State (e.g., State comparison of police brutality indicators)
  
- - United States (e.g., National overview of the social injustice prolblem)
+ - United States (e.g., National overview of the social injustice problem)
  <br />
  
 **When?**
