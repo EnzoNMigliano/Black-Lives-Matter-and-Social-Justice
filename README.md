@@ -53,11 +53,19 @@ Our team collected more than 2gb worth of data from different reliable sources s
  The data was utilized for our different staticals analisys ranging from descriptive to predictive analytics, as well as good visualizations of the problems.  
 
 
-  *NOTE: All the data sets and the R code utilizes are available in the project repository*
+  *NOTE: All the data sets and the R code utilized are available in the project repository.*
 
 ### Sample Analysis and Insights
 
+**The Top 3 States With More Police Kills**
 
+State | Number of Deaths by the Police | Mean Age | SD Age
+----- | -------------------------------|----------|-------
+California | 690 | 34.6 | 11.5
+Texas | 428 | 35.7 | 12.8
+Florida | 329 | 38.2 | 13.8
+
+*Source: The Washington Post*
 
 ## References
 
