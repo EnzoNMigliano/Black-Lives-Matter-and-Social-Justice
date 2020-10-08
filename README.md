@@ -48,7 +48,7 @@ Our team collected more than 2gb worth of data from different reliable sources s
  
  - News papers (e.g., Whashington Post).
  
- - Reliable private istitutions (e.g., Google, Twitter).
+ - Reliable private institutions (e.g., Google, Twitter).
  
  The data was utilized for our different staticals analisys ranging from descriptive to predictive analytics, as well as good visualizations of the problems.  
 
