@@ -10,9 +10,9 @@ This project focus on the Black Lives Matter Movement trough a statistical analy
 
  - Adriana Ortiz
  
- - Enzo Novi Migliano
+ - Enzo Novi Migliano (@EnzoNMigliano)
  
- - Juan Zambrano
+ - Juan Zambrano (@jjzp12)
 
 
 ## Why, Where, when, and How?
