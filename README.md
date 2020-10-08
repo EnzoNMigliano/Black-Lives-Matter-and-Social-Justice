@@ -28,6 +28,7 @@ There is plenty of evidence of the mistreatment some minorities receive in the A
  
  - African Americans are 6 times more likely than Caucasians to victim of a homicide (African Americans 19.6 homicides per 100,000, Caucasians 3.3 homicides per 100,000) [4].
  <br />
+ 
 **Where?**
 
 Our team strived to collect data from different locations to compare and contrast what is happening in different sprectruns such as: 
@@ -40,10 +41,12 @@ Our team strived to collect data from different locations to compare and contras
  
  - United States (e.g., National overview of the social injustice prolblem)
  <br />
+ 
 **When?**
 
 2020 was a espressive year for the Black Lives Matter movement with protests for racial justice happening all around the globe.The data of the social injustice, however, is not only expressive in the present time. In fact, the data on social injustice has been expressive for many years. Therefore, our team collected data from different periods of time to better understand the development of the social injustice up to today's society.
 <br />
+
 **How?**
 
 Our team collected more than 2gb worth of data from different reliable sources such as:
