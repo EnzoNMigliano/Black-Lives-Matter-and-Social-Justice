@@ -1,5 +1,5 @@
 ![BLM PHOTO](https://cdn-images.rtp.pt/icm/noticias/images/4c/4c6ee433fd03a0a284dd634d2fe4b681?w=860&q=90&rect=0,146,1233,676)
-Format: ![Alt Text](url)
+Photo: Andrew Kelly - Reuters
 
 
 # Black Lives Matter and Social Justice
