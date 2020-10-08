@@ -57,7 +57,7 @@ Our team collected more than 2gb worth of data from different reliable sources s
 
 ### Sample Analysis and Insights
 
-**The Top 3 States With More Police Kills**
+**The Top 3 States With More Police Kills 2015-2020(OCT)**
 
 State | Number of Deaths by the Police | Mean Age | SD Age
 ----- | -------------------------------|----------|-------
