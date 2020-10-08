@@ -1,7 +1,21 @@
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+
 # Black Lives Matter and Social Justice
 This project focus on the Black Lives Matter Movement trough a statistical analysis to compare and contrast the treatment of African Americans and other races in the American society.
 
-# Why, Where, when, and How?
+
+## Analytics-Dream-Team Members
+
+ - Adrana Ortiz
+ 
+ - Enzo Novi Migliano
+ 
+ - Juan Zambrano
+
+
+## Why, Where, when, and How?
 
 **Why?**
 
@@ -16,14 +30,21 @@ There plenty of evidence of the mistreatment some minorities receive in the amer
  - African Americans are 6 times more likely than Caucasians to victim of a homicide (African Americans 19.6 homicides per 100,000, Caucasians 3.3 homicides per 100,000) [4].
 
 
+**Where**
 
-## Team Members (Analytics-Dream-Team)
 
- - Adrana Ortiz
- 
- - Enzo Novi Migliano
- 
- - Juan Zambrano
+
+
+**When**
+
+
+
+
+**How**
+
+Our team collected more than 2gb worth of data from different reliable sources such as governmental data, news papers (e.g., Whashington Post) and reliable private istitutions (e.g., Google, Twitter). The data will be utilized in our group analysis in different staticals analisys ranging from descriptive and predictive analytics, as well as good visualizations of the problem.  
+
+### Sample Analysis and Insights
 
 
 
