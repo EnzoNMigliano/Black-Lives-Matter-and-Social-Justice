@@ -19,7 +19,7 @@ This project focus on the Black Lives Matter Movement trough a statistical analy
 
 **Why?**
 
-There is plenty of evidence of the mistreatment some minorities receive in the american society. So much so that here are some facts about such reality:
+There is plenty of evidence of the mistreatment some minorities receive in the American society. So much so that here are some facts about such reality:
 
  - Jurors are more likely to give the death penalty in cases in which Afrincan American Defendents are accused of killing [1].
  
