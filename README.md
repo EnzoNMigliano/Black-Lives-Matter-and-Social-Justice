@@ -3,7 +3,7 @@ Photo: Andrew Kelly - Reuters
 
 
 # Black Lives Matter and Social Justice
-This project focus on the Black Lives Matter Movement trough a statistical analysis to compare and contrast the treatment of African Americans and other races in the American society.
+This project focus on the Black Lives Matter Movement trough a statistical analysis to compare and contrast the treatment of African Americans and other ethinicities in the American society.
 
 
 ## Analytics-Dream-Team Members
