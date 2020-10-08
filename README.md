@@ -5,6 +5,7 @@ Photo: Andrew Kelly - Reuters
 # Black Lives Matter and Social Justice
 This project focus on the Black Lives Matter Movement trough a statistical analysis to compare and contrast the treatment of African Americans and other ethnicities in the American society.
 
+<br />
 
 ## Analytics-Dream-Team Members
 
@@ -14,6 +15,7 @@ This project focus on the Black Lives Matter Movement trough a statistical analy
  
  - Juan Zambrano (@jjzp12)
 
+<br />
 
 ## Why, Where, when, and How?
 **Why?**
@@ -61,7 +63,9 @@ Our team collected more than 2gb worth of data from different reliable sources s
  The data was utilized for our different staticals analisys ranging from descriptive to predictive analytics, as well as good visualizations of the problems.  
 
 
-  *NOTE: All the data sets and the R code utilized are available in the project repository.*<br />
+  *NOTE: All the data sets and the R code utilized are available in the project repository.*
+  
+  <br />
 
 ## Sample Analysis and Insights <br />
 **The Top 3 States With More Police Kills 2015-2020(OCT)**
@@ -73,6 +77,8 @@ Texas | 428 | 35.7 | 12.8
 Florida | 329 | 38.2 | 13.8
 
 *Source: The Washington Post*
+
+<br />
 
 ## References
 
