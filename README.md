@@ -1,4 +1,4 @@
-![BLM PHOTO](https://cdn-images.rtp.pt/icm/noticias/images/4c/4c6ee433fd03a0a284dd634d2fe4b681?w=860&q=90&rect=0,146,1233,676)
+![BLM PHOTO](https://cdn-images.rtp.pt/icm/noticias/images/4c/4c6ee433fd03a0a284dd634d2fe4b681?w=860&q=90&rect=0,146,1233,676) <br />
 Photo: Andrew Kelly - Reuters
 
 
@@ -16,7 +16,6 @@ This project focus on the Black Lives Matter Movement trough a statistical analy
 
 
 ## Why, Where, when, and How?
-
 **Why?**
 
 There is plenty of evidence of the mistreatment some minorities receive in the American society. So much so that here are some facts about such reality:
@@ -27,9 +26,7 @@ There is plenty of evidence of the mistreatment some minorities receive in the A
  
  - Up to March of 2017, 47% of all exonerations of wrongfully convicted people were African Americans while making up only 13% of the United States Population [3].
  
- - African Americans are 6 times more likely than Caucasians to victim of a homicide (African Americans 19.6 homicides per 100,000, Caucasians 3.3 homicides per 100,000) [4].
-
-
+ - African Americans are 6 times more likely than Caucasians to victim of a homicide (African Americans 19.6 homicides per 100,000, Caucasians 3.3 homicides per 100,000) [4].<br />
 **Where?**
 
 Our team strived to collect data from different locations to compare and contrast what is happening in different sprectruns such as: 
@@ -40,14 +37,10 @@ Our team strived to collect data from different locations to compare and contras
  
  - State (e.g., State comparison of police brutality indicators)
  
- - United States (e.g., National overview of the social injustice prolblem)
-
-
+ - United States (e.g., National overview of the social injustice prolblem)<br />
 **When?**
 
-2020 was a espressive year for the Black Lives Matter movement with protests for racial justice happening all around the globe.The data of the social injustice, however, is not only expressive in the present time. In fact, the data on social injustice has been expressive for many years. Therefore, our team collected data from different periods of time to better understand the development of the social injustice up to today's society.
-
-
+2020 was a espressive year for the Black Lives Matter movement with protests for racial justice happening all around the globe.The data of the social injustice, however, is not only expressive in the present time. In fact, the data on social injustice has been expressive for many years. Therefore, our team collected data from different periods of time to better understand the development of the social injustice up to today's society.<br />
 **How?**
 
 Our team collected more than 2gb worth of data from different reliable sources such as:
@@ -61,10 +54,9 @@ Our team collected more than 2gb worth of data from different reliable sources s
  The data was utilized for our different staticals analisys ranging from descriptive to predictive analytics, as well as good visualizations of the problems.  
 
 
-  *NOTE: All the data sets and the R code utilized are available in the project repository.*
+  *NOTE: All the data sets and the R code utilized are available in the project repository.*<br />
 
-### Sample Analysis and Insights
-
+### Sample Analysis and Insights <br />
 **The Top 3 States With More Police Kills 2015-2020(OCT)**
 
 State | Number of Deaths by the Police | Mean Age | SD Age
