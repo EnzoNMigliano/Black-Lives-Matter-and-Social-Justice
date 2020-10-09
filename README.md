@@ -85,7 +85,7 @@ Our team collected more than 2gb worth of data from different reliable sources s
 
 ### Sample Graphs and Insights <br />
 
-**Insights**
+#### Insights
 
 **The Top 3 States With More Police Kills 2015-2020(OCT)**
 
@@ -100,7 +100,7 @@ Florida | 329 | 38.2 | 13.8
 <br />
 
 
-**Graphs**
+#### Graphs
 
 
 <br />
