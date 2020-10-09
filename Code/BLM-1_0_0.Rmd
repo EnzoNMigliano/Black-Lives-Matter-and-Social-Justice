@@ -4,6 +4,15 @@ author: "Adriana Ortiz, Enzo Novi Migliano, and Juan Zambrano"
 output: html_notebook
 ---
 
+**What should be in our R markdown**
+
+R Code
+Produce a R markdown of your analyses as a nb.html (not from knitr). 
+Your code must contain title, authors, project abstract (problem statement, description, and conclusions), appropriate headings (#), detailed explanations of what each chunk does, and code chunks with comments.
+Do not leave unused code in the file.
+
+
+
 # Instaling Necessary Packages
 
 ```{r}
