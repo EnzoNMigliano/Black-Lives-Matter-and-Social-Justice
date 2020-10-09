@@ -17,7 +17,7 @@ Do not leave unused code in the file.
 
 ```{r}
 # install.package("tidyverse")
-# 
+
 ```
 
 
@@ -31,6 +31,8 @@ library(tidyverse)
 
 
 ```{r}
+Enzo is a nerd
+
 ```
 
 # conclusion
