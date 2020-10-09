@@ -11,13 +11,14 @@ Produce a R markdown of your analyses as a nb.html (not from knitr).
 Your code must contain title, authors, project abstract (problem statement, description, and conclusions), appropriate headings (#), detailed explanations of what each chunk does, and code chunks with comments.
 Do not leave unused code in the file.
 
-
+# Abstract
+The lives of African Americans has historically been disrespeted. The disparity between the treatment of difererent races in the American society has a long scope. The problem has different facets and different implacaitons in day to day of a nation.
 
 # Instaling Necessary Packages
 
 ```{r}
-# install.package("tidyverse")
-# 
+# install.packages("tidyverse")
+# install.packages(corrplot)
 ```
 
 
@@ -25,6 +26,8 @@ Do not leave unused code in the file.
 
 ```{r}
 library(tidyverse)
+library(corrplot)
+
 ```
 
 # Loading Data sets for the analysis
