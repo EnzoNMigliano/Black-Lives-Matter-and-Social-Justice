@@ -1,0 +1,25 @@
+---
+title: "Black Lives Matter - Analytics Dream Team"
+author: "Adriana Ortiz, Enzo Novi Migliano, and Juan Zambrano"
+output: html_notebook
+---
+
+# Instaling Necessary Packages
+
+```{r}
+# install.package("tidyverse")
+# 
+```
+
+
+# Loading Necessary Libraries
+
+```{r}
+library(tidyverse)
+```
+
+# Loading Data sets for the analysis
+
+
+```{r}
+```
