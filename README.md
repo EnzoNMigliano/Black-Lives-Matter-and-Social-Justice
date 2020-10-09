@@ -37,7 +37,7 @@ Our team strived to collect data from different locations to compare and contras
 
  - City (e.g., New York City and the stop and frisk police implications)
  
- - Count (e.g., Comparing and contrasting close by counts)  
+ - Count (e.g., Comparing and contrasting nearby counts)  
  
  - State (e.g., State comparison of police brutality indicators)
  
