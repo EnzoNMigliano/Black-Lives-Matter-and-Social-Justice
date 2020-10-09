@@ -19,6 +19,10 @@ The lives of African Americans has historically been disrespeted. The disparity 
 ```{r}
 # install.packages("tidyverse")
 # install.packages(corrplot)
+# install.packages("caTools")
+# install.packeges("caret")
+# install.packages("forecast")
+
 ```
 
 
@@ -27,7 +31,9 @@ The lives of African Americans has historically been disrespeted. The disparity 
 ```{r}
 library(tidyverse)
 library(corrplot)
-
+library(caTools)
+library(caret)
+library(forecast)
 ```
 
 # Loading Data sets for the analysis
