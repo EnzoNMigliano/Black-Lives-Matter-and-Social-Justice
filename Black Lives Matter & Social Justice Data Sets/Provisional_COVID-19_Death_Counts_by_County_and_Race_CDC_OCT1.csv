@@ -1,0 +1,928 @@
+Data as of,Start week,End Week,State,County Name,Urban Rural Code,FIPS State,FIPS County,FIPS Code,Indicator,Total deaths,COVID-19 Deaths,Non-Hispanic White,Non-Hispanic Black,Non-Hispanic American Indian or Alaska Native,Non-Hispanic Asian,Other,Hispanic,Urban Rural Description,Footnote
+10/07/2020,02/01/2020,10/03/2020,AL,Etowah County,4,1,55,1055,Distribution of all-cause deaths (%),1158,124,0.851,0.136,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Etowah County,4,1,55,1055,Distribution of COVID-19 deaths (%),1158,124,0.839,0.153,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Etowah County,4,1,55,1055,Distribution of population (%),1158,124,0.775,0.155,0.004,0.008,0.017,0.041,Small metro,
+10/07/2020,02/01/2020,10/03/2020,AL,Houston County,4,1,69,1069,Distribution of all-cause deaths (%),1405,215,0.742,0.246,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Houston County,4,1,69,1069,Distribution of COVID-19 deaths (%),1405,215,0.605,0.372,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Houston County,4,1,69,1069,Distribution of population (%),1405,215,0.661,0.271,0.004,0.01,0.02,0.034,Small metro,
+10/07/2020,02/01/2020,10/03/2020,AL,Jefferson County,1,1,73,1073,Distribution of all-cause deaths (%),6903,592,0.616,0.364,,0.004,0.002,0.012,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Jefferson County,1,1,73,1073,Distribution of COVID-19 deaths (%),6903,592,0.573,0.394,,,,0.024,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Jefferson County,1,1,73,1073,Distribution of population (%),6903,592,0.495,0.431,0.002,0.018,0.013,0.041,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,AL,Lee County,4,1,81,1081,Distribution of all-cause deaths (%),923,137,0.679,0.306,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Lee County,4,1,81,1081,Distribution of COVID-19 deaths (%),923,137,0.555,0.416,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Lee County,4,1,81,1081,Distribution of population (%),923,137,0.677,0.226,0.002,0.041,0.016,0.037,Small metro,
+10/07/2020,02/01/2020,10/03/2020,AL,Madison County,3,1,89,1089,Distribution of all-cause deaths (%),2841,138,0.784,0.186,,0.011,,0.015,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Madison County,3,1,89,1089,Distribution of COVID-19 deaths (%),2841,138,0.667,0.232,,,,0.072,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Madison County,3,1,89,1089,Distribution of population (%),2841,138,0.645,0.244,0.007,0.026,0.026,0.052,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,AL,Mobile County,3,1,97,1097,Distribution of all-cause deaths (%),3709,396,0.641,0.336,0.008,0.007,0.003,0.006,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,AL,Mobile County,3,1,97,1097,Distribution of COVID-19 deaths (%),3709,396,0.46,0.508,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Mobile County,3,1,97,1097,Distribution of population (%),3709,396,0.565,0.359,0.009,0.021,0.016,0.03,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,AL,Montgomery County,3,1,101,1101,Distribution of all-cause deaths (%),2239,342,0.465,0.517,,0.005,,0.008,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Montgomery County,3,1,101,1101,Distribution of COVID-19 deaths (%),2239,342,0.304,0.67,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Montgomery County,3,1,101,1101,Distribution of population (%),2239,342,0.327,0.588,0.002,0.032,0.013,0.037,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,AL,Tuscaloosa County,4,1,125,1125,Distribution of all-cause deaths (%),1651,202,0.628,0.351,,,,0.015,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Tuscaloosa County,4,1,125,1125,Distribution of COVID-19 deaths (%),1651,202,0.401,0.554,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AL,Tuscaloosa County,4,1,125,1125,Distribution of population (%),1651,202,0.608,0.322,0.002,0.016,0.012,0.04,Small metro,
+10/07/2020,02/01/2020,10/03/2020,AR,Benton County,3,5,7,5007,Distribution of all-cause deaths (%),1317,104,0.913,0.01,0.009,,0.021,0.043,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AR,Benton County,3,5,7,5007,Distribution of COVID-19 deaths (%),1317,104,0.529,,,,0.221,0.221,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AR,Benton County,3,5,7,5007,Distribution of population (%),1317,104,0.726,0.018,0.014,0.04,0.03,0.171,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,AR,Craighead County,4,5,31,5031,Distribution of all-cause deaths (%),1426,103,0.882,0.104,,,,0.008,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AR,Craighead County,4,5,31,5031,Distribution of COVID-19 deaths (%),1426,103,0.728,0.243,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AR,Craighead County,4,5,31,5031,Distribution of population (%),1426,103,0.749,0.166,0.003,0.012,0.018,0.053,Small metro,
+10/07/2020,02/01/2020,10/03/2020,AR,Pulaski County,3,5,119,5119,Distribution of all-cause deaths (%),4433,254,0.705,0.269,,0.005,0.004,0.016,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AR,Pulaski County,3,5,119,5119,Distribution of COVID-19 deaths (%),4433,254,0.602,0.315,,,,0.063,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AR,Pulaski County,3,5,119,5119,Distribution of population (%),4433,254,0.516,0.375,0.003,0.022,0.021,0.062,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,AR,Washington County,3,5,143,5143,Distribution of all-cause deaths (%),1650,134,0.888,0.021,0.01,0.013,0.026,0.041,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,AR,Washington County,3,5,143,5143,Distribution of COVID-19 deaths (%),1650,134,0.597,,,,0.179,0.164,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AR,Washington County,3,5,143,5143,Distribution of population (%),1650,134,0.704,0.034,0.011,0.025,0.053,0.171,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,AZ,Coconino County,4,4,5,4005,Distribution of all-cause deaths (%),873,126,0.47,0.014,0.409,,0.014,0.089,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AZ,Coconino County,4,4,5,4005,Distribution of COVID-19 deaths (%),873,126,0.087,,0.865,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AZ,Coconino County,4,4,5,4005,Distribution of population (%),873,126,0.541,0.013,0.258,0.019,0.026,0.143,Small metro,
+10/07/2020,02/01/2020,10/03/2020,AZ,Maricopa County,1,4,13,4013,Distribution of all-cause deaths (%),29881,3366,0.708,0.05,0.034,0.017,0.028,0.163,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,AZ,Maricopa County,1,4,13,4013,Distribution of COVID-19 deaths (%),29881,3366,0.464,0.043,0.121,0.021,0.031,0.319,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,AZ,Maricopa County,1,4,13,4013,Distribution of population (%),29881,3366,0.545,0.056,0.017,0.043,0.024,0.314,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,AZ,Mohave County,4,4,15,4015,Distribution of all-cause deaths (%),2490,187,0.873,0.008,0.015,0.008,0.033,0.064,Small metro,
+10/07/2020,02/01/2020,10/03/2020,AZ,Mohave County,4,4,15,4015,Distribution of COVID-19 deaths (%),2490,187,0.743,,0.053,,,0.144,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AZ,Mohave County,4,4,15,4015,Distribution of population (%),2490,187,0.767,0.011,0.021,0.011,0.02,0.169,Small metro,
+10/07/2020,02/01/2020,10/03/2020,AZ,Pima County,3,4,19,4019,Distribution of all-cause deaths (%),8664,724,0.688,0.028,0.025,0.011,0.017,0.231,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,AZ,Pima County,3,4,19,4019,Distribution of COVID-19 deaths (%),8664,724,0.414,0.025,0.061,0.014,0.023,0.463,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,AZ,Pima County,3,4,19,4019,Distribution of population (%),8664,724,0.512,0.034,0.024,0.03,0.021,0.378,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,AZ,Yuma County,4,4,27,4027,Distribution of all-cause deaths (%),1566,307,0.538,0.015,0.02,,0.019,0.407,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AZ,Yuma County,4,4,27,4027,Distribution of COVID-19 deaths (%),1566,307,0.212,,,,,0.733,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,AZ,Yuma County,4,4,27,4027,Distribution of population (%),1566,307,0.301,0.019,0.009,0.012,0.013,0.646,Small metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Alameda County,1,6,1,6001,Distribution of all-cause deaths (%),7513,410,0.449,0.192,0.003,0.195,0.024,0.136,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Alameda County,1,6,1,6001,Distribution of COVID-19 deaths (%),7513,410,0.246,0.193,,0.232,0.029,0.295,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Alameda County,1,6,1,6001,Distribution of population (%),7513,410,0.306,0.102,0.002,0.317,0.049,0.223,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Contra Costa County,2,6,13,6013,Distribution of all-cause deaths (%),5577,197,0.629,0.115,0.003,0.108,0.022,0.122,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Contra Costa County,2,6,13,6013,Distribution of COVID-19 deaths (%),5577,197,0.503,0.102,,0.122,,0.254,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Contra Costa County,2,6,13,6013,Distribution of population (%),5577,197,0.427,0.087,0.003,0.177,0.046,0.26,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Fresno County,3,6,19,6019,Distribution of all-cause deaths (%),5688,398,0.519,0.063,0.009,0.081,0.01,0.318,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Fresno County,3,6,19,6019,Distribution of COVID-19 deaths (%),5688,398,0.317,0.053,,0.065,,0.555,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Fresno County,3,6,19,6019,Distribution of population (%),5688,398,0.286,0.046,0.006,0.104,0.02,0.538,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Imperial County,4,6,25,6025,Distribution of all-cause deaths (%),875,184,0.182,0.016,0.011,0.015,,0.775,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Imperial County,4,6,25,6025,Distribution of COVID-19 deaths (%),875,184,,,,,,0.94,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Imperial County,4,6,25,6025,Distribution of population (%),875,184,0.1,0.024,0.007,0.012,0.006,0.85,Small metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Kern County,3,6,29,6029,Distribution of all-cause deaths (%),4709,389,0.588,0.065,0.006,0.032,0.011,0.298,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Kern County,3,6,29,6029,Distribution of COVID-19 deaths (%),4709,389,0.272,0.069,,0.033,,0.614,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Kern County,3,6,29,6029,Distribution of population (%),4709,389,0.328,0.052,0.006,0.047,0.02,0.546,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Kings County,4,6,31,6031,Distribution of all-cause deaths (%),701,114,0.499,0.041,,0.031,,0.407,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Kings County,4,6,31,6031,Distribution of COVID-19 deaths (%),701,114,0.149,,,,,0.816,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Kings County,4,6,31,6031,Distribution of population (%),701,114,0.313,0.063,0.009,0.038,0.024,0.553,Small metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Los Angeles County,1,6,37,6037,Distribution of all-cause deaths (%),51616,5856,0.404,0.127,0.003,0.134,0.012,0.32,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Los Angeles County,1,6,37,6037,Distribution of COVID-19 deaths (%),51616,5856,0.228,0.098,0.003,0.149,0.008,0.515,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Los Angeles County,1,6,37,6037,Distribution of population (%),51616,5856,0.261,0.08,0.002,0.148,0.024,0.486,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Orange County,1,6,59,6059,Distribution of all-cause deaths (%),15365,1255,0.604,0.019,0.003,0.164,0.01,0.201,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Orange County,1,6,59,6059,Distribution of COVID-19 deaths (%),15365,1255,0.3,0.019,,0.181,0.01,0.488,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Orange County,1,6,59,6059,Distribution of population (%),15365,1255,0.398,0.017,0.002,0.212,0.03,0.34,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Riverside County,1,6,65,6065,Distribution of all-cause deaths (%),13253,1277,0.603,0.072,0.005,0.042,0.016,0.262,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Riverside County,1,6,65,6065,Distribution of COVID-19 deaths (%),13253,1277,0.36,0.059,,0.045,0.016,0.517,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Riverside County,1,6,65,6065,Distribution of population (%),13253,1277,0.341,0.062,0.005,0.066,0.026,0.5,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Sacramento County,1,6,67,6067,Distribution of all-cause deaths (%),8776,405,0.628,0.111,0.004,0.11,0.025,0.12,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Sacramento County,1,6,67,6067,Distribution of COVID-19 deaths (%),8776,405,0.435,0.111,,0.153,0.049,0.244,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Sacramento County,1,6,67,6067,Distribution of population (%),8776,405,0.438,0.098,0.005,0.163,0.06,0.236,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,San Bernardino County,2,6,71,6071,Distribution of all-cause deaths (%),11703,1109,0.477,0.114,0.005,0.051,0.017,0.337,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,CA,San Bernardino County,2,6,71,6071,Distribution of COVID-19 deaths (%),11703,1109,0.289,0.1,,0.056,0.017,0.534,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,San Bernardino County,2,6,71,6071,Distribution of population (%),11703,1109,0.273,0.081,0.004,0.073,0.024,0.544,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,CA,San Diego County,1,6,73,6073,Distribution of all-cause deaths (%),16507,969,0.628,0.054,0.004,0.082,0.02,0.211,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,San Diego County,1,6,73,6073,Distribution of COVID-19 deaths (%),16507,969,0.298,0.038,,0.094,0.013,0.553,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,San Diego County,1,6,73,6073,Distribution of population (%),16507,969,0.45,0.047,0.004,0.119,0.038,0.341,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,San Francisco County,1,6,75,6075,Distribution of all-cause deaths (%),4343,120,0.394,0.105,,0.308,0.064,0.127,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,San Francisco County,1,6,75,6075,Distribution of COVID-19 deaths (%),4343,120,0.233,0.1,,0.325,,0.317,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,San Francisco County,1,6,75,6075,Distribution of population (%),4343,120,0.402,0.05,0.002,0.354,0.04,0.152,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,San Joaquin County,3,6,77,6077,Distribution of all-cause deaths (%),4202,431,0.53,0.094,0.006,0.111,0.025,0.235,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,San Joaquin County,3,6,77,6077,Distribution of COVID-19 deaths (%),4202,431,0.348,0.097,,0.125,,0.406,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,San Joaquin County,3,6,77,6077,Distribution of population (%),4202,431,0.305,0.071,0.004,0.159,0.041,0.42,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,San Mateo County,2,6,81,6081,Distribution of all-cause deaths (%),3255,164,0.577,0.041,,0.222,0.024,0.135,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,San Mateo County,2,6,81,6081,Distribution of COVID-19 deaths (%),3255,164,0.451,,,0.244,,0.232,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,San Mateo County,2,6,81,6081,Distribution of population (%),3255,164,0.387,0.023,0.001,0.298,0.051,0.24,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Santa Barbara County,3,6,83,6083,Distribution of all-cause deaths (%),2306,121,0.706,0.026,,0.029,0.01,0.225,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Santa Barbara County,3,6,83,6083,Distribution of COVID-19 deaths (%),2306,121,0.355,,,,,0.57,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Santa Barbara County,3,6,83,6083,Distribution of population (%),2306,121,0.438,0.018,0.004,0.054,0.025,0.46,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Santa Clara County,1,6,85,6085,Distribution of all-cause deaths (%),7873,312,0.511,0.035,0.003,0.243,0.018,0.191,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Santa Clara County,1,6,85,6085,Distribution of COVID-19 deaths (%),7873,312,0.308,0.042,,0.269,,0.369,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Santa Clara County,1,6,85,6085,Distribution of population (%),7873,312,0.306,0.024,0.002,0.384,0.035,0.25,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Sonoma County,3,6,97,6097,Distribution of all-cause deaths (%),3005,126,0.841,0.015,0.011,0.021,0.019,0.093,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Sonoma County,3,6,97,6097,Distribution of COVID-19 deaths (%),3005,126,0.69,,,,,0.214,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Sonoma County,3,6,97,6097,Distribution of population (%),3005,126,0.629,0.016,0.007,0.043,0.032,0.273,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Stanislaus County,3,6,99,6099,Distribution of all-cause deaths (%),3948,463,0.645,0.04,0.006,0.044,0.017,0.248,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Stanislaus County,3,6,99,6099,Distribution of COVID-19 deaths (%),3948,463,0.479,0.026,,0.045,,0.434,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Stanislaus County,3,6,99,6099,Distribution of population (%),3948,463,0.404,0.027,0.005,0.055,0.034,0.476,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Tulare County,3,6,107,6107,Distribution of all-cause deaths (%),2344,265,0.567,0.015,0.012,0.031,0.006,0.369,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Tulare County,3,6,107,6107,Distribution of COVID-19 deaths (%),2344,265,0.343,,,,,0.604,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Tulare County,3,6,107,6107,Distribution of population (%),2344,265,0.277,0.012,0.007,0.033,0.015,0.656,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Ventura County,3,6,111,6111,Distribution of all-cause deaths (%),4069,165,0.69,0.019,0.002,0.051,0.013,0.224,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CA,Ventura County,3,6,111,6111,Distribution of COVID-19 deaths (%),4069,165,0.442,,,0.079,,0.442,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CA,Ventura County,3,6,111,6111,Distribution of population (%),4069,165,0.447,0.018,0.003,0.074,0.026,0.432,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CO,Adams County,2,8,1,8001,Distribution of all-cause deaths (%),2685,288,0.634,0.064,0.007,0.029,0.015,0.25,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,CO,Adams County,2,8,1,8001,Distribution of COVID-19 deaths (%),2685,288,0.351,0.094,,0.042,,0.483,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CO,Adams County,2,8,1,8001,Distribution of population (%),2685,288,0.49,0.033,0.006,0.042,0.021,0.408,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,CO,Arapahoe County,2,8,5,8005,Distribution of all-cause deaths (%),3413,406,0.769,0.079,0.006,0.033,0.01,0.103,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,CO,Arapahoe County,2,8,5,8005,Distribution of COVID-19 deaths (%),3413,406,0.663,0.089,,0.064,0.027,0.155,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CO,Arapahoe County,2,8,5,8005,Distribution of population (%),3413,406,0.594,0.106,0.004,0.064,0.034,0.198,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,CO,Denver County,1,8,31,8031,Distribution of all-cause deaths (%),3892,324,0.607,0.131,0.01,0.024,0.016,0.211,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CO,Denver County,1,8,31,8031,Distribution of COVID-19 deaths (%),3892,324,0.481,0.167,,0.037,,0.287,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CO,Denver County,1,8,31,8031,Distribution of population (%),3892,324,0.549,0.089,0.005,0.039,0.025,0.293,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CO,El Paso County,3,8,41,8041,Distribution of all-cause deaths (%),3779,180,0.79,0.061,0.007,0.017,0.021,0.103,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CO,El Paso County,3,8,41,8041,Distribution of COVID-19 deaths (%),3779,180,0.706,0.089,,,,0.167,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CO,El Paso County,3,8,41,8041,Distribution of population (%),3779,180,0.686,0.06,0.006,0.029,0.041,0.177,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CO,Jefferson County,2,8,59,8059,Distribution of all-cause deaths (%),3541,246,0.838,0.012,0.004,0.014,0.006,0.125,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,CO,Jefferson County,2,8,59,8059,Distribution of COVID-19 deaths (%),3541,246,0.736,,,,,0.211,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CO,Jefferson County,2,8,59,8059,Distribution of population (%),3541,246,0.777,0.012,0.005,0.03,0.02,0.156,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,CO,Weld County,3,8,123,8123,Distribution of all-cause deaths (%),1225,122,0.776,,,0.012,,0.199,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CO,Weld County,3,8,123,8123,Distribution of COVID-19 deaths (%),1225,122,0.607,,,,,0.336,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CO,Weld County,3,8,123,8123,Distribution of population (%),1225,122,0.649,0.012,0.006,0.017,0.017,0.3,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CT,Fairfield County,3,9,1,9001,Distribution of all-cause deaths (%),5581,1440,0.773,0.112,,0.018,0.005,0.092,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CT,Fairfield County,3,9,1,9001,Distribution of COVID-19 deaths (%),5581,1440,0.715,0.144,,0.022,,0.114,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CT,Fairfield County,3,9,1,9001,Distribution of population (%),5581,1440,0.609,0.111,0.001,0.058,0.015,0.205,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CT,Hartford County,1,9,3,9003,Distribution of all-cause deaths (%),6598,1419,0.775,0.12,,0.013,0.003,0.088,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CT,Hartford County,1,9,3,9003,Distribution of COVID-19 deaths (%),6598,1419,0.707,0.179,,0.007,,0.101,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CT,Hartford County,1,9,3,9003,Distribution of population (%),6598,1419,0.599,0.134,0.002,0.059,0.018,0.188,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,CT,Litchfield County,5,9,5,9005,Distribution of all-cause deaths (%),1020,133,0.959,0.015,,,,0.019,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CT,Litchfield County,5,9,5,9005,Distribution of COVID-19 deaths (%),1020,133,0.91,,,,,,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CT,Litchfield County,5,9,5,9005,Distribution of population (%),1020,133,0.874,0.018,0.002,0.021,0.014,0.071,Micropolitan,
+10/07/2020,02/01/2020,10/03/2020,CT,Middlesex County,2,9,7,9007,Distribution of all-cause deaths (%),1013,179,0.929,0.043,,,,0.017,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CT,Middlesex County,2,9,7,9007,Distribution of COVID-19 deaths (%),1013,179,0.883,0.067,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CT,Middlesex County,2,9,7,9007,Distribution of population (%),1013,179,0.833,0.049,0.002,0.032,0.018,0.066,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,CT,New Haven County,3,9,9,9009,Distribution of all-cause deaths (%),6295,1101,0.789,0.118,,0.012,0.003,0.078,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CT,New Haven County,3,9,9,9009,Distribution of COVID-19 deaths (%),6295,1101,0.708,0.184,,0.009,,0.091,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CT,New Haven County,3,9,9,9009,Distribution of population (%),6295,1101,0.616,0.13,0.002,0.042,0.018,0.191,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,CT,New London County,3,9,11,9011,Distribution of all-cause deaths (%),1475,106,0.894,0.039,,0.014,0.009,0.041,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CT,New London County,3,9,11,9011,Distribution of COVID-19 deaths (%),1475,106,0.868,,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,CT,New London County,3,9,11,9011,Distribution of population (%),1475,106,0.751,0.057,0.008,0.042,0.031,0.111,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,DC,District of Columbia,1,11,1,11001,Distribution of all-cause deaths (%),4896,760,0.208,0.704,,0.021,0.006,0.06,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,DC,District of Columbia,1,11,1,11001,Distribution of COVID-19 deaths (%),4896,760,0.116,0.713,,0.017,,0.146,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,DC,District of Columbia,1,11,1,11001,Distribution of population (%),4896,760,0.375,0.444,0.002,0.043,0.024,0.113,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,DE,Kent County,4,10,1,10001,Distribution of all-cause deaths (%),1322,109,0.741,0.225,,0.01,,0.02,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,DE,Kent County,4,10,1,10001,Distribution of COVID-19 deaths (%),1322,109,0.596,0.358,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,DE,Kent County,4,10,1,10001,Distribution of population (%),1322,109,0.604,0.26,0.005,0.023,0.034,0.074,Small metro,
+10/07/2020,02/01/2020,10/03/2020,DE,New Castle County,2,10,3,10003,Distribution of all-cause deaths (%),3653,275,0.741,0.209,,0.016,0.003,0.031,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,DE,New Castle County,2,10,3,10003,Distribution of COVID-19 deaths (%),3653,275,0.738,0.215,,,,0.04,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,DE,New Castle County,2,10,3,10003,Distribution of population (%),3653,275,0.563,0.251,0.002,0.057,0.023,0.104,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,DE,Sussex County,3,10,5,10005,Distribution of all-cause deaths (%),1869,185,0.86,0.109,,0.006,,0.02,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,DE,Sussex County,3,10,5,10005,Distribution of COVID-19 deaths (%),1869,185,0.681,0.222,,,,0.081,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,DE,Sussex County,3,10,5,10005,Distribution of population (%),1869,185,0.754,0.117,0.004,0.013,0.019,0.093,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Alachua County,3,12,1,12001,Distribution of all-cause deaths (%),2651,194,0.746,0.184,,0.016,0.008,0.045,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Alachua County,3,12,1,12001,Distribution of COVID-19 deaths (%),2651,194,0.629,0.309,,,,0.052,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Alachua County,3,12,1,12001,Distribution of population (%),2651,194,0.606,0.2,0.003,0.06,0.026,0.105,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Bay County,4,12,5,12005,Distribution of all-cause deaths (%),1443,124,0.861,0.095,,0.012,0.008,0.023,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Bay County,4,12,5,12005,Distribution of COVID-19 deaths (%),1443,124,0.758,0.145,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Bay County,4,12,5,12005,Distribution of population (%),1443,124,0.766,0.108,0.006,0.023,0.03,0.067,Small metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Brevard County,3,12,9,12009,Distribution of all-cause deaths (%),5539,329,0.855,0.082,,0.01,0.003,0.048,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Brevard County,3,12,9,12009,Distribution of COVID-19 deaths (%),5539,329,0.754,0.14,,,,0.088,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Brevard County,3,12,9,12009,Distribution of population (%),5539,329,0.738,0.1,0.003,0.025,0.024,0.109,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Broward County,2,12,11,12011,Distribution of all-cause deaths (%),12455,1641,0.555,0.24,0.001,0.019,0.007,0.178,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Broward County,2,12,11,12011,Distribution of COVID-19 deaths (%),12455,1641,0.343,0.357,,0.021,,0.274,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Broward County,2,12,11,12011,Distribution of population (%),12455,1641,0.348,0.284,0.002,0.037,0.017,0.311,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Charlotte County,4,12,15,12015,Distribution of all-cause deaths (%),2179,138,0.931,0.034,,,,0.028,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Charlotte County,4,12,15,12015,Distribution of COVID-19 deaths (%),2179,138,0.899,,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Charlotte County,4,12,15,12015,Distribution of population (%),2179,138,0.838,0.054,0.003,0.014,0.014,0.077,Small metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Clay County,2,12,19,12019,Distribution of all-cause deaths (%),1630,105,0.796,0.137,,0.025,0.008,0.033,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Clay County,2,12,19,12019,Distribution of COVID-19 deaths (%),1630,105,0.6,0.257,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Clay County,2,12,19,12019,Distribution of population (%),1630,105,0.717,0.116,0.004,0.03,0.029,0.104,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Collier County,3,12,21,12021,Distribution of all-cause deaths (%),2782,253,0.84,0.038,,0.008,,0.11,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Collier County,3,12,21,12021,Distribution of COVID-19 deaths (%),2782,253,0.656,0.099,,,,0.237,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Collier County,3,12,21,12021,Distribution of population (%),2782,253,0.622,0.066,0.002,0.015,0.009,0.286,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Duval County,1,12,31,12031,Distribution of all-cause deaths (%),7618,583,0.682,0.253,,0.019,0.005,0.041,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Duval County,1,12,31,12031,Distribution of COVID-19 deaths (%),7618,583,0.624,0.309,,0.019,,0.043,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Duval County,1,12,31,12031,Distribution of population (%),7618,583,0.52,0.296,0.003,0.049,0.026,0.105,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Escambia County,3,12,33,12033,Distribution of all-cause deaths (%),3533,322,0.766,0.2,0.003,0.012,0.005,0.014,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Escambia County,3,12,33,12033,Distribution of COVID-19 deaths (%),3533,322,0.621,0.348,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Escambia County,3,12,33,12033,Distribution of population (%),3533,322,0.64,0.228,0.008,0.032,0.033,0.059,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Hernando County,2,12,53,12053,Distribution of all-cause deaths (%),2133,123,0.89,0.04,,,0.005,0.061,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Hernando County,2,12,53,12053,Distribution of COVID-19 deaths (%),2133,123,0.813,,,,,0.106,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Hernando County,2,12,53,12053,Distribution of population (%),2133,123,0.765,0.052,0.003,0.014,0.018,0.148,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Hillsborough County,1,12,57,12057,Distribution of all-cause deaths (%),9227,763,0.64,0.151,0.001,0.016,0.006,0.185,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Hillsborough County,1,12,57,12057,Distribution of COVID-19 deaths (%),9227,763,0.506,0.198,,,,0.283,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Hillsborough County,1,12,57,12057,Distribution of population (%),9227,763,0.477,0.16,0.002,0.043,0.021,0.297,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Lake County,2,12,69,12069,Distribution of all-cause deaths (%),3118,214,0.839,0.079,,0.01,,0.068,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Lake County,2,12,69,12069,Distribution of COVID-19 deaths (%),3118,214,0.673,0.15,,,,0.154,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Lake County,2,12,69,12069,Distribution of population (%),3118,214,0.687,0.104,0.003,0.021,0.018,0.167,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Lee County,3,12,71,12071,Distribution of all-cause deaths (%),5673,450,0.84,0.057,,0.009,0.002,0.093,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Lee County,3,12,71,12071,Distribution of COVID-19 deaths (%),5673,450,0.7,0.111,,,,0.187,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Lee County,3,12,71,12071,Distribution of population (%),5673,450,0.662,0.081,0.002,0.017,0.013,0.225,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Leon County,3,12,73,12073,Distribution of all-cause deaths (%),2209,213,0.672,0.297,,0.005,,0.021,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Leon County,3,12,73,12073,Distribution of COVID-19 deaths (%),2209,213,0.535,0.427,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Leon County,3,12,73,12073,Distribution of population (%),2209,213,0.559,0.314,0.002,0.036,0.022,0.067,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Manatee County,3,12,81,12081,Distribution of all-cause deaths (%),3342,326,0.856,0.075,,0.006,,0.06,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Manatee County,3,12,81,12081,Distribution of COVID-19 deaths (%),3342,326,0.684,0.15,,,,0.153,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Manatee County,3,12,81,12081,Distribution of population (%),3342,326,0.706,0.085,0.002,0.022,0.016,0.169,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Marion County,3,12,83,12083,Distribution of all-cause deaths (%),3882,256,0.833,0.09,,0.007,0.004,0.064,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Marion County,3,12,83,12083,Distribution of COVID-19 deaths (%),3882,256,0.715,0.168,,,,0.105,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Marion County,3,12,83,12083,Distribution of population (%),3882,256,0.696,0.125,0.003,0.017,0.017,0.141,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Martin County,3,12,85,12085,Distribution of all-cause deaths (%),1588,217,0.906,0.042,,,,0.045,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Martin County,3,12,85,12085,Distribution of COVID-19 deaths (%),1588,217,0.765,0.12,,,,0.101,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Martin County,3,12,85,12085,Distribution of population (%),1588,217,0.777,0.052,0.002,0.014,0.013,0.142,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Miami-Dade County,1,12,86,12086,Distribution of all-cause deaths (%),17870,3144,0.177,0.176,0.001,0.009,0.003,0.634,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Miami-Dade County,1,12,86,12086,Distribution of COVID-19 deaths (%),17870,3144,0.112,0.168,,0.008,,0.708,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Miami-Dade County,1,12,86,12086,Distribution of population (%),17870,3144,0.129,0.154,0.001,0.015,0.007,0.694,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Okaloosa County,4,12,91,12091,Distribution of all-cause deaths (%),1447,119,0.876,0.064,,0.017,0.011,0.029,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Okaloosa County,4,12,91,12091,Distribution of COVID-19 deaths (%),1447,119,0.756,0.101,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Okaloosa County,4,12,91,12091,Distribution of population (%),1447,119,0.73,0.098,0.006,0.03,0.039,0.097,Small metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Orange County,1,12,95,12095,Distribution of all-cause deaths (%),7546,607,0.56,0.2,0.001,0.027,0.004,0.208,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Orange County,1,12,95,12095,Distribution of COVID-19 deaths (%),7546,607,0.39,0.283,,0.033,,0.29,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Orange County,1,12,95,12095,Distribution of population (%),7546,607,0.394,0.203,0.002,0.055,0.02,0.327,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Osceola County,2,12,97,12097,Distribution of all-cause deaths (%),1896,192,0.491,0.114,,0.022,,0.37,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Osceola County,2,12,97,12097,Distribution of COVID-19 deaths (%),1896,192,0.229,0.099,,,,0.651,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Osceola County,2,12,97,12097,Distribution of population (%),1896,192,0.301,0.097,0.002,0.027,0.015,0.558,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Palm Beach County,2,12,99,12099,Distribution of all-cause deaths (%),12254,1379,0.758,0.125,,0.008,0.003,0.104,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Palm Beach County,2,12,99,12099,Distribution of COVID-19 deaths (%),12254,1379,0.588,0.204,,0.009,,0.194,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Palm Beach County,2,12,99,12099,Distribution of population (%),12254,1379,0.535,0.187,0.002,0.028,0.014,0.234,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Pasco County,2,12,101,12101,Distribution of all-cause deaths (%),4588,172,0.891,0.029,,0.009,0.004,0.066,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Pasco County,2,12,101,12101,Distribution of COVID-19 deaths (%),4588,172,0.75,,,,,0.18,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Pasco County,2,12,101,12101,Distribution of population (%),4588,172,0.727,0.058,0.003,0.027,0.02,0.165,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Pinellas County,1,12,103,12103,Distribution of all-cause deaths (%),9471,743,0.857,0.08,0.001,0.014,0.004,0.044,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Pinellas County,1,12,103,12103,Distribution of COVID-19 deaths (%),9471,743,0.786,0.128,,0.031,,0.05,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Pinellas County,1,12,103,12103,Distribution of population (%),9471,743,0.736,0.105,0.002,0.035,0.02,0.102,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Polk County,3,12,105,12105,Distribution of all-cause deaths (%),5448,509,0.764,0.127,,0.007,0.003,0.098,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Polk County,3,12,105,12105,Distribution of COVID-19 deaths (%),5448,509,0.601,0.218,,,,0.169,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Polk County,3,12,105,12105,Distribution of population (%),5448,509,0.569,0.147,0.003,0.018,0.017,0.246,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,St. Lucie County,3,12,111,12111,Distribution of all-cause deaths (%),2570,188,0.749,0.148,,0.008,0.005,0.088,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,St. Lucie County,3,12,111,12111,Distribution of COVID-19 deaths (%),2570,188,0.527,0.266,,,,0.17,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,St. Lucie County,3,12,111,12111,Distribution of population (%),2570,188,0.559,0.203,0.002,0.019,0.019,0.199,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Sarasota County,3,12,115,12115,Distribution of all-cause deaths (%),4501,290,0.924,0.034,,0.005,0.003,0.034,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Sarasota County,3,12,115,12115,Distribution of COVID-19 deaths (%),4501,290,0.828,0.062,,,,0.097,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Sarasota County,3,12,115,12115,Distribution of population (%),4501,290,0.828,0.043,0.002,0.018,0.014,0.096,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Seminole County,2,12,117,12117,Distribution of all-cause deaths (%),2551,163,0.725,0.124,,0.02,0.005,0.125,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Seminole County,2,12,117,12117,Distribution of COVID-19 deaths (%),2551,163,0.595,0.209,,,,0.153,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Seminole County,2,12,117,12117,Distribution of population (%),2551,163,0.589,0.115,0.002,0.048,0.022,0.225,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,FL,Volusia County,3,12,127,12127,Distribution of all-cause deaths (%),5538,286,0.857,0.073,,0.006,0.004,0.06,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Volusia County,3,12,127,12127,Distribution of COVID-19 deaths (%),5538,286,0.734,0.154,,,,0.098,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,FL,Volusia County,3,12,127,12127,Distribution of population (%),5538,286,0.706,0.105,0.003,0.019,0.018,0.15,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,GA,Bibb County,4,13,21,13021,Distribution of all-cause deaths (%),2075,244,0.533,0.453,,0.006,,0.006,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Bibb County,4,13,21,13021,Distribution of COVID-19 deaths (%),2075,244,0.418,0.57,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Bibb County,4,13,21,13021,Distribution of population (%),2075,244,0.374,0.552,0.002,0.021,0.015,0.035,Small metro,
+10/07/2020,02/01/2020,10/03/2020,GA,Chatham County,3,13,51,13051,Distribution of all-cause deaths (%),2580,215,0.611,0.355,,0.009,,0.024,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Chatham County,3,13,51,13051,Distribution of COVID-19 deaths (%),2580,215,0.46,0.47,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Chatham County,3,13,51,13051,Distribution of population (%),2580,215,0.478,0.403,0.002,0.029,0.021,0.067,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,GA,Clarke County,4,13,59,13059,Distribution of all-cause deaths (%),1136,112,0.711,0.255,,0.009,,0.022,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Clarke County,4,13,59,13059,Distribution of COVID-19 deaths (%),1136,112,0.562,0.375,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Clarke County,4,13,59,13059,Distribution of population (%),1136,112,0.552,0.277,0.002,0.04,0.02,0.11,Small metro,
+10/07/2020,02/01/2020,10/03/2020,GA,Cobb County,2,13,67,13067,Distribution of all-cause deaths (%),3918,414,0.721,0.218,,0.016,0.003,0.042,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Cobb County,2,13,67,13067,Distribution of COVID-19 deaths (%),3918,414,0.507,0.331,,,,0.145,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Cobb County,2,13,67,13067,Distribution of population (%),3918,414,0.511,0.276,0.002,0.055,0.023,0.133,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,GA,DeKalb County,2,13,89,13089,Distribution of all-cause deaths (%),3510,270,0.405,0.525,,0.03,0.003,0.035,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,DeKalb County,2,13,89,13089,Distribution of COVID-19 deaths (%),3510,270,0.252,0.607,,0.056,,0.067,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,DeKalb County,2,13,89,13089,Distribution of population (%),3510,270,0.293,0.537,0.001,0.064,0.019,0.085,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,GA,Dougherty County,4,13,95,13095,Distribution of all-cause deaths (%),1043,203,0.41,0.582,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Dougherty County,4,13,95,13095,Distribution of COVID-19 deaths (%),1043,203,0.251,0.744,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Dougherty County,4,13,95,13095,Distribution of population (%),1043,203,0.243,0.703,0.002,0.009,0.013,0.031,Small metro,
+10/07/2020,02/01/2020,10/03/2020,GA,Fulton County,1,13,121,13121,Distribution of all-cause deaths (%),6436,634,0.429,0.514,,0.02,0.002,0.034,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Fulton County,1,13,121,13121,Distribution of COVID-19 deaths (%),6436,634,0.251,0.631,,0.022,,0.091,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Fulton County,1,13,121,13121,Distribution of population (%),6436,634,0.396,0.435,0.001,0.076,0.02,0.072,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,GA,Glynn County,4,13,127,13127,Distribution of all-cause deaths (%),848,103,0.769,0.2,,,,0.02,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Glynn County,4,13,127,13127,Distribution of COVID-19 deaths (%),848,103,0.65,0.291,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Glynn County,4,13,127,13127,Distribution of population (%),848,103,0.636,0.26,0.002,0.015,0.018,0.068,Small metro,
+10/07/2020,02/01/2020,10/03/2020,GA,Gwinnett County,2,13,135,13135,Distribution of all-cause deaths (%),3020,326,0.595,0.219,,0.091,0.004,0.091,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Gwinnett County,2,13,135,13135,Distribution of COVID-19 deaths (%),3020,326,0.383,0.242,,0.086,,0.276,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Gwinnett County,2,13,135,13135,Distribution of population (%),3020,326,0.354,0.28,0.002,0.124,0.024,0.217,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,GA,Hall County,4,13,139,13139,Distribution of all-cause deaths (%),1942,217,0.86,0.071,,0.012,,0.054,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Hall County,4,13,139,13139,Distribution of COVID-19 deaths (%),1942,217,0.728,0.088,,,,0.161,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Hall County,4,13,139,13139,Distribution of population (%),1942,217,0.601,0.073,0.002,0.02,0.013,0.291,Small metro,
+10/07/2020,02/01/2020,10/03/2020,GA,Lowndes County,4,13,185,13185,Distribution of all-cause deaths (%),888,143,0.625,0.349,,,,0.02,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Lowndes County,4,13,185,13185,Distribution of COVID-19 deaths (%),888,143,0.524,0.441,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Lowndes County,4,13,185,13185,Distribution of population (%),888,143,0.53,0.367,0.003,0.021,0.02,0.06,Small metro,
+10/07/2020,02/01/2020,10/03/2020,GA,Muscogee County,3,13,215,13215,Distribution of all-cause deaths (%),2063,248,0.544,0.418,,0.016,,0.018,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Muscogee County,3,13,215,13215,Distribution of COVID-19 deaths (%),2063,248,0.411,0.532,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Muscogee County,3,13,215,13215,Distribution of population (%),2063,248,0.396,0.466,0.004,0.028,0.029,0.077,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,GA,Richmond County,3,13,245,13245,Distribution of all-cause deaths (%),2772,326,0.518,0.451,,0.012,,0.017,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Richmond County,3,13,245,13245,Distribution of COVID-19 deaths (%),2772,326,0.433,0.518,,,,0.034,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Richmond County,3,13,245,13245,Distribution of population (%),2772,326,0.337,0.566,0.003,0.017,0.026,0.051,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,GA,Tift County,5,13,277,13277,Distribution of all-cause deaths (%),470,110,0.662,0.287,,,,0.045,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Tift County,5,13,277,13277,Distribution of COVID-19 deaths (%),470,110,0.427,0.464,,,,0.109,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,GA,Tift County,5,13,277,13277,Distribution of population (%),470,110,0.551,0.299,0.002,0.014,0.012,0.122,Micropolitan,
+10/07/2020,02/01/2020,10/03/2020,HI,Honolulu County,3,15,3,15003,Distribution of all-cause deaths (%),5619,135,0.169,0.01,,0.519,0.251,0.05,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,HI,Honolulu County,3,15,3,15003,Distribution of COVID-19 deaths (%),5619,135,,,,0.548,0.37,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,HI,Honolulu County,3,15,3,15003,Distribution of population (%),5619,135,0.179,0.025,0.002,0.418,0.276,0.1,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,IA,Linn County,3,19,113,19113,Distribution of all-cause deaths (%),1431,113,0.94,0.042,,,,0.009,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IA,Linn County,3,19,113,19113,Distribution of COVID-19 deaths (%),1431,113,0.885,,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IA,Linn County,3,19,113,19113,Distribution of population (%),1431,113,0.852,0.06,0.002,0.025,0.027,0.034,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,IA,Polk County,3,19,153,19153,Distribution of all-cause deaths (%),3600,345,0.906,0.046,,0.017,0.004,0.025,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IA,Polk County,3,19,153,19153,Distribution of COVID-19 deaths (%),3600,345,0.832,0.064,,0.032,,0.064,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IA,Polk County,3,19,153,19153,Distribution of population (%),3600,345,0.77,0.07,0.002,0.049,0.023,0.087,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,IA,Woodbury County,4,19,193,19193,Distribution of all-cause deaths (%),900,119,0.851,0.031,0.043,0.024,,0.042,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IA,Woodbury County,4,19,193,19193,Distribution of COVID-19 deaths (%),900,119,0.546,,0.101,0.101,,0.151,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IA,Woodbury County,4,19,193,19193,Distribution of population (%),900,119,0.711,0.043,0.015,0.028,0.028,0.174,Small metro,
+10/07/2020,02/01/2020,10/03/2020,ID,Ada County,3,16,1,16001,Distribution of all-cause deaths (%),2832,211,0.933,0.007,0.004,0.01,0.007,0.039,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,ID,Ada County,3,16,1,16001,Distribution of COVID-19 deaths (%),2832,211,0.848,,,,,0.118,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,ID,Ada County,3,16,1,16001,Distribution of population (%),2832,211,0.843,0.013,0.005,0.027,0.027,0.085,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,IL,Cook County,1,17,31,17031,Distribution of all-cause deaths (%),34509,5039,0.49,0.333,0.001,0.04,0.009,0.128,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,IL,Cook County,1,17,31,17031,Distribution of COVID-19 deaths (%),34509,5039,0.338,0.329,,0.057,0.012,0.262,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IL,Cook County,1,17,31,17031,Distribution of population (%),34509,5039,0.42,0.23,0.001,0.077,0.016,0.256,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,IL,DuPage County,2,17,43,17043,Distribution of all-cause deaths (%),5336,522,0.815,0.069,,0.055,0.003,0.059,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IL,DuPage County,2,17,43,17043,Distribution of COVID-19 deaths (%),5336,522,0.718,0.094,,0.067,,0.115,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IL,DuPage County,2,17,43,17043,Distribution of population (%),5336,522,0.66,0.05,0.001,0.126,0.018,0.146,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,IL,Kane County,2,17,89,17089,Distribution of all-cause deaths (%),2604,281,0.771,0.066,,0.024,0.007,0.132,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IL,Kane County,2,17,89,17089,Distribution of COVID-19 deaths (%),2604,281,0.577,0.053,,0.043,,0.32,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IL,Kane County,2,17,89,17089,Distribution of population (%),2604,281,0.566,0.053,0.001,0.042,0.014,0.324,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,IL,Lake County,2,17,97,17097,Distribution of all-cause deaths (%),4083,398,0.794,0.083,,0.031,0.004,0.087,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IL,Lake County,2,17,97,17097,Distribution of COVID-19 deaths (%),4083,398,0.618,0.108,,0.033,,0.239,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IL,Lake County,2,17,97,17097,Distribution of population (%),4083,398,0.606,0.068,0.001,0.083,0.018,0.224,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,IL,St. Clair County,2,17,163,17163,Distribution of all-cause deaths (%),1887,158,0.694,0.289,,,,0.007,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IL,St. Clair County,2,17,163,17163,Distribution of COVID-19 deaths (%),1887,158,0.633,0.335,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IL,St. Clair County,2,17,163,17163,Distribution of population (%),1887,158,0.612,0.303,0.003,0.015,0.024,0.043,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,IL,Will County,2,17,197,17197,Distribution of all-cause deaths (%),3380,318,0.791,0.117,,0.021,0.004,0.066,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IL,Will County,2,17,197,17197,Distribution of COVID-19 deaths (%),3380,318,0.566,0.23,,0.035,,0.167,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IL,Will County,2,17,197,17197,Distribution of population (%),3380,318,0.625,0.117,0.001,0.059,0.016,0.182,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,IL,Winnebago County,3,17,201,17201,Distribution of all-cause deaths (%),2390,161,0.823,0.118,,0.01,0.005,0.044,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IL,Winnebago County,3,17,201,17201,Distribution of COVID-19 deaths (%),2390,161,0.665,0.224,,,,0.093,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IL,Winnebago County,3,17,201,17201,Distribution of population (%),2390,161,0.677,0.133,0.002,0.028,0.025,0.135,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,IN,Allen County,3,18,3,18003,Distribution of all-cause deaths (%),3222,245,0.864,0.096,,0.013,,0.026,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,Allen County,3,18,3,18003,Distribution of COVID-19 deaths (%),3222,245,0.78,0.135,,,,0.049,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,Allen County,3,18,3,18003,Distribution of population (%),3222,245,0.731,0.115,0.003,0.045,0.029,0.077,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,IN,Elkhart County,4,18,39,18039,Distribution of all-cause deaths (%),1311,112,0.91,0.047,,,,0.037,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,Elkhart County,4,18,39,18039,Distribution of COVID-19 deaths (%),1311,112,0.812,,,,,0.107,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,Elkhart County,4,18,39,18039,Distribution of population (%),1311,112,0.741,0.056,0.002,0.011,0.021,0.168,Small metro,
+10/07/2020,02/01/2020,10/03/2020,IN,Hamilton County,2,18,57,18057,Distribution of all-cause deaths (%),1447,106,0.924,0.042,,0.019,,0.011,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,Hamilton County,2,18,57,18057,Distribution of COVID-19 deaths (%),1447,106,0.858,0.104,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,Hamilton County,2,18,57,18057,Distribution of population (%),1447,106,0.828,0.044,0.001,0.064,0.02,0.043,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,IN,Hendricks County,2,18,63,18063,Distribution of all-cause deaths (%),1123,149,0.923,0.056,,,,0.012,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,Hendricks County,2,18,63,18063,Distribution of COVID-19 deaths (%),1123,149,0.879,0.107,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,Hendricks County,2,18,63,18063,Distribution of population (%),1123,149,0.829,0.076,0.002,0.03,0.02,0.043,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,IN,Lake County,2,18,89,18089,Distribution of all-cause deaths (%),4513,437,0.612,0.293,,0.006,0.002,0.086,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,Lake County,2,18,89,18089,Distribution of COVID-19 deaths (%),4513,437,0.451,0.426,,,,0.119,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,Lake County,2,18,89,18089,Distribution of population (%),4513,437,0.538,0.233,0.002,0.016,0.015,0.196,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,IN,Marion County,1,18,97,18097,Distribution of all-cause deaths (%),7770,946,0.722,0.238,,0.009,0.004,0.025,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,Marion County,1,18,97,18097,Distribution of COVID-19 deaths (%),7770,946,0.599,0.329,,0.012,,0.057,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,Marion County,1,18,97,18097,Distribution of population (%),7770,946,0.541,0.284,0.002,0.038,0.027,0.109,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,IN,St. Joseph County,3,18,141,18141,Distribution of all-cause deaths (%),2141,112,0.846,0.126,,,,0.019,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,St. Joseph County,3,18,141,18141,Distribution of COVID-19 deaths (%),2141,112,0.705,0.223,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,IN,St. Joseph County,3,18,141,18141,Distribution of population (%),2141,112,0.718,0.133,0.003,0.026,0.028,0.091,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,KS,Johnson County,2,20,91,20091,Distribution of all-cause deaths (%),2952,165,0.891,0.043,0.004,0.019,0.011,0.032,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,KS,Johnson County,2,20,91,20091,Distribution of COVID-19 deaths (%),2952,165,0.758,0.085,,,,0.109,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,KS,Johnson County,2,20,91,20091,Distribution of population (%),2952,165,0.794,0.047,0.003,0.053,0.024,0.079,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,KS,Sedgwick County,3,20,173,20173,Distribution of all-cause deaths (%),4077,168,0.809,0.089,0.008,0.012,0.031,0.051,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,KS,Sedgwick County,3,20,173,20173,Distribution of COVID-19 deaths (%),4077,168,0.667,0.119,,,,0.161,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,KS,Sedgwick County,3,20,173,20173,Distribution of population (%),4077,168,0.676,0.088,0.008,0.045,0.033,0.15,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,KS,Wyandotte County,2,20,209,20209,Distribution of all-cause deaths (%),1419,148,0.624,0.237,,0.018,0.016,0.102,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,KS,Wyandotte County,2,20,209,20209,Distribution of COVID-19 deaths (%),1419,148,0.378,0.385,,,,0.155,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,KS,Wyandotte County,2,20,209,20209,Distribution of population (%),1419,148,0.403,0.215,0.004,0.053,0.027,0.298,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,KY,Jefferson County,1,21,111,21111,Distribution of all-cause deaths (%),7311,452,0.798,0.18,,0.009,0.001,0.011,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,KY,Jefferson County,1,21,111,21111,Distribution of COVID-19 deaths (%),7311,452,0.71,0.215,,0.024,,0.049,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,KY,Jefferson County,1,21,111,21111,Distribution of population (%),7311,452,0.666,0.219,0.001,0.03,0.024,0.059,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,KY,Warren County,4,21,227,21227,Distribution of all-cause deaths (%),1117,101,0.909,0.069,,0.013,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,KY,Warren County,4,21,227,21227,Distribution of COVID-19 deaths (%),1117,101,0.921,,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,KY,Warren County,4,21,227,21227,Distribution of population (%),1117,101,0.776,0.095,0.002,0.044,0.026,0.056,Small metro,
+10/07/2020,02/01/2020,10/03/2020,LA,Caddo Parish,3,22,17,22017,Distribution of all-cause deaths (%),2903,506,0.543,0.446,,,,0.005,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Caddo Parish,3,22,17,22017,Distribution of COVID-19 deaths (%),2903,506,0.423,0.561,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Caddo Parish,3,22,17,22017,Distribution of population (%),2903,506,0.443,0.496,0.004,0.013,0.016,0.029,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,LA,Calcasieu Parish,4,22,19,22019,Distribution of all-cause deaths (%),1621,187,0.72,0.261,,,,0.011,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Calcasieu Parish,4,22,19,22019,Distribution of COVID-19 deaths (%),1621,187,0.62,0.353,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Calcasieu Parish,4,22,19,22019,Distribution of population (%),1621,187,0.666,0.255,0.005,0.013,0.019,0.041,Small metro,
+10/07/2020,02/01/2020,10/03/2020,LA,East Baton Rouge Parish,3,22,33,22033,Distribution of all-cause deaths (%),4304,740,0.535,0.441,,0.007,,0.016,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,East Baton Rouge Parish,3,22,33,22033,Distribution of COVID-19 deaths (%),4304,740,0.424,0.547,,,,0.016,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,East Baton Rouge Parish,3,22,33,22033,Distribution of population (%),4304,740,0.44,0.467,0.002,0.033,0.014,0.044,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,LA,Jefferson Parish,2,22,51,22051,Distribution of all-cause deaths (%),4190,784,0.605,0.311,,0.017,,0.063,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Jefferson Parish,2,22,51,22051,Distribution of COVID-19 deaths (%),4190,784,0.38,0.522,,0.013,,0.082,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Jefferson Parish,2,22,51,22051,Distribution of population (%),4190,784,0.52,0.271,0.004,0.042,0.015,0.149,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,LA,Lafayette Parish,3,22,55,22055,Distribution of all-cause deaths (%),1928,242,0.703,0.274,,0.006,,0.016,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Lafayette Parish,3,22,55,22055,Distribution of COVID-19 deaths (%),1928,242,0.579,0.388,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Lafayette Parish,3,22,55,22055,Distribution of population (%),1928,242,0.652,0.265,0.003,0.019,0.015,0.046,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,LA,Lafourche Parish,4,22,57,22057,Distribution of all-cause deaths (%),702,125,0.793,0.17,0.02,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Lafourche Parish,4,22,57,22057,Distribution of COVID-19 deaths (%),702,125,0.656,0.304,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Lafourche Parish,4,22,57,22057,Distribution of population (%),702,125,0.768,0.133,0.028,0.008,0.019,0.044,Small metro,
+10/07/2020,02/01/2020,10/03/2020,LA,Orleans Parish,1,22,71,22071,Distribution of all-cause deaths (%),2993,424,0.369,0.584,,0.013,0.004,0.03,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Orleans Parish,1,22,71,22071,Distribution of COVID-19 deaths (%),2993,424,0.25,0.703,,,,0.038,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Orleans Parish,1,22,71,22071,Distribution of population (%),2993,424,0.309,0.591,0.002,0.029,0.014,0.055,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,LA,Ouachita Parish,4,22,73,22073,Distribution of all-cause deaths (%),1483,216,0.652,0.342,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Ouachita Parish,4,22,73,22073,Distribution of COVID-19 deaths (%),1483,216,0.519,0.472,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Ouachita Parish,4,22,73,22073,Distribution of population (%),1483,216,0.579,0.374,0.003,0.01,0.012,0.022,Small metro,
+10/07/2020,02/01/2020,10/03/2020,LA,Rapides Parish,4,22,79,22079,Distribution of all-cause deaths (%),1534,218,0.665,0.317,,,,0.011,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Rapides Parish,4,22,79,22079,Distribution of COVID-19 deaths (%),1534,218,0.528,0.44,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Rapides Parish,4,22,79,22079,Distribution of population (%),1534,218,0.61,0.317,0.008,0.014,0.019,0.032,Small metro,
+10/07/2020,02/01/2020,10/03/2020,LA,St. Landry Parish,5,22,97,22097,Distribution of all-cause deaths (%),698,103,0.606,0.388,,,,,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,St. Landry Parish,5,22,97,22097,Distribution of COVID-19 deaths (%),698,103,0.592,0.408,,,,,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,St. Landry Parish,5,22,97,22097,Distribution of population (%),698,103,0.545,0.412,0.003,0.004,0.012,0.024,Micropolitan,
+10/07/2020,02/01/2020,10/03/2020,LA,St. Tammany Parish,2,22,103,22103,Distribution of all-cause deaths (%),1983,256,0.835,0.132,,0.005,,0.026,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,St. Tammany Parish,2,22,103,22103,Distribution of COVID-19 deaths (%),1983,256,0.703,0.258,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,St. Tammany Parish,2,22,103,22103,Distribution of population (%),1983,256,0.78,0.125,0.005,0.014,0.018,0.059,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,LA,Terrebonne Parish,4,22,109,22109,Distribution of all-cause deaths (%),851,107,0.739,0.195,0.042,,,0.014,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Terrebonne Parish,4,22,109,22109,Distribution of COVID-19 deaths (%),851,107,0.636,0.29,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,LA,Terrebonne Parish,4,22,109,22109,Distribution of population (%),851,107,0.665,0.189,0.058,0.01,0.026,0.051,Small metro,
+10/07/2020,02/01/2020,10/03/2020,MA,Barnstable County,4,25,1,25001,Distribution of all-cause deaths (%),1985,135,0.95,0.024,,,0.017,0.005,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Barnstable County,4,25,1,25001,Distribution of COVID-19 deaths (%),1985,135,0.963,,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Barnstable County,4,25,1,25001,Distribution of population (%),1985,135,0.895,0.032,0.006,0.015,0.018,0.034,Small metro,
+10/07/2020,02/01/2020,10/03/2020,MA,Bristol County,2,25,5,25005,Distribution of all-cause deaths (%),3848,553,0.899,0.027,0.003,0.005,0.041,0.025,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MA,Bristol County,2,25,5,25005,Distribution of COVID-19 deaths (%),3848,553,0.873,0.04,,,0.04,0.034,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Bristol County,2,25,5,25005,Distribution of population (%),3848,553,0.818,0.05,0.002,0.024,0.02,0.086,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MA,Essex County,2,25,9,25009,Distribution of all-cause deaths (%),5618,1018,0.89,0.02,,0.014,0.005,0.071,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Essex County,2,25,9,25009,Distribution of COVID-19 deaths (%),5618,1018,0.845,0.03,,0.011,,0.109,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Essex County,2,25,9,25009,Distribution of population (%),5618,1018,0.69,0.035,0.001,0.037,0.014,0.222,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MA,Hampden County,3,25,13,25013,Distribution of all-cause deaths (%),4231,678,0.791,0.069,,0.009,0.009,0.121,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Hampden County,3,25,13,25013,Distribution of COVID-19 deaths (%),4231,678,0.78,0.088,,,,0.114,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Hampden County,3,25,13,25013,Distribution of population (%),4231,678,0.614,0.078,0.001,0.026,0.017,0.263,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,MA,Hampshire County,3,25,15,25015,Distribution of all-cause deaths (%),923,113,0.926,0.027,,0.012,0.015,0.02,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Hampshire County,3,25,15,25015,Distribution of COVID-19 deaths (%),923,113,0.929,,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Hampshire County,3,25,15,25015,Distribution of population (%),923,113,0.833,0.029,0.002,0.056,0.021,0.059,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,MA,Middlesex County,2,25,17,25017,Distribution of all-cause deaths (%),9004,1876,0.882,0.04,,0.04,0.007,0.029,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Middlesex County,2,25,17,25017,Distribution of COVID-19 deaths (%),9004,1876,0.858,0.056,,0.038,0.007,0.04,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Middlesex County,2,25,17,25017,Distribution of population (%),9004,1876,0.712,0.053,0.001,0.13,0.021,0.083,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MA,Norfolk County,2,25,21,25021,Distribution of all-cause deaths (%),4331,765,0.877,0.056,,0.042,0.005,0.019,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Norfolk County,2,25,21,25021,Distribution of COVID-19 deaths (%),4331,765,0.83,0.076,,0.061,,0.027,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Norfolk County,2,25,21,25021,Distribution of population (%),4331,765,0.738,0.073,0.001,0.119,0.019,0.05,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MA,Plymouth County,2,25,23,25023,Distribution of all-cause deaths (%),3510,612,0.891,0.082,,0.005,0.007,0.015,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Plymouth County,2,25,23,25023,Distribution of COVID-19 deaths (%),3510,612,0.814,0.154,,,,0.021,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Plymouth County,2,25,23,25023,Distribution of population (%),3510,612,0.811,0.11,0.002,0.016,0.019,0.042,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MA,Suffolk County,1,25,25,25025,Distribution of all-cause deaths (%),6521,1275,0.657,0.188,,0.051,0.01,0.093,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Suffolk County,1,25,25,25025,Distribution of COVID-19 deaths (%),6521,1275,0.558,0.236,,0.056,0.012,0.137,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Suffolk County,1,25,25,25025,Distribution of population (%),6521,1275,0.452,0.201,0.002,0.091,0.021,0.233,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MA,Worcester County,3,25,27,25027,Distribution of all-cause deaths (%),5847,990,0.871,0.026,,0.013,0.036,0.054,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Worcester County,3,25,27,25027,Distribution of COVID-19 deaths (%),5847,990,0.873,0.029,,0.016,0.019,0.062,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MA,Worcester County,3,25,27,25027,Distribution of population (%),5847,990,0.757,0.048,0.002,0.053,0.018,0.122,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,MD,Anne Arundel County,2,24,3,24003,Distribution of all-cause deaths (%),3371,319,0.761,0.196,,0.015,0.003,0.023,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MD,Anne Arundel County,2,24,3,24003,Distribution of COVID-19 deaths (%),3371,319,0.596,0.313,,,,0.066,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MD,Anne Arundel County,2,24,3,24003,Distribution of population (%),3371,319,0.667,0.175,0.003,0.041,0.03,0.084,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MD,Baltimore County,2,24,5,24005,Distribution of all-cause deaths (%),6399,675,0.684,0.281,,0.017,0.003,0.015,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MD,Baltimore County,2,24,5,24005,Distribution of COVID-19 deaths (%),6399,675,0.483,0.444,,0.025,,0.043,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MD,Baltimore County,2,24,5,24005,Distribution of population (%),6399,675,0.558,0.296,0.003,0.062,0.023,0.058,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MD,Carroll County,2,24,13,24013,Distribution of all-cause deaths (%),1240,154,0.939,0.042,,,,0.012,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MD,Carroll County,2,24,13,24013,Distribution of COVID-19 deaths (%),1240,154,0.883,0.091,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MD,Carroll County,2,24,13,24013,Distribution of population (%),1240,154,0.883,0.037,0.002,0.02,0.018,0.039,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MD,Frederick County,2,24,21,24021,Distribution of all-cause deaths (%),1444,134,0.855,0.086,,0.022,,0.035,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MD,Frederick County,2,24,21,24021,Distribution of COVID-19 deaths (%),1444,134,0.784,0.149,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MD,Frederick County,2,24,21,24021,Distribution of population (%),1444,134,0.717,0.099,0.002,0.048,0.027,0.105,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MD,Montgomery County,2,24,31,24031,Distribution of all-cause deaths (%),5855,1122,0.564,0.238,,0.087,0.004,0.105,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MD,Montgomery County,2,24,31,24031,Distribution of COVID-19 deaths (%),5855,1122,0.407,0.283,,0.078,,0.224,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MD,Montgomery County,2,24,31,24031,Distribution of population (%),5855,1122,0.429,0.187,0.002,0.153,0.028,0.201,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MD,Prince George's County,2,24,33,24033,Distribution of all-cause deaths (%),4409,602,0.209,0.702,,0.026,0.003,0.059,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MD,Prince George's County,2,24,33,24033,Distribution of COVID-19 deaths (%),4409,602,0.128,0.703,,0.023,,0.143,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MD,Prince George's County,2,24,33,24033,Distribution of population (%),4409,602,0.123,0.617,0.002,0.042,0.02,0.195,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MD,Baltimore city,1,24,510,24510,Distribution of all-cause deaths (%),6616,670,0.364,0.583,0.002,0.017,0.005,0.029,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MD,Baltimore city,1,24,510,24510,Distribution of COVID-19 deaths (%),6616,670,0.236,0.633,,0.033,,0.097,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MD,Baltimore city,1,24,510,24510,Distribution of population (%),6616,670,0.277,0.618,0.003,0.027,0.019,0.057,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MI,Genesee County,3,26,49,26049,Distribution of all-cause deaths (%),3586,279,0.75,0.221,0.003,,0.004,0.018,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MI,Genesee County,3,26,49,26049,Distribution of COVID-19 deaths (%),3586,279,0.541,0.412,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MI,Genesee County,3,26,49,26049,Distribution of population (%),3586,279,0.724,0.2,0.005,0.01,0.026,0.036,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,MI,Kalamazoo County,3,26,77,26077,Distribution of all-cause deaths (%),2150,114,0.865,0.097,,,0.012,0.02,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MI,Kalamazoo County,3,26,77,26077,Distribution of COVID-19 deaths (%),2150,114,0.737,0.14,,,,0.088,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MI,Kalamazoo County,3,26,77,26077,Distribution of population (%),2150,114,0.77,0.114,0.004,0.028,0.033,0.052,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,MI,Kent County,1,26,81,26081,Distribution of all-cause deaths (%),4293,172,0.847,0.096,0.004,0.007,0.009,0.036,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MI,Kent County,1,26,81,26081,Distribution of COVID-19 deaths (%),4293,172,0.616,0.209,,,,0.157,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MI,Kent County,1,26,81,26081,Distribution of population (%),4293,172,0.733,0.097,0.003,0.033,0.026,0.108,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MI,Macomb County,2,26,99,26099,Distribution of all-cause deaths (%),6062,698,0.856,0.113,,0.011,0.01,0.009,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MI,Macomb County,2,26,99,26099,Distribution of COVID-19 deaths (%),6062,698,0.695,0.252,,0.02,0.021,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MI,Macomb County,2,26,99,26099,Distribution of population (%),6062,698,0.78,0.124,0.003,0.042,0.024,0.028,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MI,Oakland County,2,26,125,26125,Distribution of all-cause deaths (%),10042,1409,0.749,0.213,0.001,0.016,0.007,0.014,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MI,Oakland County,2,26,125,26125,Distribution of COVID-19 deaths (%),10042,1409,0.586,0.37,,0.018,0.011,0.014,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MI,Oakland County,2,26,125,26125,Distribution of population (%),10042,1409,0.715,0.137,0.002,0.081,0.021,0.043,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MI,Saginaw County,4,26,145,26145,Distribution of all-cause deaths (%),1932,168,0.796,0.157,,,0.005,0.038,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MI,Saginaw County,4,26,145,26145,Distribution of COVID-19 deaths (%),1932,168,0.75,0.155,,,,0.083,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MI,Saginaw County,4,26,145,26145,Distribution of population (%),1932,168,0.691,0.185,0.003,0.014,0.02,0.087,Small metro,
+10/07/2020,02/01/2020,10/03/2020,MI,Washtenaw County,3,26,161,26161,Distribution of all-cause deaths (%),2819,272,0.804,0.149,,0.016,0.01,0.017,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MI,Washtenaw County,3,26,161,26161,Distribution of COVID-19 deaths (%),2819,272,0.599,0.36,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MI,Washtenaw County,3,26,161,26161,Distribution of population (%),2819,272,0.702,0.12,0.003,0.093,0.033,0.049,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,MI,Wayne County,1,26,163,26163,Distribution of all-cause deaths (%),15364,2353,0.512,0.44,0.002,0.007,0.015,0.024,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MI,Wayne County,1,26,163,26163,Distribution of COVID-19 deaths (%),15364,2353,0.345,0.595,,0.008,0.027,0.024,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MI,Wayne County,1,26,163,26163,Distribution of population (%),15364,2353,0.494,0.382,0.003,0.035,0.024,0.061,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MN,Anoka County,2,27,3,27003,Distribution of all-cause deaths (%),1561,163,0.922,0.03,0.01,0.024,0.006,0.008,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MN,Anoka County,2,27,3,27003,Distribution of COVID-19 deaths (%),1561,163,0.877,,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MN,Anoka County,2,27,3,27003,Distribution of population (%),1561,163,0.797,0.072,0.006,0.049,0.027,0.049,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MN,Hennepin County,1,27,53,27053,Distribution of all-cause deaths (%),7910,947,0.827,0.1,0.018,0.028,0.008,0.018,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MN,Hennepin County,1,27,53,27053,Distribution of COVID-19 deaths (%),7910,947,0.767,0.138,0.017,0.035,,0.039,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MN,Hennepin County,1,27,53,27053,Distribution of population (%),7910,947,0.684,0.135,0.007,0.075,0.029,0.07,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MN,Ramsey County,1,27,123,27123,Distribution of all-cause deaths (%),3896,418,0.813,0.078,0.012,0.061,0.008,0.028,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MN,Ramsey County,1,27,123,27123,Distribution of COVID-19 deaths (%),3896,418,0.703,0.098,,0.117,,0.067,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MN,Ramsey County,1,27,123,27123,Distribution of population (%),3896,418,0.611,0.124,0.006,0.152,0.033,0.075,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MO,Greene County,3,29,77,29077,Distribution of all-cause deaths (%),2961,129,0.956,0.022,,,0.007,0.011,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MO,Greene County,3,29,77,29077,Distribution of COVID-19 deaths (%),2961,129,0.946,,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MO,Greene County,3,29,77,29077,Distribution of population (%),2961,129,0.87,0.033,0.006,0.022,0.029,0.039,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,MO,Jackson County,1,29,95,29095,Distribution of all-cause deaths (%),5472,218,0.722,0.224,0.002,0.009,0.009,0.034,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MO,Jackson County,1,29,95,29095,Distribution of COVID-19 deaths (%),5472,218,0.541,0.321,,,,0.087,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MO,Jackson County,1,29,95,29095,Distribution of population (%),5472,218,0.622,0.231,0.004,0.019,0.031,0.092,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MO,St. Charles County,2,29,183,29183,Distribution of all-cause deaths (%),2125,128,0.939,0.041,,0.007,,0.008,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MO,St. Charles County,2,29,183,29183,Distribution of COVID-19 deaths (%),2125,128,0.828,0.141,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MO,St. Charles County,2,29,183,29183,Distribution of population (%),2125,128,0.866,0.052,0.002,0.027,0.02,0.034,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MO,St. Louis County,2,29,189,29189,Distribution of all-cause deaths (%),9178,851,0.752,0.227,,0.01,0.003,0.008,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MO,St. Louis County,2,29,189,29189,Distribution of COVID-19 deaths (%),9178,851,0.625,0.349,,0.013,,0.012,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MO,St. Louis County,2,29,189,29189,Distribution of population (%),9178,851,0.653,0.248,0.002,0.046,0.021,0.03,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MO,St. Louis city,1,29,510,29510,Distribution of all-cause deaths (%),3336,235,0.511,0.456,,0.01,0.006,0.017,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MO,St. Louis city,1,29,510,29510,Distribution of COVID-19 deaths (%),3336,235,0.357,0.57,,,,0.047,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MO,St. Louis city,1,29,510,29510,Distribution of population (%),3336,235,0.447,0.449,0.002,0.036,0.024,0.042,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,MS,DeSoto County,2,28,33,28033,Distribution of all-cause deaths (%),1095,114,0.705,0.277,,,,0.014,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MS,DeSoto County,2,28,33,28033,Distribution of COVID-19 deaths (%),1095,114,0.404,0.553,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MS,DeSoto County,2,28,33,28033,Distribution of population (%),1095,114,0.619,0.298,0.002,0.016,0.014,0.051,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,MS,Forrest County,4,28,35,28035,Distribution of all-cause deaths (%),1161,193,0.698,0.292,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MS,Forrest County,4,28,35,28035,Distribution of COVID-19 deaths (%),1161,193,0.606,0.368,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MS,Forrest County,4,28,35,28035,Distribution of population (%),1161,193,0.569,0.375,0.002,0.011,0.013,0.03,Small metro,
+10/07/2020,02/01/2020,10/03/2020,MS,Hinds County,3,28,49,28049,Distribution of all-cause deaths (%),3365,485,0.442,0.528,0.015,0.004,,0.009,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MS,Hinds County,3,28,49,28049,Distribution of COVID-19 deaths (%),3365,485,0.318,0.573,0.082,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MS,Hinds County,3,28,49,28049,Distribution of population (%),3365,485,0.239,0.729,0.001,0.007,0.009,0.016,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,MS,Lauderdale County,5,28,75,28075,Distribution of all-cause deaths (%),1094,245,0.543,0.399,0.05,,,,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MS,Lauderdale County,5,28,75,28075,Distribution of COVID-19 deaths (%),1094,245,0.359,0.49,0.135,,,,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MS,Lauderdale County,5,28,75,28075,Distribution of population (%),1094,245,0.52,0.438,0.002,0.007,0.01,0.023,Micropolitan,
+10/07/2020,02/01/2020,10/03/2020,MS,Lee County,5,28,81,28081,Distribution of all-cause deaths (%),1556,194,0.729,0.257,,,,0.009,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MS,Lee County,5,28,81,28081,Distribution of COVID-19 deaths (%),1556,194,0.552,0.428,,,,,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,MS,Lee County,5,28,81,28081,Distribution of population (%),1556,194,0.646,0.302,0.002,0.01,0.013,0.027,Micropolitan,
+10/07/2020,02/01/2020,10/03/2020,NC,Durham County,3,37,63,37063,Distribution of all-cause deaths (%),2082,142,0.552,0.39,0.005,0.016,0.005,0.032,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NC,Durham County,3,37,63,37063,Distribution of COVID-19 deaths (%),2082,142,0.437,0.437,,,,0.106,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NC,Durham County,3,37,63,37063,Distribution of population (%),2082,142,0.43,0.356,0.003,0.053,0.021,0.137,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NC,Forsyth County,3,37,67,37067,Distribution of all-cause deaths (%),3048,116,0.753,0.202,,0.01,,0.032,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NC,Forsyth County,3,37,67,37067,Distribution of COVID-19 deaths (%),3048,116,0.612,0.181,,,,0.172,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NC,Forsyth County,3,37,67,37067,Distribution of population (%),3048,116,0.563,0.258,0.003,0.025,0.019,0.133,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NC,Guilford County,3,37,81,37081,Distribution of all-cause deaths (%),3027,199,0.672,0.286,0.004,0.016,0.005,0.018,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NC,Guilford County,3,37,81,37081,Distribution of COVID-19 deaths (%),3027,199,0.477,0.382,,0.055,,0.075,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NC,Guilford County,3,37,81,37081,Distribution of population (%),3027,199,0.494,0.344,0.004,0.052,0.022,0.084,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NC,Mecklenburg County,1,37,119,37119,Distribution of all-cause deaths (%),4443,266,0.617,0.314,0.003,0.017,0.005,0.044,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NC,Mecklenburg County,1,37,119,37119,Distribution of COVID-19 deaths (%),4443,266,0.53,0.327,,,,0.094,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NC,Mecklenburg County,1,37,119,37119,Distribution of population (%),4443,266,0.461,0.315,0.003,0.062,0.021,0.138,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NC,Wake County,1,37,183,37183,Distribution of all-cause deaths (%),3907,248,0.701,0.239,0.003,0.02,0.004,0.033,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NC,Wake County,1,37,183,37183,Distribution of COVID-19 deaths (%),3907,248,0.544,0.31,,,,0.117,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NC,Wake County,1,37,183,37183,Distribution of population (%),3907,248,0.596,0.2,0.003,0.076,0.022,0.104,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,ND,Cass County,4,38,17,38017,Distribution of all-cause deaths (%),1340,112,0.899,0.017,0.051,0.007,0.01,0.016,Small metro,
+10/07/2020,02/01/2020,10/03/2020,ND,Cass County,4,38,17,38017,Distribution of COVID-19 deaths (%),1340,112,0.804,,0.125,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,ND,Cass County,4,38,17,38017,Distribution of population (%),1340,112,0.844,0.062,0.012,0.033,0.02,0.028,Small metro,
+10/07/2020,02/01/2020,10/03/2020,NE,Douglas County,3,31,55,31055,Distribution of all-cause deaths (%),3766,246,0.833,0.106,0.007,0.011,0.007,0.036,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NE,Douglas County,3,31,55,31055,Distribution of COVID-19 deaths (%),3766,246,0.667,0.106,,,,0.183,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NE,Douglas County,3,31,55,31055,Distribution of population (%),3766,246,0.688,0.111,0.005,0.043,0.025,0.129,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NH,Hillsborough County,3,33,11,33011,Distribution of all-cause deaths (%),2659,295,0.917,0.011,,0.011,0.042,0.02,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NH,Hillsborough County,3,33,11,33011,Distribution of COVID-19 deaths (%),2659,295,0.919,,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NH,Hillsborough County,3,33,11,33011,Distribution of population (%),2659,295,0.838,0.025,0.002,0.044,0.018,0.073,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Atlantic County,3,34,1,34001,Distribution of all-cause deaths (%),2174,211,0.719,0.177,,0.025,,0.076,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Atlantic County,3,34,1,34001,Distribution of COVID-19 deaths (%),2174,211,0.64,0.185,,,,0.137,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Atlantic County,3,34,1,34001,Distribution of population (%),2174,211,0.56,0.146,0.002,0.079,0.02,0.194,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Bergen County,2,34,3,34003,Distribution of all-cause deaths (%),7397,2063,0.729,0.066,,0.076,0.003,0.125,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Bergen County,2,34,3,34003,Distribution of COVID-19 deaths (%),7397,2063,0.632,0.079,,0.099,,0.187,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Bergen County,2,34,3,34003,Distribution of population (%),7397,2063,0.551,0.055,0.001,0.167,0.015,0.21,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Burlington County,2,34,5,34005,Distribution of all-cause deaths (%),2818,442,0.762,0.182,,0.026,,0.026,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Burlington County,2,34,5,34005,Distribution of COVID-19 deaths (%),2818,442,0.729,0.204,,0.023,,0.043,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Burlington County,2,34,5,34005,Distribution of population (%),2818,442,0.666,0.169,0.002,0.053,0.025,0.085,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Camden County,2,34,7,34007,Distribution of all-cause deaths (%),4675,571,0.701,0.192,,0.023,0.003,0.08,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Camden County,2,34,7,34007,Distribution of COVID-19 deaths (%),4675,571,0.613,0.219,,0.044,,0.119,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Camden County,2,34,7,34007,Distribution of population (%),4675,571,0.558,0.187,0.002,0.059,0.019,0.176,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Cumberland County,4,34,11,34011,Distribution of all-cause deaths (%),1166,119,0.666,0.16,0.015,0.014,,0.144,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Cumberland County,4,34,11,34011,Distribution of COVID-19 deaths (%),1166,119,0.571,0.134,,,,0.269,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Cumberland County,4,34,11,34011,Distribution of population (%),1166,119,0.454,0.187,0.006,0.013,0.022,0.318,Small metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Essex County,1,34,13,34013,Distribution of all-cause deaths (%),6909,2031,0.365,0.447,,0.034,0.003,0.15,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Essex County,1,34,13,34013,Distribution of COVID-19 deaths (%),6909,2031,0.288,0.467,,0.045,,0.194,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Essex County,1,34,13,34013,Distribution of population (%),6909,2031,0.302,0.386,0.002,0.057,0.015,0.238,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Gloucester County,2,34,15,34015,Distribution of all-cause deaths (%),1962,205,0.838,0.112,,0.016,,0.028,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Gloucester County,2,34,15,34015,Distribution of COVID-19 deaths (%),1962,205,0.746,0.171,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Gloucester County,2,34,15,34015,Distribution of population (%),1962,205,0.778,0.104,0.001,0.03,0.02,0.067,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Hudson County,1,34,17,34017,Distribution of all-cause deaths (%),3549,1091,0.322,0.159,,0.081,0.004,0.433,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Hudson County,1,34,17,34017,Distribution of COVID-19 deaths (%),3549,1091,0.219,0.118,,0.083,,0.576,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Hudson County,1,34,17,34017,Distribution of population (%),3549,1091,0.29,0.107,0.001,0.16,0.015,0.427,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Hunterdon County,2,34,19,34019,Distribution of all-cause deaths (%),669,121,0.933,0.016,,0.022,,0.027,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Hunterdon County,2,34,19,34019,Distribution of COVID-19 deaths (%),669,121,0.843,,,0.083,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Hunterdon County,2,34,19,34019,Distribution of population (%),669,121,0.848,0.024,0.001,0.044,0.014,0.07,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Mercer County,3,34,21,34021,Distribution of all-cause deaths (%),2466,530,0.639,0.241,,0.036,,0.082,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Mercer County,3,34,21,34021,Distribution of COVID-19 deaths (%),2466,530,0.526,0.298,,0.043,,0.13,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Mercer County,3,34,21,34021,Distribution of population (%),2466,530,0.482,0.195,0.002,0.117,0.019,0.185,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Middlesex County,2,34,23,34023,Distribution of all-cause deaths (%),6068,1472,0.625,0.124,,0.112,0.004,0.135,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Middlesex County,2,34,23,34023,Distribution of COVID-19 deaths (%),6068,1472,0.482,0.142,,0.132,0.007,0.237,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Middlesex County,2,34,23,34023,Distribution of population (%),6068,1472,0.417,0.098,0.002,0.247,0.015,0.221,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Monmouth County,2,34,25,34025,Distribution of all-cause deaths (%),5113,857,0.839,0.08,,0.028,0.003,0.05,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Monmouth County,2,34,25,34025,Distribution of COVID-19 deaths (%),5113,857,0.783,0.082,,0.047,,0.079,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Monmouth County,2,34,25,34025,Distribution of population (%),5113,857,0.751,0.067,0.001,0.055,0.015,0.111,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Morris County,2,34,27,34027,Distribution of all-cause deaths (%),4329,989,0.846,0.051,,0.037,,0.063,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Morris County,2,34,27,34027,Distribution of COVID-19 deaths (%),4329,989,0.744,0.073,,0.048,,0.131,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Morris County,2,34,27,34027,Distribution of population (%),4329,989,0.705,0.033,0.001,0.107,0.016,0.139,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Ocean County,2,34,29,34029,Distribution of all-cause deaths (%),5388,832,0.922,0.025,,0.009,0.002,0.042,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Ocean County,2,34,29,34029,Distribution of COVID-19 deaths (%),5388,832,0.851,0.037,,0.016,,0.094,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Ocean County,2,34,29,34029,Distribution of population (%),5388,832,0.843,0.031,0.001,0.019,0.011,0.095,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Passaic County,2,34,31,34031,Distribution of all-cause deaths (%),3507,996,0.545,0.149,,0.032,,0.27,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Passaic County,2,34,31,34031,Distribution of COVID-19 deaths (%),3507,996,0.406,0.137,,0.043,,0.411,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Passaic County,2,34,31,34031,Distribution of population (%),3507,996,0.403,0.1,0.001,0.054,0.012,0.429,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Somerset County,2,34,35,34035,Distribution of all-cause deaths (%),1923,403,0.788,0.101,,0.057,,0.052,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Somerset County,2,34,35,34035,Distribution of COVID-19 deaths (%),1923,403,0.712,0.129,,0.045,,0.114,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Somerset County,2,34,35,34035,Distribution of population (%),1923,403,0.548,0.095,0.001,0.186,0.017,0.152,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Sussex County,2,34,37,34037,Distribution of all-cause deaths (%),915,158,0.902,0.045,,0.013,,0.038,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Sussex County,2,34,37,34037,Distribution of COVID-19 deaths (%),915,158,0.778,0.133,,,,0.076,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Sussex County,2,34,37,34037,Distribution of population (%),915,158,0.851,0.022,0.001,0.02,0.014,0.092,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Union County,1,34,39,34039,Distribution of all-cause deaths (%),3871,996,0.53,0.254,,0.03,0.003,0.182,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Union County,1,34,39,34039,Distribution of COVID-19 deaths (%),3871,996,0.397,0.279,,0.045,,0.276,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Union County,1,34,39,34039,Distribution of population (%),3871,996,0.392,0.209,0.001,0.055,0.014,0.328,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NJ,Warren County,3,34,41,34041,Distribution of all-cause deaths (%),732,138,0.907,0.034,,,,0.048,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Warren County,3,34,41,34041,Distribution of COVID-19 deaths (%),732,138,0.884,,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NJ,Warren County,3,34,41,34041,Distribution of population (%),732,138,0.804,0.051,0.001,0.028,0.014,0.102,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NM,Bernalillo County,3,35,1,35001,Distribution of all-cause deaths (%),5234,349,0.472,0.028,0.105,0.013,0.007,0.376,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NM,Bernalillo County,3,35,1,35001,Distribution of COVID-19 deaths (%),5234,349,0.258,,0.49,,,0.226,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NM,Bernalillo County,3,35,1,35001,Distribution of population (%),5234,349,0.383,0.026,0.043,0.026,0.019,0.503,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NM,San Juan County,4,35,45,35045,Distribution of all-cause deaths (%),882,188,0.469,,0.41,,,0.103,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NM,San Juan County,4,35,45,35045,Distribution of COVID-19 deaths (%),882,188,0.303,,0.601,,,0.08,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NM,San Juan County,4,35,45,35045,Distribution of population (%),882,188,0.375,0.006,0.387,0.005,0.021,0.206,Small metro,
+10/07/2020,02/01/2020,10/03/2020,NV,Clark County,1,32,3,32003,Distribution of all-cause deaths (%),13916,1299,0.642,0.135,0.004,0.073,0.017,0.13,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NV,Clark County,1,32,3,32003,Distribution of COVID-19 deaths (%),13916,1299,0.399,0.146,,0.135,0.009,0.305,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NV,Clark County,1,32,3,32003,Distribution of population (%),13916,1299,0.417,0.119,0.005,0.098,0.045,0.316,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NV,Washoe County,3,32,31,32031,Distribution of all-cause deaths (%),3364,167,0.83,0.019,0.017,0.035,0.01,0.089,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NV,Washoe County,3,32,31,32031,Distribution of COVID-19 deaths (%),3364,167,0.563,,,0.072,,0.299,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NV,Washoe County,3,32,31,32031,Distribution of population (%),3364,167,0.623,0.023,0.013,0.054,0.036,0.25,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Albany County,3,36,1,36001,Distribution of all-cause deaths (%),2785,208,0.841,0.111,,0.015,0.008,0.025,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Albany County,3,36,1,36001,Distribution of COVID-19 deaths (%),2785,208,0.793,0.135,,,,0.048,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Albany County,3,36,1,36001,Distribution of population (%),2785,208,0.716,0.128,0.001,0.068,0.025,0.063,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Bronx County,1,36,5,36005,Distribution of all-cause deaths (%),13002,4299,0.195,0.304,,0.028,0.079,0.394,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Bronx County,1,36,5,36005,Distribution of COVID-19 deaths (%),13002,4299,0.122,0.29,,0.032,0.086,0.469,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Bronx County,1,36,5,36005,Distribution of population (%),13002,4299,0.09,0.292,0.003,0.04,0.011,0.564,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Broome County,4,36,7,36007,Distribution of all-cause deaths (%),1739,102,0.945,0.022,,0.011,,0.016,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Broome County,4,36,7,36007,Distribution of COVID-19 deaths (%),1739,102,0.961,,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Broome County,4,36,7,36007,Distribution of population (%),1739,102,0.827,0.056,0.002,0.044,0.027,0.044,Small metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Dutchess County,2,36,27,36027,Distribution of all-cause deaths (%),1972,200,0.85,0.092,,0.011,,0.046,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Dutchess County,2,36,27,36027,Distribution of COVID-19 deaths (%),1972,200,0.715,0.17,,,,0.1,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Dutchess County,2,36,27,36027,Distribution of population (%),1972,200,0.707,0.106,0.002,0.036,0.021,0.129,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Erie County,1,36,29,36029,Distribution of all-cause deaths (%),7667,723,0.823,0.134,0.005,0.009,0.002,0.026,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Erie County,1,36,29,36029,Distribution of COVID-19 deaths (%),7667,723,0.787,0.16,,0.014,,0.032,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Erie County,1,36,29,36029,Distribution of population (%),7667,723,0.75,0.131,0.006,0.038,0.018,0.058,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Kings County,1,36,47,36047,Distribution of all-cause deaths (%),17557,6072,0.334,0.367,,0.074,0.063,0.162,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Kings County,1,36,47,36047,Distribution of COVID-19 deaths (%),17557,6072,0.279,0.381,,0.069,0.068,0.202,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Kings County,1,36,47,36047,Distribution of population (%),17557,6072,0.368,0.297,0.002,0.125,0.02,0.189,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Monroe County,1,36,55,36055,Distribution of all-cause deaths (%),5771,345,0.815,0.13,0.002,0.01,0.003,0.04,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Monroe County,1,36,55,36055,Distribution of COVID-19 deaths (%),5771,345,0.762,0.165,,,,0.049,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Monroe County,1,36,55,36055,Distribution of population (%),5771,345,0.701,0.146,0.002,0.036,0.022,0.092,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Nassau County,2,36,59,36059,Distribution of all-cause deaths (%),11638,3234,0.686,0.154,,0.052,0.009,0.099,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Nassau County,2,36,59,36059,Distribution of COVID-19 deaths (%),11638,3234,0.54,0.205,,0.074,0.011,0.169,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Nassau County,2,36,59,36059,Distribution of population (%),11638,3234,0.585,0.117,0.001,0.107,0.015,0.175,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NY,New York County,1,36,61,36061,Distribution of all-cause deaths (%),13482,3963,0.362,0.202,,0.08,0.08,0.277,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,New York County,1,36,61,36061,Distribution of COVID-19 deaths (%),13482,3963,0.276,0.201,,0.082,0.078,0.362,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,New York County,1,36,61,36061,Distribution of population (%),13482,3963,0.472,0.124,0.001,0.125,0.021,0.256,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Oneida County,3,36,65,36065,Distribution of all-cause deaths (%),1988,134,0.918,0.044,,0.013,0.006,0.019,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Oneida County,3,36,65,36065,Distribution of COVID-19 deaths (%),1988,134,0.873,,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Oneida County,3,36,65,36065,Distribution of population (%),1988,134,0.813,0.062,0.002,0.041,0.02,0.062,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Onondaga County,3,36,67,36067,Distribution of all-cause deaths (%),3931,249,0.868,0.09,0.006,0.011,0.006,0.019,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Onondaga County,3,36,67,36067,Distribution of COVID-19 deaths (%),3931,249,0.771,0.133,,0.052,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Onondaga County,3,36,67,36067,Distribution of population (%),3931,249,0.765,0.11,0.007,0.038,0.028,0.052,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Orange County,2,36,71,36071,Distribution of all-cause deaths (%),2387,478,0.77,0.097,,0.013,0.006,0.111,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Orange County,2,36,71,36071,Distribution of COVID-19 deaths (%),2387,478,0.59,0.163,,,,0.218,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Orange County,2,36,71,36071,Distribution of population (%),2387,478,0.627,0.106,0.002,0.028,0.021,0.216,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Queens County,1,36,81,36081,Distribution of all-cause deaths (%),15303,5445,0.327,0.207,,0.171,0.084,0.21,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Queens County,1,36,81,36081,Distribution of COVID-19 deaths (%),15303,5445,0.234,0.201,,0.176,0.091,0.297,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Queens County,1,36,81,36081,Distribution of population (%),15303,5445,0.249,0.179,0.003,0.265,0.022,0.282,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Richmond County,1,36,85,36085,Distribution of all-cause deaths (%),3566,984,0.68,0.098,,0.049,0.074,0.098,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Richmond County,1,36,85,36085,Distribution of COVID-19 deaths (%),3566,984,0.586,0.128,,0.058,0.083,0.144,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Richmond County,1,36,85,36085,Distribution of population (%),3566,984,0.596,0.094,0.001,0.107,0.016,0.186,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Rockland County,2,36,87,36087,Distribution of all-cause deaths (%),2174,658,0.678,0.156,,0.043,,0.12,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Rockland County,2,36,87,36087,Distribution of COVID-19 deaths (%),2174,658,0.559,0.213,,0.058,,0.167,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Rockland County,2,36,87,36087,Distribution of population (%),2174,658,0.627,0.112,0.001,0.061,0.015,0.184,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Suffolk County,2,36,103,36103,Distribution of all-cause deaths (%),11371,2705,0.796,0.077,0.001,0.021,0.005,0.1,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Suffolk County,2,36,103,36103,Distribution of COVID-19 deaths (%),11371,2705,0.666,0.104,,0.028,0.006,0.196,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Suffolk County,2,36,103,36103,Distribution of population (%),11371,2705,0.666,0.075,0.002,0.041,0.014,0.202,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,NY,Westchester County,2,36,119,36119,Distribution of all-cause deaths (%),6810,1884,0.669,0.157,,0.028,0.006,0.141,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Westchester County,2,36,119,36119,Distribution of COVID-19 deaths (%),6810,1884,0.566,0.185,,0.03,0.006,0.212,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,NY,Westchester County,2,36,119,36119,Distribution of population (%),6810,1884,0.526,0.138,0.001,0.063,0.016,0.255,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,OH,Cuyahoga County,1,39,35,39035,Distribution of all-cause deaths (%),11493,707,0.703,0.265,0.001,0.009,0.001,0.021,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,OH,Cuyahoga County,1,39,35,39035,Distribution of COVID-19 deaths (%),11493,707,0.679,0.291,,,,0.02,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Cuyahoga County,1,39,35,39035,Distribution of population (%),11493,707,0.586,0.297,0.002,0.033,0.02,0.063,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,OH,Franklin County,1,39,49,39049,Distribution of all-cause deaths (%),9631,740,0.763,0.2,,0.018,0.005,0.013,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Franklin County,1,39,49,39049,Distribution of COVID-19 deaths (%),9631,740,0.67,0.261,,0.031,,0.034,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Franklin County,1,39,49,39049,Distribution of population (%),9631,740,0.621,0.232,0.002,0.057,0.031,0.058,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,OH,Hamilton County,1,39,61,39061,Distribution of all-cause deaths (%),7025,338,0.772,0.208,,0.009,0.003,0.007,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Hamilton County,1,39,61,39061,Distribution of COVID-19 deaths (%),7025,338,0.692,0.272,,,,,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Hamilton County,1,39,61,39061,Distribution of population (%),7025,338,0.648,0.262,0.001,0.029,0.024,0.036,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,OH,Lucas County,3,39,95,39095,Distribution of all-cause deaths (%),4156,421,0.784,0.175,,0.004,0.003,0.033,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Lucas County,3,39,95,39095,Distribution of COVID-19 deaths (%),4156,421,0.717,0.219,,,,0.057,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Lucas County,3,39,95,39095,Distribution of population (%),4156,421,0.682,0.196,0.002,0.017,0.029,0.074,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,OH,Mahoning County,3,39,99,39099,Distribution of all-cause deaths (%),2596,285,0.844,0.128,,,,0.022,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Mahoning County,3,39,99,39099,Distribution of COVID-19 deaths (%),2596,285,0.839,0.144,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Mahoning County,3,39,99,39099,Distribution of population (%),2596,285,0.755,0.15,0.002,0.009,0.02,0.065,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,OH,Montgomery County,3,39,113,39113,Distribution of all-cause deaths (%),5389,232,0.796,0.184,,0.007,0.004,0.009,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Montgomery County,3,39,113,39113,Distribution of COVID-19 deaths (%),5389,232,0.711,0.254,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Montgomery County,3,39,113,39113,Distribution of population (%),5389,232,0.703,0.212,0.002,0.023,0.027,0.033,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,OH,Stark County,3,39,151,39151,Distribution of all-cause deaths (%),3254,178,0.92,0.07,,,0.004,0.003,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Stark County,3,39,151,39151,Distribution of COVID-19 deaths (%),3254,178,0.921,0.073,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Stark County,3,39,151,39151,Distribution of population (%),3254,178,0.862,0.078,0.002,0.009,0.026,0.022,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,OH,Summit County,3,39,153,39153,Distribution of all-cause deaths (%),4374,227,0.837,0.144,,0.01,0.003,0.005,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Summit County,3,39,153,39153,Distribution of COVID-19 deaths (%),4374,227,0.749,0.216,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OH,Summit County,3,39,153,39153,Distribution of population (%),4374,227,0.764,0.148,0.002,0.039,0.025,0.023,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,OK,Oklahoma County,1,40,109,40109,Distribution of all-cause deaths (%),7018,362,0.754,0.119,0.042,0.014,0.02,0.05,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,OK,Oklahoma County,1,40,109,40109,Distribution of COVID-19 deaths (%),7018,362,0.633,0.113,0.072,,0.028,0.133,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OK,Oklahoma County,1,40,109,40109,Distribution of population (%),7018,362,0.555,0.152,0.031,0.035,0.048,0.179,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,OK,Tulsa County,3,40,143,40143,Distribution of all-cause deaths (%),5774,360,0.763,0.087,0.08,0.01,0.034,0.026,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,OK,Tulsa County,3,40,143,40143,Distribution of COVID-19 deaths (%),5774,360,0.647,0.069,0.144,0.028,0.053,0.058,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,OK,Tulsa County,3,40,143,40143,Distribution of population (%),5774,360,0.612,0.103,0.06,0.035,0.057,0.133,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,OR,Multnomah County,1,41,51,41051,Distribution of all-cause deaths (%),4655,179,0.817,0.058,0.01,0.037,0.027,0.05,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,OR,Multnomah County,1,41,51,41051,Distribution of COVID-19 deaths (%),4655,179,0.648,0.056,,0.067,,0.196,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,OR,Multnomah County,1,41,51,41051,Distribution of population (%),4655,179,0.691,0.056,0.007,0.079,0.046,0.12,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Allegheny County,1,42,3,42003,Distribution of all-cause deaths (%),11381,424,0.858,0.123,,0.008,0.005,0.005,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Allegheny County,1,42,3,42003,Distribution of COVID-19 deaths (%),11381,424,0.795,0.186,,,,,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Allegheny County,1,42,3,42003,Distribution of population (%),11381,424,0.781,0.132,0.001,0.042,0.022,0.023,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Beaver County,2,42,7,42007,Distribution of all-cause deaths (%),1366,122,0.93,0.065,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Beaver County,2,42,7,42007,Distribution of COVID-19 deaths (%),1366,122,0.869,0.123,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Beaver County,2,42,7,42007,Distribution of population (%),1366,122,0.891,0.063,0.001,0.006,0.021,0.018,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Berks County,3,42,11,42011,Distribution of all-cause deaths (%),2948,385,0.867,0.032,,0.008,,0.091,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Berks County,3,42,11,42011,Distribution of COVID-19 deaths (%),2948,385,0.758,0.047,,,,0.182,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Berks County,3,42,11,42011,Distribution of population (%),2948,385,0.703,0.043,0.001,0.014,0.014,0.225,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Bucks County,2,42,17,42017,Distribution of all-cause deaths (%),4529,586,0.925,0.038,,0.019,,0.017,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Bucks County,2,42,17,42017,Distribution of COVID-19 deaths (%),4529,586,0.903,0.051,,0.017,,0.027,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Bucks County,2,42,17,42017,Distribution of population (%),4529,586,0.833,0.041,0.001,0.052,0.016,0.057,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Chester County,2,42,29,42029,Distribution of all-cause deaths (%),3182,422,0.889,0.074,,0.013,0.005,0.018,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Chester County,2,42,29,42029,Distribution of COVID-19 deaths (%),3182,422,0.82,0.13,,,,0.024,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Chester County,2,42,29,42029,Distribution of population (%),3182,422,0.788,0.057,0.001,0.061,0.017,0.076,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Cumberland County,3,42,41,42041,Distribution of all-cause deaths (%),1789,109,0.936,0.035,,0.011,,0.015,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Cumberland County,3,42,41,42041,Distribution of COVID-19 deaths (%),1789,109,0.862,0.092,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Cumberland County,3,42,41,42041,Distribution of population (%),1789,109,0.846,0.042,0.001,0.047,0.02,0.043,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Dauphin County,3,42,43,42043,Distribution of all-cause deaths (%),2426,201,0.8,0.129,,0.02,0.005,0.044,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Dauphin County,3,42,43,42043,Distribution of COVID-19 deaths (%),2426,201,0.721,0.194,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Dauphin County,3,42,43,42043,Distribution of population (%),2426,201,0.645,0.174,0.002,0.052,0.028,0.099,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Delaware County,2,42,45,42045,Distribution of all-cause deaths (%),3997,753,0.746,0.217,,0.017,0.003,0.017,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Delaware County,2,42,45,42045,Distribution of COVID-19 deaths (%),3997,753,0.688,0.274,,0.017,,0.021,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Delaware County,2,42,45,42045,Distribution of population (%),3997,753,0.656,0.22,0.001,0.062,0.02,0.041,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Lackawanna County,3,42,69,42069,Distribution of all-cause deaths (%),2246,241,0.948,0.022,,,,0.021,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Lackawanna County,3,42,69,42069,Distribution of COVID-19 deaths (%),2246,241,0.963,,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Lackawanna County,3,42,69,42069,Distribution of population (%),2246,241,0.838,0.031,0.001,0.03,0.015,0.084,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Lancaster County,3,42,71,42071,Distribution of all-cause deaths (%),3855,436,0.922,0.024,,0.008,0.004,0.041,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Lancaster County,3,42,71,42071,Distribution of COVID-19 deaths (%),3855,436,0.899,,,,,0.057,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Lancaster County,3,42,71,42071,Distribution of population (%),3855,436,0.813,0.036,0.001,0.024,0.016,0.11,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Lehigh County,3,42,77,42077,Distribution of all-cause deaths (%),3652,510,0.866,0.04,,0.009,0.004,0.082,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Lehigh County,3,42,77,42077,Distribution of COVID-19 deaths (%),3652,510,0.78,0.061,,,,0.149,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Lehigh County,3,42,77,42077,Distribution of population (%),3652,510,0.625,0.059,0.001,0.036,0.016,0.262,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Luzerne County,3,42,79,42079,Distribution of all-cause deaths (%),2897,187,0.943,0.023,,,,0.027,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Luzerne County,3,42,79,42079,Distribution of COVID-19 deaths (%),2897,187,0.877,,,,,0.096,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Luzerne County,3,42,79,42079,Distribution of population (%),2897,187,0.793,0.042,0.001,0.013,0.013,0.138,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Monroe County,4,42,89,42089,Distribution of all-cause deaths (%),1020,111,0.81,0.101,,,,0.074,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Monroe County,4,42,89,42089,Distribution of COVID-19 deaths (%),1020,111,0.748,0.153,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Monroe County,4,42,89,42089,Distribution of population (%),1020,111,0.645,0.137,0.002,0.025,0.021,0.17,Small metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Montgomery County,2,42,91,42091,Distribution of all-cause deaths (%),6720,1154,0.778,0.168,,0.026,0.004,0.023,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Montgomery County,2,42,91,42091,Distribution of COVID-19 deaths (%),6720,1154,0.641,0.283,,0.036,,0.036,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Montgomery County,2,42,91,42091,Distribution of population (%),6720,1154,0.75,0.094,0.001,0.08,0.02,0.054,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Northampton County,3,42,95,42095,Distribution of all-cause deaths (%),2111,276,0.897,0.044,,0.009,,0.049,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Northampton County,3,42,95,42095,Distribution of COVID-19 deaths (%),2111,276,0.873,0.051,,,,0.054,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Northampton County,3,42,95,42095,Distribution of population (%),2111,276,0.754,0.056,0.001,0.029,0.018,0.142,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,PA,Philadelphia County,1,42,101,42101,Distribution of all-cause deaths (%),12182,1650,0.439,0.445,,0.034,0.004,0.078,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Philadelphia County,1,42,101,42101,Distribution of COVID-19 deaths (%),12182,1650,0.358,0.505,,0.043,,0.091,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,Philadelphia County,1,42,101,42101,Distribution of population (%),12182,1650,0.343,0.405,0.002,0.076,0.02,0.152,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,PA,York County,3,42,133,42133,Distribution of all-cause deaths (%),2993,158,0.908,0.052,,0.004,,0.033,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,York County,3,42,133,42133,Distribution of COVID-19 deaths (%),2993,158,0.823,0.076,,,,0.095,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,PA,York County,3,42,133,42133,Distribution of population (%),2993,158,0.826,0.058,0.002,0.015,0.019,0.081,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,RI,Kent County,2,44,3,44003,Distribution of all-cause deaths (%),1126,115,0.972,0.01,,0.01,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,RI,Kent County,2,44,3,44003,Distribution of COVID-19 deaths (%),1126,115,0.939,,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,RI,Kent County,2,44,3,44003,Distribution of population (%),1126,115,0.874,0.019,0.003,0.028,0.019,0.057,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,RI,Providence County,1,44,7,44007,Distribution of all-cause deaths (%),5165,886,0.87,0.045,0.003,0.013,0.007,0.064,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,RI,Providence County,1,44,7,44007,Distribution of COVID-19 deaths (%),5165,886,0.809,0.065,,0.017,,0.103,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,RI,Providence County,1,44,7,44007,Distribution of population (%),5165,886,0.601,0.089,0.004,0.044,0.024,0.239,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,SC,Anderson County,3,45,7,45007,Distribution of all-cause deaths (%),1887,177,0.836,0.147,,,,0.008,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Anderson County,3,45,7,45007,Distribution of COVID-19 deaths (%),1887,177,0.78,0.175,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Anderson County,3,45,7,45007,Distribution of population (%),1887,177,0.771,0.16,0.002,0.01,0.017,0.04,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,SC,Charleston County,3,45,19,45019,Distribution of all-cause deaths (%),3678,356,0.639,0.327,,0.007,0.004,0.02,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Charleston County,3,45,19,45019,Distribution of COVID-19 deaths (%),3678,356,0.478,0.463,,,,0.037,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Charleston County,3,45,19,45019,Distribution of population (%),3678,356,0.652,0.259,0.002,0.018,0.016,0.053,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,SC,Florence County,4,45,41,45041,Distribution of all-cause deaths (%),2264,335,0.567,0.417,0.007,,,0.008,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Florence County,4,45,41,45041,Distribution of COVID-19 deaths (%),2264,335,0.424,0.552,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Florence County,4,45,41,45041,Distribution of population (%),2264,335,0.512,0.427,0.003,0.016,0.014,0.028,Small metro,
+10/07/2020,02/01/2020,10/03/2020,SC,Greenville County,3,45,45,45045,Distribution of all-cause deaths (%),4017,319,0.792,0.18,,0.005,,0.02,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Greenville County,3,45,45,45045,Distribution of COVID-19 deaths (%),4017,319,0.665,0.285,,,,0.041,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Greenville County,3,45,45,45045,Distribution of population (%),4017,319,0.68,0.179,0.002,0.026,0.018,0.095,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,SC,Greenwood County,5,45,47,45047,Distribution of all-cause deaths (%),829,101,0.668,0.316,,,,,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Greenwood County,5,45,47,45047,Distribution of COVID-19 deaths (%),829,101,0.614,0.366,,,,,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Greenwood County,5,45,47,45047,Distribution of population (%),829,101,0.594,0.316,0.002,0.013,0.013,0.062,Micropolitan,
+10/07/2020,02/01/2020,10/03/2020,SC,Horry County,3,45,51,45051,Distribution of all-cause deaths (%),3020,209,0.858,0.11,0.004,0.004,0.004,0.021,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,SC,Horry County,3,45,51,45051,Distribution of COVID-19 deaths (%),3020,209,0.708,0.23,,,,0.057,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Horry County,3,45,51,45051,Distribution of population (%),3020,209,0.777,0.125,0.004,0.013,0.019,0.061,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,SC,Lexington County,3,45,63,45063,Distribution of all-cause deaths (%),2133,166,0.819,0.155,,0.008,,0.014,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Lexington County,3,45,63,45063,Distribution of COVID-19 deaths (%),2133,166,0.717,0.271,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Lexington County,3,45,63,45063,Distribution of population (%),2133,166,0.742,0.152,0.004,0.022,0.019,0.063,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,SC,Orangeburg County,5,45,75,45075,Distribution of all-cause deaths (%),829,119,0.444,0.543,,,,,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Orangeburg County,5,45,75,45075,Distribution of COVID-19 deaths (%),829,119,0.353,0.639,,,,,Micropolitan,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Orangeburg County,5,45,75,45075,Distribution of population (%),829,119,0.333,0.615,0.006,0.009,0.013,0.024,Micropolitan,
+10/07/2020,02/01/2020,10/03/2020,SC,Richland County,3,45,79,45079,Distribution of all-cause deaths (%),3117,311,0.517,0.453,,0.007,,0.02,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Richland County,3,45,79,45079,Distribution of COVID-19 deaths (%),3117,311,0.412,0.537,,,,0.035,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Richland County,3,45,79,45079,Distribution of population (%),3117,311,0.415,0.478,0.003,0.029,0.022,0.053,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,SC,Spartanburg County,3,45,83,45083,Distribution of all-cause deaths (%),2769,250,0.783,0.19,,0.009,,0.016,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Spartanburg County,3,45,83,45083,Distribution of COVID-19 deaths (%),2769,250,0.68,0.268,,,,0.048,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SC,Spartanburg County,3,45,83,45083,Distribution of population (%),2769,250,0.678,0.204,0.002,0.025,0.018,0.073,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,SD,Minnehaha County,4,46,99,46099,Distribution of all-cause deaths (%),1721,148,0.891,0.013,0.064,0.009,0.008,0.015,Small metro,
+10/07/2020,02/01/2020,10/03/2020,SD,Minnehaha County,4,46,99,46099,Distribution of COVID-19 deaths (%),1721,148,0.77,,0.142,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,SD,Minnehaha County,4,46,99,46099,Distribution of population (%),1721,148,0.82,0.06,0.024,0.021,0.024,0.051,Small metro,
+10/07/2020,02/01/2020,10/03/2020,TN,Davidson County,1,47,37,47037,Distribution of all-cause deaths (%),6719,453,0.733,0.218,,0.011,0.005,0.032,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TN,Davidson County,1,47,37,47037,Distribution of COVID-19 deaths (%),6719,453,0.552,0.285,,0.022,,0.132,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TN,Davidson County,1,47,37,47037,Distribution of population (%),6719,453,0.563,0.269,0.003,0.039,0.023,0.104,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,TN,Hamilton County,3,47,65,47065,Distribution of all-cause deaths (%),3878,169,0.84,0.133,,0.006,,0.018,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TN,Hamilton County,3,47,65,47065,Distribution of COVID-19 deaths (%),3878,169,0.698,0.195,,,,0.089,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TN,Hamilton County,3,47,65,47065,Distribution of population (%),3878,169,0.709,0.19,0.002,0.021,0.017,0.06,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,TN,Knox County,3,47,93,47093,Distribution of all-cause deaths (%),4683,133,0.921,0.061,,0.004,,0.012,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TN,Knox County,3,47,93,47093,Distribution of COVID-19 deaths (%),4683,133,0.797,0.12,,,,,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TN,Knox County,3,47,93,47093,Distribution of population (%),4683,133,0.82,0.087,0.002,0.024,0.022,0.046,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,TN,Madison County,4,47,113,47113,Distribution of all-cause deaths (%),1470,171,0.693,0.293,,,,0.009,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TN,Madison County,4,47,113,47113,Distribution of COVID-19 deaths (%),1470,171,0.579,0.409,,,,,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TN,Madison County,4,47,113,47113,Distribution of population (%),1470,171,0.556,0.374,0.002,0.011,0.016,0.041,Small metro,
+10/07/2020,02/01/2020,10/03/2020,TN,Rutherford County,2,47,149,47149,Distribution of all-cause deaths (%),1963,127,0.839,0.123,,0.013,,0.023,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TN,Rutherford County,2,47,149,47149,Distribution of COVID-19 deaths (%),1963,127,0.724,0.181,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TN,Rutherford County,2,47,149,47149,Distribution of population (%),1963,127,0.691,0.158,0.003,0.035,0.026,0.087,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,TN,Shelby County,1,47,157,47157,Distribution of all-cause deaths (%),7524,494,0.467,0.498,,0.009,0.004,0.022,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TN,Shelby County,1,47,157,47157,Distribution of COVID-19 deaths (%),7524,494,0.344,0.601,,,,0.051,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TN,Shelby County,1,47,157,47157,Distribution of population (%),7524,494,0.353,0.537,0.002,0.028,0.015,0.066,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Bell County,3,48,27,48027,Distribution of all-cause deaths (%),2208,121,0.669,0.18,,0.02,0.008,0.12,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Bell County,3,48,27,48027,Distribution of COVID-19 deaths (%),2208,121,0.537,0.207,,,,0.223,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Bell County,3,48,27,48027,Distribution of population (%),2208,121,0.446,0.222,0.005,0.029,0.043,0.256,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Bexar County,1,48,29,48029,Distribution of all-cause deaths (%),12210,1738,0.404,0.072,0.002,0.011,0.003,0.509,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Bexar County,1,48,29,48029,Distribution of COVID-19 deaths (%),12210,1738,0.204,0.045,,0.007,,0.741,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Bexar County,1,48,29,48029,Distribution of population (%),12210,1738,0.271,0.074,0.002,0.03,0.016,0.607,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Brazoria County,2,48,39,48039,Distribution of all-cause deaths (%),1611,133,0.611,0.217,,0.024,,0.146,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Brazoria County,2,48,39,48039,Distribution of COVID-19 deaths (%),1611,133,0.331,0.316,,,,0.316,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Brazoria County,2,48,39,48039,Distribution of population (%),1611,133,0.453,0.144,0.003,0.068,0.017,0.316,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Brazos County,4,48,41,48041,Distribution of all-cause deaths (%),1115,111,0.721,0.157,,0.01,,0.11,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Brazos County,4,48,41,48041,Distribution of COVID-19 deaths (%),1115,111,0.532,0.261,,,,0.198,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Brazos County,4,48,41,48041,Distribution of population (%),1115,111,0.552,0.106,0.003,0.062,0.016,0.262,Small metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Cameron County,3,48,61,48061,Distribution of all-cause deaths (%),3200,1036,0.163,,,0.003,,0.831,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Cameron County,3,48,61,48061,Distribution of COVID-19 deaths (%),3200,1036,0.075,,,,,0.921,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Cameron County,3,48,61,48061,Distribution of population (%),3200,1036,0.086,0.004,0.001,0.007,0.002,0.9,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Collin County,1,48,85,48085,Distribution of all-cause deaths (%),4427,264,0.765,0.088,0.003,0.063,0.004,0.078,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Collin County,1,48,85,48085,Distribution of COVID-19 deaths (%),4427,264,0.602,0.087,,0.064,,0.231,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Collin County,1,48,85,48085,Distribution of population (%),4427,264,0.551,0.104,0.004,0.161,0.025,0.155,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Comal County,2,48,91,48091,Distribution of all-cause deaths (%),1017,118,0.792,0.017,,,,0.187,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Comal County,2,48,91,48091,Distribution of COVID-19 deaths (%),1017,118,0.525,,,,,0.449,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Comal County,2,48,91,48091,Distribution of population (%),1017,118,0.665,0.023,0.004,0.013,0.015,0.281,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Dallas County,1,48,113,48113,Distribution of all-cause deaths (%),12845,1072,0.503,0.281,0.001,0.026,0.002,0.187,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Dallas County,1,48,113,48113,Distribution of COVID-19 deaths (%),12845,1072,0.271,0.251,,0.022,,0.451,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Dallas County,1,48,113,48113,Distribution of population (%),12845,1072,0.283,0.227,0.003,0.065,0.015,0.408,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Denton County,2,48,121,48121,Distribution of all-cause deaths (%),3007,182,0.811,0.073,,0.038,,0.075,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Denton County,2,48,121,48121,Distribution of COVID-19 deaths (%),3007,182,0.604,0.088,,,,0.264,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Denton County,2,48,121,48121,Distribution of population (%),3007,182,0.576,0.105,0.004,0.095,0.023,0.196,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Ector County,4,48,135,48135,Distribution of all-cause deaths (%),1065,119,0.547,0.048,,,,0.396,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Ector County,4,48,135,48135,Distribution of COVID-19 deaths (%),1065,119,0.261,,,,,0.697,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Ector County,4,48,135,48135,Distribution of population (%),1065,119,0.304,0.044,0.004,0.011,0.011,0.626,Small metro,
+10/07/2020,02/01/2020,10/03/2020,TX,El Paso County,3,48,141,48141,Distribution of all-cause deaths (%),4869,583,0.196,0.025,0.003,0.002,0.005,0.769,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,TX,El Paso County,3,48,141,48141,Distribution of COVID-19 deaths (%),4869,583,0.11,,,,,0.875,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,El Paso County,3,48,141,48141,Distribution of population (%),4869,583,0.116,0.031,0.003,0.011,0.01,0.829,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Fort Bend County,2,48,157,48157,Distribution of all-cause deaths (%),2625,257,0.476,0.237,,0.116,0.005,0.165,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Fort Bend County,2,48,157,48157,Distribution of COVID-19 deaths (%),2625,257,0.327,0.268,,0.109,,0.296,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Fort Bend County,2,48,157,48157,Distribution of population (%),2625,257,0.319,0.204,0.002,0.207,0.019,0.249,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Galveston County,2,48,167,48167,Distribution of all-cause deaths (%),2018,288,0.637,0.168,,0.017,,0.173,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Galveston County,2,48,167,48167,Distribution of COVID-19 deaths (%),2018,288,0.375,0.222,,,,0.385,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Galveston County,2,48,167,48167,Distribution of population (%),2018,288,0.567,0.126,0.004,0.033,0.017,0.254,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Gregg County,4,48,183,48183,Distribution of all-cause deaths (%),1357,106,0.729,0.219,,,,0.042,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Gregg County,4,48,183,48183,Distribution of COVID-19 deaths (%),1357,106,0.547,0.311,,,,0.123,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Gregg County,4,48,183,48183,Distribution of population (%),1357,106,0.57,0.202,0.004,0.013,0.018,0.192,Small metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Harris County,1,48,201,48201,Distribution of all-cause deaths (%),23692,2790,0.475,0.234,0.001,0.047,0.003,0.24,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Harris County,1,48,201,48201,Distribution of COVID-19 deaths (%),23692,2790,0.26,0.194,,0.052,,0.491,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Harris County,1,48,201,48201,Distribution of population (%),23692,2790,0.287,0.188,0.002,0.071,0.015,0.437,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Hidalgo County,3,48,215,48215,Distribution of all-cause deaths (%),5101,1606,0.125,,,,,0.873,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Hidalgo County,3,48,215,48215,Distribution of COVID-19 deaths (%),5101,1606,0.052,,,,,0.946,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Hidalgo County,3,48,215,48215,Distribution of population (%),5101,1606,0.059,0.004,0.001,0.009,0.002,0.925,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Jefferson County,3,48,245,48245,Distribution of all-cause deaths (%),2342,200,0.636,0.302,,0.011,,0.049,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Jefferson County,3,48,245,48245,Distribution of COVID-19 deaths (%),2342,200,0.54,0.335,,,,0.11,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Jefferson County,3,48,245,48245,Distribution of population (%),2342,200,0.394,0.331,0.003,0.038,0.014,0.221,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Lubbock County,3,48,303,48303,Distribution of all-cause deaths (%),2735,257,0.633,0.068,,0.008,,0.288,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Lubbock County,3,48,303,48303,Distribution of COVID-19 deaths (%),2735,257,0.405,0.062,,,,0.529,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Lubbock County,3,48,303,48303,Distribution of population (%),2735,257,0.527,0.07,0.004,0.022,0.014,0.363,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,TX,McLennan County,3,48,309,48309,Distribution of all-cause deaths (%),1894,134,0.727,0.156,,,,0.106,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,McLennan County,3,48,309,48309,Distribution of COVID-19 deaths (%),1894,134,0.493,0.187,,,,0.299,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,McLennan County,3,48,309,48309,Distribution of population (%),1894,134,0.554,0.139,0.003,0.016,0.017,0.27,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Montgomery County,2,48,339,48339,Distribution of all-cause deaths (%),3886,301,0.775,0.094,,0.015,0.003,0.112,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Montgomery County,2,48,339,48339,Distribution of COVID-19 deaths (%),3886,301,0.472,0.15,,,,0.369,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Montgomery County,2,48,339,48339,Distribution of population (%),3886,301,0.644,0.053,0.004,0.031,0.016,0.252,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Nueces County,3,48,355,48355,Distribution of all-cause deaths (%),2943,523,0.418,0.034,,0.01,,0.536,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Nueces County,3,48,355,48355,Distribution of COVID-19 deaths (%),2943,523,0.239,,,,,0.736,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Nueces County,3,48,355,48355,Distribution of population (%),2943,523,0.287,0.035,0.003,0.02,0.011,0.645,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Potter County,3,48,375,48375,Distribution of all-cause deaths (%),1551,156,0.742,0.061,,0.021,,0.17,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Potter County,3,48,375,48375,Distribution of COVID-19 deaths (%),1551,156,0.462,,,0.064,,0.41,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Potter County,3,48,375,48375,Distribution of population (%),1551,156,0.432,0.101,0.005,0.056,0.015,0.391,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Smith County,4,48,423,48423,Distribution of all-cause deaths (%),2774,256,0.791,0.156,,0.004,,0.047,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Smith County,4,48,423,48423,Distribution of COVID-19 deaths (%),2774,256,0.641,0.199,,,,0.156,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Smith County,4,48,423,48423,Distribution of population (%),2774,256,0.591,0.173,0.003,0.016,0.016,0.201,Small metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Tarrant County,1,48,439,48439,Distribution of all-cause deaths (%),11517,902,0.691,0.146,0.001,0.026,0.005,0.131,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Tarrant County,1,48,439,48439,Distribution of COVID-19 deaths (%),11517,902,0.484,0.173,,0.028,,0.308,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Tarrant County,1,48,439,48439,Distribution of population (%),11517,902,0.453,0.17,0.004,0.056,0.022,0.295,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Travis County,1,48,453,48453,Distribution of all-cause deaths (%),5145,505,0.639,0.112,,0.024,0.004,0.22,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Travis County,1,48,453,48453,Distribution of COVID-19 deaths (%),5145,505,0.366,0.099,,0.02,,0.507,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Travis County,1,48,453,48453,Distribution of population (%),5145,505,0.489,0.08,0.002,0.072,0.02,0.336,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Victoria County,4,48,469,48469,Distribution of all-cause deaths (%),877,167,0.578,0.07,,,,0.34,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Victoria County,4,48,469,48469,Distribution of COVID-19 deaths (%),877,167,0.407,0.09,,,,0.497,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Victoria County,4,48,469,48469,Distribution of population (%),877,167,0.439,0.057,0.003,0.013,0.01,0.478,Small metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Webb County,3,48,479,48479,Distribution of all-cause deaths (%),1290,284,0.034,,,,,0.96,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Webb County,3,48,479,48479,Distribution of COVID-19 deaths (%),1290,284,,,,,,0.975,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Webb County,3,48,479,48479,Distribution of population (%),1290,284,0.036,0.003,0,0.005,0.001,0.954,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,TX,Williamson County,2,48,491,48491,Distribution of all-cause deaths (%),2563,190,0.804,0.058,,0.022,0.004,0.112,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Williamson County,2,48,491,48491,Distribution of COVID-19 deaths (%),2563,190,0.542,0.068,,,,0.363,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,TX,Williamson County,2,48,491,48491,Distribution of population (%),2563,190,0.58,0.067,0.003,0.078,0.024,0.248,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,UT,Salt Lake County,1,49,35,49035,Distribution of all-cause deaths (%),5666,304,0.831,0.014,0.013,0.022,0.026,0.094,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,UT,Salt Lake County,1,49,35,49035,Distribution of COVID-19 deaths (%),5666,304,0.559,,0.056,0.056,0.072,0.247,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,UT,Salt Lake County,1,49,35,49035,Distribution of population (%),5666,304,0.703,0.018,0.007,0.044,0.04,0.188,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,VA,Arlington County,1,51,13,51013,Distribution of all-cause deaths (%),1056,165,0.603,0.193,,0.091,,0.106,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Arlington County,1,51,13,51013,Distribution of COVID-19 deaths (%),1056,165,0.479,0.255,,0.085,,0.182,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Arlington County,1,51,13,51013,Distribution of population (%),1056,165,0.614,0.091,0.002,0.108,0.03,0.156,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,VA,Fairfax County,2,51,59,51059,Distribution of all-cause deaths (%),3992,513,0.673,0.103,,0.127,0.006,0.091,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Fairfax County,2,51,59,51059,Distribution of COVID-19 deaths (%),3992,513,0.534,0.111,,0.138,,0.211,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Fairfax County,2,51,59,51059,Distribution of population (%),3992,513,0.5,0.099,0.001,0.199,0.035,0.165,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,VA,Henrico County,2,51,87,51087,Distribution of all-cause deaths (%),2466,192,0.663,0.285,,0.018,0.011,0.019,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Henrico County,2,51,87,51087,Distribution of COVID-19 deaths (%),2466,192,0.552,0.375,,,,,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Henrico County,2,51,87,51087,Distribution of population (%),2466,192,0.522,0.302,0.002,0.09,0.024,0.06,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,VA,Loudoun County,2,51,107,51107,Distribution of all-cause deaths (%),1325,131,0.765,0.088,,0.089,,0.053,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Loudoun County,2,51,107,51107,Distribution of COVID-19 deaths (%),1325,131,0.718,0.076,,0.122,,0.084,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Loudoun County,2,51,107,51107,Distribution of population (%),1325,131,0.548,0.075,0.002,0.201,0.035,0.139,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,VA,Prince William County,2,51,153,51153,Distribution of all-cause deaths (%),1271,123,0.622,0.198,,0.061,0.014,0.103,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Prince William County,2,51,153,51153,Distribution of COVID-19 deaths (%),1271,123,0.35,0.309,,,,0.26,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Prince William County,2,51,153,51153,Distribution of population (%),1271,123,0.415,0.207,0.002,0.092,0.04,0.245,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,VA,Norfolk city,1,51,710,51710,Distribution of all-cause deaths (%),1955,105,0.473,0.456,,0.029,0.02,0.022,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Norfolk city,1,51,710,51710,Distribution of COVID-19 deaths (%),1955,105,0.352,0.61,,,,,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Norfolk city,1,51,710,51710,Distribution of population (%),1955,105,0.433,0.406,0.004,0.037,0.035,0.085,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,VA,Richmond city,1,51,760,51760,Distribution of all-cause deaths (%),2176,102,0.456,0.496,,0.011,0.007,0.027,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Richmond city,1,51,760,51760,Distribution of COVID-19 deaths (%),2176,102,0.392,0.49,,,,,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,VA,Richmond city,1,51,760,51760,Distribution of population (%),2176,102,0.422,0.459,0.003,0.022,0.021,0.073,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,WA,Benton County,3,53,5,53005,Distribution of all-cause deaths (%),1420,154,0.826,0.012,0.01,0.017,0.008,0.127,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,WA,Benton County,3,53,5,53005,Distribution of COVID-19 deaths (%),1420,154,0.558,,,,,0.37,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,WA,Benton County,3,53,5,53005,Distribution of population (%),1420,154,0.694,0.015,0.007,0.031,0.027,0.226,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,WA,King County,1,53,33,53033,Distribution of all-cause deaths (%),10147,721,0.748,0.067,0.012,0.102,0.022,0.05,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,WA,King County,1,53,33,53033,Distribution of COVID-19 deaths (%),10147,721,0.662,0.067,,0.14,0.017,0.108,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,WA,King County,1,53,33,53033,Distribution of population (%),10147,721,0.581,0.067,0.006,0.195,0.053,0.099,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,WA,Pierce County,2,53,53,53053,Distribution of all-cause deaths (%),5127,178,0.805,0.065,0.013,0.05,0.033,0.034,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,WA,Pierce County,2,53,53,53053,Distribution of COVID-19 deaths (%),5127,178,0.713,0.067,,0.073,0.062,0.067,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,WA,Pierce County,2,53,53,53053,Distribution of population (%),5127,178,0.657,0.071,0.012,0.068,0.079,0.114,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,WA,Snohomish County,2,53,61,53061,Distribution of all-cause deaths (%),3836,167,0.869,0.02,0.013,0.051,0.019,0.028,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,WA,Snohomish County,2,53,61,53061,Distribution of COVID-19 deaths (%),3836,167,0.796,,,0.066,,0.084,Large fringe metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,WA,Snohomish County,2,53,61,53061,Distribution of population (%),3836,167,0.681,0.035,0.011,0.118,0.049,0.106,Large fringe metro,
+10/07/2020,02/01/2020,10/03/2020,WA,Spokane County,3,53,63,53063,Distribution of all-cause deaths (%),3836,171,0.918,0.012,0.017,0.012,0.015,0.027,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,WA,Spokane County,3,53,63,53063,Distribution of COVID-19 deaths (%),3836,171,0.801,,,,,0.07,Medium metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,WA,Spokane County,3,53,63,53063,Distribution of population (%),3836,171,0.84,0.019,0.014,0.024,0.042,0.061,Medium metro,
+10/07/2020,02/01/2020,10/03/2020,WA,Yakima County,4,53,77,53077,Distribution of all-cause deaths (%),1594,212,0.718,0.009,0.068,0.009,0.008,0.188,Small metro,
+10/07/2020,02/01/2020,10/03/2020,WA,Yakima County,4,53,77,53077,Distribution of COVID-19 deaths (%),1594,212,0.557,,0.118,,,0.292,Small metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,WA,Yakima County,4,53,77,53077,Distribution of population (%),1594,212,0.423,0.008,0.037,0.012,0.018,0.502,Small metro,
+10/07/2020,02/01/2020,10/03/2020,WI,Milwaukee County,1,55,79,55079,Distribution of all-cause deaths (%),7059,521,0.661,0.251,0.004,0.019,0.004,0.061,Large central metro,
+10/07/2020,02/01/2020,10/03/2020,WI,Milwaukee County,1,55,79,55079,Distribution of COVID-19 deaths (%),7059,521,0.472,0.344,,0.036,,0.142,Large central metro,Data based on counts less than 10 suppressed
+10/07/2020,02/01/2020,10/03/2020,WI,Milwaukee County,1,55,79,55079,Distribution of population (%),7059,521,0.506,0.263,0.006,0.046,0.024,0.156,Large central metro,
