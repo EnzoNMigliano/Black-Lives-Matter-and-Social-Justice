@@ -9,7 +9,7 @@ This project focus on the Black Lives Matter Movement trough a statistical analy
 
 ## Analytics-Dream-Team Members
 
- - Adriana Ortiz
+ - Adriana Ortiz (@adriortizb)
  
  - Enzo Novi Migliano (@EnzoNMigliano)
  
