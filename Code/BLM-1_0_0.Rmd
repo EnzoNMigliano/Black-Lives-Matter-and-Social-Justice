@@ -43,3 +43,6 @@ library(forecast)
 ```
 
 # conclusion
+
+
+The is discrmination
