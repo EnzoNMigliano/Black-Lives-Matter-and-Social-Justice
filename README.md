@@ -1,4 +1,4 @@
-![BLM PHOTO](https://cdn-images.rtp.pt/icm/noticias/images/4c/4c6ee433fd03a0a284dd634d2fe4b681?w=860&q=90&rect=0,146,1233,676) <br />
+![BLM PHOTO](https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Images/Black%20Lives%20Matter.jpg) <br />
 Photo: Andrew Kelly - Reuters
 
 
