@@ -84,6 +84,9 @@ Our team collected more than 2gb worth of data from different reliable sources s
 
 
 ### Sample Graphs and Insights <br />
+
+**Insights**
+
 **The Top 3 States With More Police Kills 2015-2020(OCT)**
 
 State | Number of Deaths by the Police | Mean Age | SD Age
@@ -96,6 +99,11 @@ Florida | 329 | 38.2 | 13.8
 
 <br />
 
+
+**Graphs**
+
+
+<br />
 
 ## Instructions for Running the Code
 
