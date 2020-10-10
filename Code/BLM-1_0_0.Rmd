@@ -105,12 +105,15 @@ NY_StopFrisk_2018 <- read_csv("https://media.githubusercontent.com/media/EnzoNMi
 
 NY_StopFrisk_2019 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2019.csv")
 
+Washington_post_Shootings <-
+  read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/shootings_wash_post.csv")
+
 ```
 
 # conclusion
 
 
-
+We need a conclusion.
 
 
 
