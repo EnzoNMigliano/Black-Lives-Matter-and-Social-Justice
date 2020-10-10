@@ -60,6 +60,8 @@ library(caret)
 library(forecast)
 ```
 
+## Procedures
+
 ### Loading Data sets for the analysis
 
 The code below will load all the data sets the team stored in the GitHub server.
@@ -355,7 +357,7 @@ This data set is tidy, no further action required.
 #### Tidying Adriana
 
 
-## Procedures
+### Merging Relational Data
 
 
 # Results
