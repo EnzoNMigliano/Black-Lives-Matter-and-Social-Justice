@@ -157,6 +157,7 @@ THis is incredible data set maintained by the local government from Chicago wher
 ##### **COntract_Police**
 
 
+This data set maintained by the 
 
 ##### **Covid_Deaths_Race**
 
@@ -167,7 +168,7 @@ This data set maintained by the Center for Disease COntrol and Prevention lists 
 ##### **Dallas_Arrests**
 
 
-This
+This data set maintained by the local government of Dallas lists multiple information of arrest performed from 2014 to 2020 in the city of Dallas.
 
 ##### **Eduction_Census**
 
