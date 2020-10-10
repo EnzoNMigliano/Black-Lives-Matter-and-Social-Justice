@@ -222,9 +222,13 @@ The Covid Deaths by Race data set is not tidy yet. THe data set has one one that
 
 **Dallas Arrests**
 
+In order to check if the data is tidy lets visualize the data set.
+
 ```{r}
 View(Dallas_Arrests)
+Dallas_Arrests
 ```
+
 
 The Dallas Arrest Data set is not tidy yet. The data data set has some variables with two values in one cell. For example,  the observations of the variable "ArArrestDate" have two values per cell the day and the time. Therefore, we need to separate the values into to new complete variables. 
 
@@ -243,14 +247,22 @@ DallasArrestTidy <-
 
 *The tidy data set*
 
-The tidy data set will be called "DallasArrestTidy". In such data set, we transformed through the code above the variable (of the original data set) "ArArrestDate" into the variables "ArArrestDay" and "ArArrestTime" (in the tidy data set), also we the transformed the variable "ArBkDate" (of the original data set) into the variables "ArBkDay" and "ArBkTime" (in the tidy data set).
+The tidy data set will be called "DallasArrestTidy". In such data set, we transformed through the code above the variable (of the original data set) "ArArrestDate" into the variables "ArArrestDay" and "ArArrestTime" (in the tidy data set), also we the transformed the variable "ArBkDate" (of the original data set) into the variables "ArBkDay" and "ArBkTime" (in the tidy data set). see the new data set below:
+
+```{r}
+DallasArrestTidy
+```
+
 
 
 
 **Education Cencus**
 
+In order to check if the data is tidy lets visualize the data set.
+
 ```{r}
 View(Eduction_Census)
+Eduction_Census
 ```
 
 
