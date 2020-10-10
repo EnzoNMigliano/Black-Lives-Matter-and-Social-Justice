@@ -134,6 +134,14 @@ Washington_post_Shootings <-
 
 ```
 
+#### Description of the data sets
+
+**VADIR_NY**
+
+This is a conjunct of three data sets on reports of different schools according to its neighborhood in New York City. The reports range from fights to murder. There are three data sets with data collected by the local government of New York City from 2010 to 2015.
+
+
+
 ### Tidying the Data Sets
 
 Data sets contain incredible value for the most diverse analysis. However, in order to complete extract such intrinsic value all data sets must be tidy, in order words, the data sets must organized in a logical manner for the analysis. In the next section all the tidying performed in the study is registered.
