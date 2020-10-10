@@ -12,7 +12,9 @@ Your code must contain title, authors, project abstract (problem statement, desc
 Do not leave unused code in the file.
 
 # Abstract
-The lives of African Americans has historically been disrespeted. The disparity between the treatment of difererent races in the American society has a long scope. The problem has different facets and different implacaitons in day to day of a nation.
+
+
+The lives of African Americans have historically been disrespected. The treatment disparity of different ethnicities in the American society has a long and diverse scope. However, Under the following research question and problem statement: Do African Americans are significantly treated different in society than to other ethnicities in the United States? The presented study focused on the facets of the education, health, and law enforcement societal interaction. Through an archival analysis of governmental and public available data different statistical tests such as time series, linear and non-linear predictive models, and descriptive statistics will address the following hypothesis: **THe hypothesis are missing** . The current study provided great insight on the current situation of the Ethnical disparity of the American, as well possible solutions for the problem **We Need to make a better COnclusion**.
 
 # Instaling Necessary Packages
 
