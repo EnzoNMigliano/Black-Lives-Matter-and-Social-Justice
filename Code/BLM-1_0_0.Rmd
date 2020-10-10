@@ -78,7 +78,7 @@ LA_Crime <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/An
 Dallas_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/crime_data/Dallas%20Police%20Arrests.csv")
 
 Chicago_Crimes_2011topresent <- 
-  read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/crime_data/Chicago%20Crimes_-_2001_to_Present.csv")
+  as.tibble(read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/crime_data/Chicago%20Crimes_-_2001_to_Present.csv"))
 
 # Analytics-Dream-Team/Data/BLM Diverse Data/NYC_stop_frisk/
 
