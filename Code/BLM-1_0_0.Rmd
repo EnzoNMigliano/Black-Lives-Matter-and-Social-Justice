@@ -157,7 +157,7 @@ THis is incredible data set maintained by the local government from Chicago wher
 ##### **COntract_Police**
 
 
-This data set maintained by the 
+This data set maintained by the non governmental organization "Check the Police" lists the contract provisions with the police unions in the United States.
 
 ##### **Covid_Deaths_Race**
 
@@ -178,7 +178,7 @@ This Data maintained by the United States Census Bureau lists several indicators
 ##### **Employment_FBI**
 
 
-This data set maintaned by the Federal Bureau of Investigation has informaiton by the civilians employed in the law enforcement agencies, as the number of active officer in different regions of the United States.
+This data set maintained by the Federal Bureau of Investigation has information by the civilians employed in the law enforcement agencies, as the number of active officer in different regions of the United States.
 
 
 ##### **Equipment_police**
@@ -226,7 +226,7 @@ This
 Data sets contain incredible value for the most diverse analysis. However, in order to complete extract such intrinsic value all data sets must be tidy, in order words, the data sets must organized in a logical manner for the analysis. In the next section all the tidying performed in the study is registered.
 
 
-#### Tidying Enzo
+#### Tidying
 
 This section contains the names of the data sets and it status regarding its organization.
 
@@ -456,6 +456,10 @@ This data set is tidy, no further action required.
 ### Merging Relational Data
 
 The data collected for the study has several distinct data sets. Some data sets, however, have an intrinsic relation with each other, in other words they have a relation in the observations that they recorded. For example, the data sets about the stop and frisk in New York City are almost the same, the difference is the time in which the observations were recorded (i.e., the year in which it was recorded). Therefore, such data sets can be merged into one for a more meaningful analysis with more observations. The current study merged the following data sets together:
+
+### Exploratory analysis
+
+The team performed an exploratory analysis of the data sets in order to get familiarized with the information available in the data sets. The exploratory analysis is strongly related with the results section of the present study.
 
 
 # Results
