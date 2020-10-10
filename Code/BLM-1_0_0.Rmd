@@ -22,7 +22,15 @@ The lives of African Americans have historically been disrespected. The treatmen
 
 The data utilized in the analysis was collected from different reliable sources (e.g., government, news papers, Kaggle). The was collected in the month of September and October of 2020, and it was uploaded into an online repository in the web server "GitHub".
 
+
+## Instruments
+
+### SOftware
+
+In order to perform the analysis of the data we utilized the software R(Version 4.0.2), emulated in the Rstudio(Version 1.3.1073). In order to perform the version control of the documetns throughout the study was utilized in the Software Git in connection with the server of GitHub.
+
 ### Instaling Necessary Packages
+
 
 ```{r}
 
