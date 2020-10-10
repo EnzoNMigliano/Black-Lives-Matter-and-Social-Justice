@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Black Lives Matter - Analytics Dream Team"
 author: "Adriana Ortiz, Enzo Novi Migliano, and Juan Zambrano"
@@ -25,6 +26,7 @@ Do not leave unused code in the file.
 
 ```{r}
 library(tidyverse)
+
 ```
 
 # Loading Data sets for the analysis
@@ -120,3 +122,139 @@ NY_StopFrisk_2019 <- read.cvs("https://media.githubusercontent.com/media/EnzoNMi
 
 
 
+=======
+---
+title: "Black Lives Matter - Analytics Dream Team"
+author: "Adriana Ortiz, Enzo Novi Migliano, and Juan Zambrano"
+output: html_notebook
+---
+
+**What should be in our R markdown**
+
+R Code
+Produce a R markdown of your analyses as a nb.html (not from knitr). 
+Your code must contain title, authors, project abstract (problem statement, description, and conclusions), appropriate headings (#), detailed explanations of what each chunk does, and code chunks with comments.
+Do not leave unused code in the file.
+
+# Abstract
+
+
+The lives of African Americans have historically been disrespected. The treatment disparity of different ethnicities in the American society has a long and diverse scope. However, Under the following research question and problem statement: Do African Americans are significantly treated different in society than to other ethnicities in the United States? The presented study focused on the facets of the education, health, and law enforcement societal interaction. Through an archival analysis of governmental and public available data different statistical tests such as time series, linear and non-linear predictive models, and descriptive statistics will address the following hypothesis: **THe hypothesis are missing** . The current study provided great insight on the current situation of the Ethnical disparity of the American, as well possible solutions for the problem **We Need to make a better COnclusion**.
+
+# Instaling Necessary Packages
+
+```{r}
+
+# install.packages("tidyverse")
+# install.packages(corrplot)
+# install.packages("caTools")
+# install.packeges("caret")
+# install.packages("forecast")
+
+```
+
+
+# Loading Necessary Libraries
+
+```{r}
+library(tidyverse)
+library(corrplot)
+library(caTools)
+library(caret)
+library(forecast)
+```
+
+# Loading Data sets for the analysis
+
+
+```{r}
+# Analytics-Dream-Team/Data
+
+Covid_Deaths_Race <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/Provisional_COVID-19_Death_Counts_by_County_and_Race_CDC_OCT1.csv")
+
+All_Illness_Deaths_Rate <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/Cumulative_Provisional_Counts_of_Deaths_by_Sex__Race__and_Age_CDC_AUG10.csv")
+
+'2010&2011_Vadir_NY' <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/2014-2015_VADIR_INCIDENTS-CITY_OF_NEW_YORK.csv")
+
+'2012&2013_Vadir_NY' <- 
+  read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/2012-2013_VADIR_INCIDENTS-CITY_OF%20_NEW%20YORK.csv")
+
+'2014&2015_Vadir_NY' <- 
+  read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/2014-2015_VADIR_INCIDENTS-CITY_OF_NEW_YORK.csv")
+
+# Analytics-Dream-Team/Data/BLM Diverse Data/police_info/
+
+Police_Budget <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/budgets.csv")
+
+Equipment_Police <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/dod_equipment_purchases.csv")
+
+Contract_Police <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/police_contracts.csv")
+
+Employment_FBI <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/police_employment_fbi.csv")
+
+Police_Policies <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/police_policies.csv")
+
+# Analytics-Dream-Team/Data/BLM Diverse Data/demographics/
+
+Poverty_Census <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/poverty_census_bureau.csv")
+
+Politics_538 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/politics_538.csv")
+
+Housing <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/housing.csv")
+
+Eduction_Census <- read.csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/education_census_bureau.csv")
+
+# Analytics-Dream-Team/Data/BLM Diverse Data/crime_data/
+
+Juvenile_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/crime_data/juvenile_arrests.csv")
+
+NYPD_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/crime_data/NYPD_Arrests_Data__Historic_.csv")
+
+LA_Crime <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/crime_data/LA%20Crime_Data_from_2010_to_2019.csv")
+
+Dallas_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/crime_data/Dallas%20Police%20Arrests.csv")
+
+Chicago_Crimes_2011topresent <- 
+  read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/crime_data/Chicago%20Crimes_-_2001_to_Present.csv")
+
+# Analytics-Dream-Team/Data/BLM Diverse Data/NYC_stop_frisk/
+
+NY_StopFrisk_2015 <- 
+  read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2015.csv")
+
+NY_StopFrisk_2016 <- read.csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2016.csv")
+
+NY_StopFrisk_2017 <- read.csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2017.csv")
+
+NY_StopFrisk_2018 <- read.csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2018.csv")
+
+NY_StopFrisk_2019 <- read.cvs("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2019.csv")
+
+```
+
+# conclusion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> ca5509fc716c32a039971a8b91121e5fd9dbdc23
