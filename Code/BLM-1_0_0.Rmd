@@ -110,6 +110,22 @@ Washington_post_Shootings <-
 
 ```
 
+# Tidying the data
+
+## Tidying Enzo
+
+```{r}
+View(`2010&2011_Vadir_NY`)
+
+```
+
+
+## Tidying Juan 
+
+
+## Tidying Adriana
+
+
 # conclusion
 
 
