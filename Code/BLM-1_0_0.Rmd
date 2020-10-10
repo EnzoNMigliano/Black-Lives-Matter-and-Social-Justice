@@ -178,7 +178,7 @@ This Data maintained by the United States Census Bureau lists several indicators
 ##### **Employment_FBI**
 
 
-This
+This data set maintaned by the Federal Bureau of Investigation has informaiton by the civilians employed in the law enforcement agencies, as the number of active officer in different regions of the United States.
 
 
 ##### **Equipment_police**
