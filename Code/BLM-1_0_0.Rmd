@@ -4,38 +4,34 @@ author: "Adriana Ortiz, Enzo Novi Migliano, and Juan Zambrano"
 output: html_notebook
 ---
 
-
-**What should be in our R markdown**
-
-R Code
-Produce a R markdown of your analyses as a nb.html (not from knitr). 
-Your code must contain title, authors, project abstract (problem statement, description, and conclusions), appropriate headings (#), detailed explanations of what each chunk does, and code chunks with comments.
-Do not leave unused code in the file.
-
 # Abstract
 
 
 The lives of African Americans have historically been disrespected. The treatment disparity of different ethnicities in the American society has a long and diverse scope. However, Under the following research question and problem statement: Do African Americans are significantly treated different in society than to other ethnicities in the United States? The presented study focused on the facets of the education, health, and law enforcement societal interaction. Through an archival analysis of governmental and public available data different statistical tests such as time series, linear and non-linear predictive models, and descriptive statistics will address the following hypothesis: **THe hypothesis are missing** . The current study provided great insight on the current situation of the Ethnical disparity of the American, as well possible solutions for the problem **We Need to make a better COnclusion**.
 
+
 # Title of the Study
 
 **WE NEED AN INTRODUCTION**
 
+
 # Method
+
 ## Data
 
-The data utilized in the analysis was collected from different reliable sources (e.g., government, news papers, Kaggle). The was collected in the month of September and October of 2020, and it was uploaded into an online repository in the web server "GitHub".
+The data utilized in the analysis was collected from different reliable sources (e.g., government, news papers, Kaggle). The data was collected in throughout the months of September and October of 2020, and the files were uploaded into an online repository in the web server "GitHub" (link to the online repository:
+https://github.com/EnzoNMigliano/Analytics-Dream-Team).
 
 
 ## Instruments
 
 ### SOftware
 
-In order to perform the analysis of the data we utilized the software R(Version 4.0.2) [1], emulated in the Rstudio(Version 1.3.1073) [2]. In order to perform the version control of the documents throughout the study was utilized in the Software Git [3] in connection with the server of GitHub [4].
+In order to perform the analysis of the data we utilized the software R(Version 4.0.2) [1], emulated in the Rstudio(Version 1.3.1073) [2]. In order to perform the version control of the documents throughout the study, the team utilized the Software Git [3] in connection with the server of GitHub [4].
 
 ### Packages
 
-In order to perform the analysis of the data we utilized the packages: Tidyverse [5], Corrplot [6], CaTools [7], caret [8], and forecast [9].
+In order to perform the analysis of the data we utilized the following packages: Tidyverse [5], Corrplot [6], CaTools [7], caret [8], and forecast [9].
 
 #### Installing Necessary Packages
 
