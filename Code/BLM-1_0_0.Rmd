@@ -62,6 +62,7 @@ library(forecast)
 
 ### Loading Data sets for the analysis
 
+The code below will load all the data sets the team stored in the GitHub server.
 
 ```{r}
 # Analytics-Dream-Team/Data
@@ -133,7 +134,12 @@ Washington_post_Shootings <-
 
 ### Tidying the Data Sets
 
+Data sets contain incredible value for the most diverse analysis. However, in order to complete extract such intrinsic value all data sets must be tidy, in order words, the data sets must organized in a logical manner for the analysis. In the next section all the tidying performed in the study is registered.
+
+
 #### Tidying Enzo
+
+This section contains the names of the data sets and it status regarding its organization.
 
 **NYC SCHOOLS DATA**
 
@@ -369,11 +375,11 @@ We need a conclusion.
   Vienna, Austria. URL
   https://www.R-project.org/.
   
-[2]
+[2] RStudio Team (2020). RStudio: Integrated           Development for R. RStudio, PBC, Boston, MA URL      http://www.rstudio.com/.
 
-[3]
+[3] Software Freedom Conservancy, Inc., 2020. [Online]. Available: https://git-scm.com/
 
-[4]
+[4] GitHub, Inc., 2020. [Online]. Available: https://github.com/
 
 [5] Wickham et al., (2019). Welcome to the
   tidyverse. Journal of Open Source
