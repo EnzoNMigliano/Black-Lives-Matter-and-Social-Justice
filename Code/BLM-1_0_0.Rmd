@@ -117,57 +117,78 @@ Washington_post_Shootings <-
 
 **NYC SCHOOLS DATA**
 
-All the New York Schools data sets are tidy, no further action required.
+In order to check if the data is tidy lets visualize the data set.
+
+*2010-2011*
 
 ```{r}
 View(`2010&2011_Vadir_NY`)
-
+`2010&2011_Vadir_NY`
 ```
 
 ```{r}
 summary(`2010&2011_Vadir_NY`)
 ```
 
-```{r}
-#THis data set is tidy
+*2012-2013*
 
+```{r}
 View(`2012&2013_Vadir_NY`)
+`2012&2013_Vadir_NY`
 ```
 
 ```{r}
 summary(`2012&2013_Vadir_NY`)
+
 ```
 
-```{r}
-# This data set is tidy
+*2014-2015*
 
+```{r}
 View(`2014&2015_Vadir_NY`)
+`2014&2015_Vadir_NY`
 ```
 
 ```{r}
 summary(`2014&2015_Vadir_NY`)
 ```
 
-**All Ilnesses DATA**
+All the New York Schools data sets are tidy, no further action required.
+
+
+**All Illnesses DATA**
+
+In order to check if the data is tidy lets visualize the data set.
+
 
 ```{r}
 View(All_Illness_Deaths_Rate)
+All_Illness_Deaths_Rate
 ```
 
 ```{r}
 summary(All_Illness_Deaths_Rate)
 ```
 
+This data set is tidy, no further action required.
+
+
 **Chicago_Crimes**
+
+In order to check if the data is tidy lets visualize the data set.
+
 
 ```{r}
 View(Chicago_Crimes_2011topresent)
+Chicago_Crimes_2011topresent
 ```
 
 
 The Chicago Crimes 2011 to present is not Tidy yet. The variable "Date" has two values the date and time, as well as "Updated On". Therefore, we need to separate the values into two cells. One cell will be for the variable date and the other will be for the variable time. 
 
 ```{r}
+# This code will fix the variable "Date"
+
 ChicagoTidy <-
   Chicago_Crimes_2011topresent %>%
   separate(Date,
@@ -177,6 +198,8 @@ ChicagoTidy <-
 ```
 
 ```{r}
+# This code will fiz the varible "Updated on"
+
 ChicagoTidy2 <- ChicagoTidy %>%
   separate('Updated On',
            into = c("Updated_Date",
@@ -192,21 +215,27 @@ The tidy data set will be called ChigagoTidy2.
 
 **Contracts with Police**
 
+In order to check if the data is tidy lets visualize the data set.
+
 ```{r}
 View(Contract_Police)
+Contract_Police
 ```
 ```{r}
 summary(Contract_Police)
 ```
-
 
 This data set is tidy no further action required.
 
 
 **Covid Deaths**
 
+In order to check if the data is tidy lets visualize the data set.
+
+
 ```{r}
 view(Covid_Deaths_Race)
+Covid_Deaths_Race
 ```
 
 
@@ -279,11 +308,17 @@ The data set Education Census is not tidy yet. There is one column that cointain
 
 **Employment FBI**
 
+In order to check if the data is tidy lets visualize the data set.
+
+
 ```{r}
 View(Employment_FBI)
+Employment_FBI
 ```
 
 This data set is tidy, no further action required.
+
+
 
 
 ## Tidying Juan 
