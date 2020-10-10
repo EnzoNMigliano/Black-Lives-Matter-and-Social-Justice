@@ -176,7 +176,7 @@ Data sets contain incredible value for the most diverse analysis. However, in or
 
 This section contains the names of the data sets and it status regarding its organization.
 
-**NYC SCHOOLS DATA**
+**VADIR_NY**
 
 In order to check if the data is tidy lets visualize the data set.
 
@@ -217,7 +217,7 @@ summary(`2014&2015_Vadir_NY`)
 All the New York Schools data sets are tidy, no further action required.
 
 
-**All Illnesses DATA**
+**All_Illnesses_Deaths_rate**
 
 In order to check if the data is tidy lets visualize the data set.
 
@@ -274,7 +274,7 @@ The tidy data set will be called ChigagoTidy2.
 
 
 
-**Contracts with Police**
+**COntract_Police**
 
 In order to check if the data is tidy lets visualize the data set.
 
@@ -289,7 +289,7 @@ summary(Contract_Police)
 This data set is tidy, no further action required.
 
 
-**COVID Deaths**
+**Covid_Deaths_Race**
 
 In order to check if the data is tidy lets visualize the data set.
 
@@ -310,7 +310,7 @@ The Covid Deaths by Race data set is not tidy yet. THe data set has one one that
 
 
 
-**Dallas Arrests**
+**Dallas_Arrests**
 
 In order to check if the data is tidy lets visualize the data set.
 
@@ -348,7 +348,7 @@ DallasArrestTidy
 
 
 
-**Education Cencus**
+**Eduction_Census**
 
 In order to check if the data is tidy lets visualize the data set.
 
@@ -369,7 +369,7 @@ The data set Education Census is not tidy yet. There is one column that cointain
 
 
 
-**Employment FBI**
+**Employment_FBI**
 
 In order to check if the data is tidy lets visualize the data set.
 
