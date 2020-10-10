@@ -114,10 +114,58 @@ Washington_post_Shootings <-
 
 ## Tidying Enzo
 
+**NYC SCHOOLS DATA**
+
+This data set is tidy, no further action.
+
 ```{r}
 View(`2010&2011_Vadir_NY`)
 
 ```
+
+```{r}
+summary(`2010&2011_Vadir_NY`)
+```
+
+```{r}
+#THis data set is tidy
+
+View(`2012&2013_Vadir_NY`)
+```
+
+```{r}
+summary(`2012&2013_Vadir_NY`)
+```
+
+```{r}
+# This data set is tidy
+
+View(`2014&2015_Vadir_NY`)
+```
+
+```{r}
+summary(`2014&2015_Vadir_NY`)
+```
+
+**All Ilnesses DATA**
+
+```{r}
+View(All_Illness_Deaths_Rate)
+```
+
+```{r}
+summary(All_Illness_Deaths_Rate)
+```
+
+**CHICAGO_Crimes**
+
+```{r}
+View(Chicago_Crimes_2011topresent)
+```
+
+
+The Chicago Crimes 2011 to present is not Tidy yet. The variable data has two values the date and time. Therefore, we need to separate the values into two cells.
+
 
 
 ## Tidying Juan 
