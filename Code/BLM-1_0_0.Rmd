@@ -97,13 +97,13 @@ Chicago_Crimes_2011topresent <-
 NY_StopFrisk_2015 <- 
   read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2015.csv")
 
-NY_StopFrisk_2016 <- read.csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2016.csv")
+NY_StopFrisk_2016 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2016.csv")
 
-NY_StopFrisk_2017 <- read.csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2017.csv")
+NY_StopFrisk_2017 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2017.csv")
 
-NY_StopFrisk_2018 <- read.csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2018.csv")
+NY_StopFrisk_2018 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2018.csv")
 
-NY_StopFrisk_2019 <- read.cvs("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2019.csv")
+NY_StopFrisk_2019 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2019.csv")
 
 ```
 
