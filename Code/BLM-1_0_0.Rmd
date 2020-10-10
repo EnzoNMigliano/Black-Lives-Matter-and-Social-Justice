@@ -116,7 +116,7 @@ Washington_post_Shootings <-
 
 **NYC SCHOOLS DATA**
 
-This data set is tidy, no further action.
+All the New York Schools data sets are tidy, no further action required.
 
 ```{r}
 View(`2010&2011_Vadir_NY`)
@@ -157,23 +157,120 @@ View(All_Illness_Deaths_Rate)
 summary(All_Illness_Deaths_Rate)
 ```
 
-**CHICAGO_Crimes**
+**Chicago_Crimes**
 
 ```{r}
 View(Chicago_Crimes_2011topresent)
 ```
 
 
-The Chicago Crimes 2011 to present is not Tidy yet. The variable data has two values the date and time. Therefore, we need to separate the values into two cells. One cell will be for the variable date and the other will be for the variable time. 
-
-
+The Chicago Crimes 2011 to present is not Tidy yet. The variable "Date" has two values the date and time, as well as "Updated On". Therefore, we need to separate the values into two cells. One cell will be for the variable date and the other will be for the variable time. 
 
 ```{r}
 ChicagoTidy <-
   Chicago_Crimes_2011topresent %>%
-  separate(Date, into = c("Day", "Time"), sep = " ")
+  separate(Date,
+           into = c("Day",
+                    "Time"),
+           sep = " ")
 ```
 
+```{r}
+ChicagoTidy2 <- ChicagoTidy %>%
+  separate('Updated On',
+           into = c("Updated_Date",
+                    "Updated_Time"),
+           sep = " ")
+```
+
+*The Tidy data set*
+
+The tidy data set will be called ChigagoTidy2.
+
+
+
+**Contracts with Police**
+
+```{r}
+View(Contract_Police)
+```
+```{r}
+summary(Contract_Police)
+```
+
+
+This data set is tidy no further action required.
+
+
+**Covid Deaths**
+
+```{r}
+view(Covid_Deaths_Race)
+```
+
+
+The Covid Deaths by Race data set is not tidy yet. THe data set has one one that contains observations which are actually name of other variables, three other variables to be precise. Also, the data set has a column with the values of the variables. Therefore, we need to transform the values of the column "Indicator" into three new columns.
+
+```{r}
+
+```
+
+
+
+
+
+**Dallas Arrests**
+
+```{r}
+View(Dallas_Arrests)
+```
+
+The Dallas Arrest Data set is not tidy yet. The data data set has some variables with two values in one cell. For example,  the observations of the variable "ArArrestDate" have two values per cell the day and the time. Therefore, we need to separate the values into to new complete variables. 
+
+```{r}
+DallasArrestTidy <-
+  Dallas_Arrests %>%
+  separate(ArArrestDate,
+           into = c("ArArrestDay",
+                    "ArArrestTime"),
+           sep = " ") %>%
+  separate(ArBkDate,
+           into = c("ArBkDay",
+                    "ArBkTime"),
+           sep = " ")
+```
+
+*The tidy data set*
+
+The tidy data set will be called "DallasArrestTidy". In such data set, we transformed through the code above the variable (of the original data set) "ArArrestDate" into the variables "ArArrestDay" and "ArArrestTime" (in the tidy data set), also we the transformed the variable "ArBkDate" (of the original data set) into the variables "ArBkDay" and "ArBkTime" (in the tidy data set).
+
+
+
+**Education Cencus**
+
+```{r}
+View(Eduction_Census)
+```
+
+
+The data set Education Census is not tidy yet. There is one column that cointaing two different types of observations. The variable "Geographic.Area.Name" has three observations in it there is the name of the city, the State, and the classification of the city. Therefore, we need to separate those observations into completly new variables by assign it to new columns.
+
+```{r}
+
+```
+
+
+*The tidy data set*
+
+
+
+**Employment FBI**
+
+```{r}
+View(Employment_FBI)
+```
+
+THis data set is tidy, no further action required.
 
 
 ## Tidying Juan 
