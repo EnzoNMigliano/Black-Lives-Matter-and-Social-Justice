@@ -17,6 +17,10 @@ Do not leave unused code in the file.
 
 The lives of African Americans have historically been disrespected. The treatment disparity of different ethnicities in the American society has a long and diverse scope. However, Under the following research question and problem statement: Do African Americans are significantly treated different in society than to other ethnicities in the United States? The presented study focused on the facets of the education, health, and law enforcement societal interaction. Through an archival analysis of governmental and public available data different statistical tests such as time series, linear and non-linear predictive models, and descriptive statistics will address the following hypothesis: **THe hypothesis are missing** . The current study provided great insight on the current situation of the Ethnical disparity of the American, as well possible solutions for the problem **We Need to make a better COnclusion**.
 
+# Title of the Study
+
+**WE NEED AN INTRODUCTION**
+
 # Method
 ## Data
 
@@ -27,16 +31,20 @@ The data utilized in the analysis was collected from different reliable sources 
 
 ### SOftware
 
-In order to perform the analysis of the data we utilized the software R(Version 4.0.2), emulated in the Rstudio(Version 1.3.1073). In order to perform the version control of the documetns throughout the study was utilized in the Software Git in connection with the server of GitHub.
+In order to perform the analysis of the data we utilized the software R(Version 4.0.2) [1], emulated in the Rstudio(Version 1.3.1073) [2]. In order to perform the version control of the documents throughout the study was utilized in the Software Git [3] in connection with the server of GitHub [4].
 
-### Instaling Necessary Packages
+### Packages
 
-In order to perform the analysis of the data we utilized several packages 
+In order to perform the analysis of the data we utilized the packages: Tidyverse [5], Corrplot [6], CaTools [7], caret [8], and forecast [9].
+
+#### Installing Necessary Packages
+
+The code below is with hash tags to prevent people from installing the packages twice. If your computer does not have one of the packages below, please take way the hash tag and install the package at your convenience.
 
 ```{r}
 
 # install.packages("tidyverse")
-# install.packages(corrplot)
+# install.packages("corrplot")
 # install.packages("caTools")
 # install.packeges("caret")
 # install.packages("forecast")
@@ -44,7 +52,9 @@ In order to perform the analysis of the data we utilized several packages
 ```
 
 
-### Loading Necessary Libraries
+#### Loading Necessary Libraries
+
+The code below will load the installed packages into your Rstudio.
 
 ```{r}
 library(tidyverse)
@@ -125,7 +135,7 @@ Washington_post_Shootings <-
 
 ```
 
-### Tidying the data
+### Tidying the Data Sets
 
 #### Tidying Enzo
 
