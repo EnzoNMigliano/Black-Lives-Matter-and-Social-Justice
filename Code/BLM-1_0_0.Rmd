@@ -172,7 +172,7 @@ This
 ##### **Eduction_Census**
 
 
-This Data maintened by the United States Census Bureau lists several indicators for the education in the United States. The data represents the most up to date available data from the Census Bureau. 
+This Data maintained by the United States Census Bureau lists several indicators for the education in the United States. The data represents the most up to date available data from the Census Bureau. 
 
 ##### **Employment_FBI**
 
