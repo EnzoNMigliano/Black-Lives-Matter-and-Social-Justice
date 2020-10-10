@@ -11,12 +11,20 @@ Produce a R markdown of your analyses as a nb.html (not from knitr).
 Your code must contain title, authors, project abstract (problem statement, description, and conclusions), appropriate headings (#), detailed explanations of what each chunk does, and code chunks with comments.
 Do not leave unused code in the file.
 
+# Abstract
 
+
+The lives of African Americans have historically been disrespected. The treatment disparity of different ethnicities in the American society has a long and diverse scope. However, Under the following research question and problem statement: Do African Americans are significantly treated different in society than to other ethnicities in the United States? The presented study focused on the facets of the education, health, and law enforcement societal interaction. Through an archival analysis of governmental and public available data different statistical tests such as time series, linear and non-linear predictive models, and descriptive statistics will address the following hypothesis: **THe hypothesis are missing** . The current study provided great insight on the current situation of the Ethnical disparity of the American, as well possible solutions for the problem **We Need to make a better COnclusion**.
 
 # Instaling Necessary Packages
 
 ```{r}
-# install.package("tidyverse")
+
+# install.packages("tidyverse")
+# install.packages(corrplot)
+# install.packages("caTools")
+# install.packeges("caret")
+# install.packages("forecast")
 
 ```
 
@@ -25,6 +33,10 @@ Do not leave unused code in the file.
 
 ```{r}
 library(tidyverse)
+library(corrplot)
+library(caTools)
+library(caret)
+library(forecast)
 ```
 
 # Loading Data sets for the analysis
