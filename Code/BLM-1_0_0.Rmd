@@ -31,6 +31,7 @@ In order to perform the analysis of the data we utilized the software R(Version 
 
 ### Instaling Necessary Packages
 
+In order to perform the analysis of the data we utilized several packages 
 
 ```{r}
 
@@ -352,3 +353,52 @@ This data set is tidy, no further action required.
 
 
 We need a conclusion.
+
+# Refences
+
+
+[1]  R Core Team (2020). R: A language and
+  environment for statistical computing. R
+  Foundation for Statistical Computing,
+  Vienna, Austria. URL
+  https://www.R-project.org/.
+  
+[2]
+
+[3]
+
+[4]
+
+[5] Wickham et al., (2019). Welcome to the
+  tidyverse. Journal of Open Source
+  Software, 4(43), 1686,
+  https://doi.org/10.21105/joss.01686
+
+[6] Taiyun Wei and Viliam Simko (2017). R
+  package "corrplot": Visualization of a
+  Correlation Matrix (Version 0.84).
+  Available from
+  https://github.com/taiyun/corrplot
+
+
+[7] Jarek Tuszynski (2020). caTools: Tools:
+  Moving Window Statistics, GIF, Base64,
+  ROC AUC, etc. R package version 1.18.0.
+  https://CRAN.R-project.org/package=caTools
+
+[8] Max Kuhn (2020). caret: Classification
+  and Regression Training. R package
+  version 6.0-86.
+  https://CRAN.R-project.org/package=caret
+
+
+[9] Hyndman R, Athanasopoulos G, Bergmeir C,
+  Caceres G, Chhay L, O'Hara-Wild M,
+  Petropoulos F, Razbash S, Wang E, Yasmeen F
+  (2020). _forecast: Forecasting functions
+  for time series and linear models_. R
+  package version 8.13, <URL:
+  https://pkg.robjhyndman.com/forecast/>.
+  
+  
+
