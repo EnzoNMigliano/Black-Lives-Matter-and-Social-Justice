@@ -4,6 +4,7 @@ author: "Adriana Ortiz, Enzo Novi Migliano, and Juan Zambrano"
 output: html_notebook
 ---
 
+
 **What should be in our R markdown**
 
 R Code
@@ -270,7 +271,7 @@ The data set Education Census is not tidy yet. There is one column that cointain
 View(Employment_FBI)
 ```
 
-THis data set is tidy, no further action required.
+This data set is tidy, no further action required.
 
 
 ## Tidying Juan 
@@ -283,24 +284,3 @@ THis data set is tidy, no further action required.
 
 
 We need a conclusion.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
