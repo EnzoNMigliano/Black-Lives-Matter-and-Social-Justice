@@ -164,7 +164,15 @@ View(Chicago_Crimes_2011topresent)
 ```
 
 
-The Chicago Crimes 2011 to present is not Tidy yet. The variable data has two values the date and time. Therefore, we need to separate the values into two cells.
+The Chicago Crimes 2011 to present is not Tidy yet. The variable data has two values the date and time. Therefore, we need to separate the values into two cells. One cell will be for the vairable date and the other will be for the variable time. 
+
+
+
+```{r}
+ChicagoTidy <-
+  Chicago_Crimes_2011topresent %>%
+  separate(Date, into = c("Day", "Time"), sep = " ")
+```
 
 
 
