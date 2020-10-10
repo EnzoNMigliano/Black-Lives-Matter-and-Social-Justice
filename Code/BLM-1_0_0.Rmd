@@ -225,10 +225,10 @@ Contract_Police
 summary(Contract_Police)
 ```
 
-This data set is tidy no further action required.
+This data set is tidy, no further action required.
 
 
-**Covid Deaths**
+**COVID Deaths**
 
 In order to check if the data is tidy lets visualize the data set.
 
@@ -262,6 +262,8 @@ Dallas_Arrests
 The Dallas Arrest Data set is not tidy yet. The data data set has some variables with two values in one cell. For example,  the observations of the variable "ArArrestDate" have two values per cell the day and the time. Therefore, we need to separate the values into to new complete variables. 
 
 ```{r}
+# This code will fix all the variables "ArArrestDate" and "ArBkDate"
+
 DallasArrestTidy <-
   Dallas_Arrests %>%
   separate(ArArrestDate,
