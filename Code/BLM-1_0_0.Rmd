@@ -761,7 +761,67 @@ The data collected for the study has several distinct data sets. Some data sets,
 
 #### **VADIR_NY**
 
-THis data set the same variables being observed over a few years. Therefore, it can be merged into one data set, as bellow:
+First we will observe the three different data sets:
+
+```{r}
+`2010&2011_Vadir_NY`
+```
+
+In specific the county variable of each one of the data sets
+
+```{r}
+`2010&2011_Vadir_NY` %>% group_by(County) %>% summarise(count = n())
+```
+```{r}
+`2012&2013_Vadir_NY` %>% group_by(County) %>% summarise(count = n())
+```
+
+```{r}
+`2014&2015_Vadir_NY` %>% group_by(County) %>% summarise(count = n())
+```
+ There are some variables to rename in the first two data sets, they are the same observations but had different names at different times. See the code below:
+ 
+ 
+These are the variables of 2010 that were not matched in the data of 2014.
+
+```{r}
+`2010&2011_Vadir_NY`[`2010&2011_Vadir_NY`$County == "BRONX"
+  , c("County")] <- "Bronx"
+```
+
+```{r}
+`2010&2011_Vadir_NY`[`2010&2011_Vadir_NY`$County == "NYC CENTRAL OFFICE"
+  , c("County")] <- "New York"
+```
+
+```{r}
+`2010&2011_Vadir_NY`[`2010&2011_Vadir_NY`$County == "BROOKLYN"
+  , c("County")] <- "Kings"
+```
+
+```{r}
+`2010&2011_Vadir_NY`[`2010&2011_Vadir_NY`$County == "MANHATTAN"
+  , c("County")] <- "New York"
+```
+
+```{r}
+`2010&2011_Vadir_NY`[`2010&2011_Vadir_NY`$County == "QUEENS"
+  , c("County")] <- "Queens"
+```
+
+```{r}
+`2010&2011_Vadir_NY`[`2010&2011_Vadir_NY`$County == "RICHMOND"
+  , c("County")] <- "Richmond"
+```
+
+These are the variables of 2012 that were not matched in the data of 2014.
+
+```{r}
+`2012&2013_Vadir_NY`[`2012&2013_Vadir_NY`$County == "Nyc Central Office"
+  , c("County")] <- "New York"
+```
+
+This data set the same variables being observed over a few years. Therefore, it can be merged into one data set, as bellow:
 
 ```{r}
 Vadir_NY <- full_join(`2010&2011_Vadir_NY`, `2012&2013_Vadir_NY`)
