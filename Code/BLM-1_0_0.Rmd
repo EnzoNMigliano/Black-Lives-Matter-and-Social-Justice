@@ -242,9 +242,6 @@ NY_StopFrisk_2016 <- read_csv("https://media.githubusercontent.com/media/EnzoNMi
 
 NY_StopFrisk_2017 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2017.csv")
 
-NY_StopFrisk_2018 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2018.csv")
-
-NY_StopFrisk_2019 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2019.csv")
   
 Washington_post_Shootings <-
   read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/shootings_wash_post.csv")
@@ -805,54 +802,6 @@ NY_StopFrisk_2017Tidy
 
 This data set is tidy, no further action required.
 
-#### **NY_StopFrisk_2018**
-
-In order to check if the data is tidy lets visualize the data sets.
-
-```{r}
-view(NY_StopFrisk_2018)
-
-```
-
-We are subseting the data with relevant values
-
-```{r}
-NY_StopFrisk_2018Tidy <- NY_StopFrisk_2018 %>% subset(select = c(YEAR2, STOP_FRISK_DATE, SUSPECTED_CRIME_DESCRIPTION, OFFICER_EXPLAINED_STOP_FLAG, 
-                                                                  OFFICER_IN_UNIFORM_FLAG, FRISKED_FLAG, SEARCHED_FLAG, OTHER_CONTRABAND_FLAG,
-                                                                 PHYSICAL_FORCE_HANDCUFF_SUSPECT_FLAG, PHYSICAL_FORCE_RESTRAINT_USED_FLAG, SUSPECT_SEX, SUSPECT_RACE_DESCRIPTION, 
-                                                                 SUSPECT_REPORTED_AGE, SUSPECT_HEIGHT, SUSPECT_WEIGHT, SUSPECT_BODY_BUILD_TYPE, STOP_LOCATION_BORO_NAME)) %>% rename(Year = YEAR2,`Date of Frisk` = STOP_FRISK_DATE,`Crime Suspected` = SUSPECTED_CRIME_DESCRIPTION, `Officer Explained Reason` = OFFICER_EXPLAINED_STOP_FLAG, `Officer Wearing Uniform` = OFFICER_IN_UNIFORM_FLAG, Frisked = FRISKED_FLAG, `Body Searched` = SEARCHED_FLAG, Contraband = OTHER_CONTRABAND_FLAG, `Hanfcuff Used` = PHYSICAL_FORCE_HANDCUFF_SUSPECT_FLAG, `Force Used` = PHYSICAL_FORCE_RESTRAINT_USED_FLAG, Sex = SUSPECT_SEX, Race = SUSPECT_RACE_DESCRIPTION, Age = SUSPECT_REPORTED_AGE, Height = SUSPECT_HEIGHT, Weight = SUSPECT_WEIGHT, `Body Type` = SUSPECT_BODY_BUILD_TYPE, City = STOP_LOCATION_BORO_NAME)
-                                                                  
-                                                         
-
-NY_StopFrisk_2018Tidy
-```
-
-
-This data set is tidy, no further action required.
-
-
-#### **NY_StopFrisk_2019**
-
-In order to check if the data is tidy lets visualize the data sets.
-
-```{r}
-view(NY_StopFrisk_2019)
-```
-
-We are subseting the data with relevant values
-
-```{r}
-NY_StopFrisk_2019Tidy <- NY_StopFrisk_2019 %>% subset(select = c(YEAR2, STOP_FRISK_DATE, SUSPECTED_CRIME_DESCRIPTION, OFFICER_EXPLAINED_STOP_FLAG, 
-                                                                  OFFICER_IN_UNIFORM_FLAG, FRISKED_FLAG, SEARCHED_FLAG, OTHER_CONTRABAND_FLAG,
-                                                                 PHYSICAL_FORCE_HANDCUFF_SUSPECT_FLAG, PHYSICAL_FORCE_RESTRAINT_USED_FLAG, SUSPECT_SEX, SUSPECT_RACE_DESCRIPTION, 
-                                                                 SUSPECT_REPORTED_AGE, SUSPECT_HEIGHT, SUSPECT_WEIGHT, SUSPECT_BODY_BUILD_TYPE, STOP_LOCATION_BORO_NAME)) %>% rename(Year = YEAR2,`Date of Frisk` = STOP_FRISK_DATE,`Crime Suspected` = SUSPECTED_CRIME_DESCRIPTION, `Officer Explained Reason` = OFFICER_EXPLAINED_STOP_FLAG, `Officer Wearing Uniform` = OFFICER_IN_UNIFORM_FLAG, Frisked = FRISKED_FLAG, `Body Searched` = SEARCHED_FLAG, Contraband = OTHER_CONTRABAND_FLAG, `Hanfcuff Used` = PHYSICAL_FORCE_HANDCUFF_SUSPECT_FLAG, `Force Used` = PHYSICAL_FORCE_RESTRAINT_USED_FLAG, Sex = SUSPECT_SEX, Race = SUSPECT_RACE_DESCRIPTION, Age = SUSPECT_REPORTED_AGE, Height = SUSPECT_HEIGHT, Weight = SUSPECT_WEIGHT, `Body Type` = SUSPECT_BODY_BUILD_TYPE, City = STOP_LOCATION_BORO_NAME)
-                                                                  
-                                                         
-
-NY_StopFrisk_2019Tidy
-```
-
-This data set is tidy, no further action required.
 
 
 ##### **Juvenile_Arrests**
@@ -1055,22 +1004,6 @@ NY_StopFrisk2 <- full_join(NY_StopFrisk1_1F, NY_StopFrisk_2017Tidy)
 NY_StopFrisk2
 ```
 
-
-Then, the merged dataset with 2018
-
-```{r}
-NY_StopFrisk3 <- full_join(NY_StopFrisk2, NY_StopFrisk_2018Tidy)
-```
-```{r}
-NY_StopFrisk_2018Tidy
-```
-
-
-```{r}
-NY_StopFrisk_2018Tidy$`Date of Frisk` <- parse_date(NY_StopFrisk_2018Tidy$`Date of Frisk`, "%d/%m/%y")
-NY_StopFrisk_2018Tidy$Age <- as.double(NY_StopFrisk_2018Tidy$Age)
-
-```
 
 
 
