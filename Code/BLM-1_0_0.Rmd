@@ -956,6 +956,8 @@ NY_StopFrisk2
 
 # Results
 
+For the analysis our team utilized an alpha of 0.05.
+
 ## **In New York incidents in schools happen significantly more frequent in neighborhoods were there more African Americans**
 
 Therefore our Hypothesis are:
