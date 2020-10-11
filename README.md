@@ -1,4 +1,4 @@
-![BLM PHOTO](https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Images/Black%20Lives%20Matter.jpg) <br />
+![BLM PHOTO](https://github.com/EnzoNMigliano/Analytics-Dream-Team/blob/Backup/Images/Black%20Lives%20Matter.jpg?raw=true) <br />
 Photo: Andrew Kelly - Reuters
 
 
