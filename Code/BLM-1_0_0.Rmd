@@ -339,13 +339,9 @@ ChicagoTidy <-
 ```
 
 ```{r}
-# This code will fiz the varible "Updated on"
+# This code will rm the varible "Updated on"
 
-ChicagoTidy2 <- ChicagoTidy %>%
-  separate('Updated On',
-           into = c("Updated_Date",
-                    "Updated_Time"),
-           sep = " ")
+ChicagoTidy2 <- within(ChicagoTidy, rm('Updated On'))
 ```
 
 *The Tidy data set*
@@ -353,8 +349,35 @@ ChicagoTidy2 <- ChicagoTidy %>%
 
 The tidy data set will be called ChigagoTidy2. In such data set we separed the values that were present in the same cell. Therefore, the variables "Date" and "Updated On" were dived into four new variables.The variable "Date" into the variables "Day" and "Time". The variable "Updated On" into the variables "Updated_Date" and "Updated_Time". See the new data set below:
 
+
 ```{r}
 ChicagoTidy2
+```
+
+
+There are, however some observaitons that are NA.
+
+```{r}
+summary(ChicagoTidy2)
+```
+The code below will rename the observations that were NA:
+
+```{r}
+  
+ChicagoTidyFinal <- ChicagoTidy2 %>%
+  replace_na(list( 'X Coordinate' = "Missing",
+                    'Y Coordinate' = "Missing",
+                    Latitude ="Missing", 
+                   Longitude = "Missing",
+                   Location = "Missing",
+                   Ward = "Missing"))
+
+```
+
+The data is now tidy, no further action. See below:
+
+```{r}
+ChicagoTidyFinal
 ```
 
 
