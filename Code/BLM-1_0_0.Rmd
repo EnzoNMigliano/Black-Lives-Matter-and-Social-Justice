@@ -1019,6 +1019,7 @@ Vadir_NY_Join %>% group_by(County) %>%
             count = n())
 ```
 
+The mean values and the standard deviation of the variables give a better understanding of how each county struggles with incidents such drug trafficking, robbery, and violence in general.
 
 <all the coding with explanations>
 
