@@ -77,7 +77,7 @@ Our team collected more than 2gb worth of data from different reliable sources s
 
 # The Analysis
 
-we performed 
+we performed several statistical tests
 <br />
 
 
