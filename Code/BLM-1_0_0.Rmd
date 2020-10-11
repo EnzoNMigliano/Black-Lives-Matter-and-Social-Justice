@@ -123,7 +123,120 @@ Chicago_Crimes_2011topresent <-
 # Analytics-Dream-Team/Data/BLM Diverse Data/NYC_stop_frisk/
 
 NY_StopFrisk_2015 <- 
-  read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2015.csv")
+  read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2015.csv", cols(
+  year = col_date(),
+  pct = col_integer(),
+  ser_num = col_number(),
+  datestop = col_date(),
+  timestop = col_time(),
+  recstat = col_character(),
+  inout = col_character(),
+  trhsloc = col_character(),
+  perobs = col_double(),
+  crimsusp = col_factor(),
+  perstop = col_character(),
+  typeofid = col_character(),
+  explnstp = col_logical(),
+  othpers = col_character(),
+  arstmade = col_character(),
+  arstoffn = col_character(),
+  sumissue = col_character(),
+  sumoffen = col_character(),
+  compyear = col_double(),
+  comppct = col_double(),
+  offunif = col_logical(),
+  officrid = col_character(),
+  frisked = col_logical(),
+  searched = col_logical(),
+  contrabn = col_logical(),
+  adtlrept = col_character(),
+  pistol = col_character(),
+  riflshot = col_character(),
+  asltweap = col_character(),
+  knifcuti = col_character(),
+  machgun = col_character(),
+  othrweap = col_character(),
+  pf_hands = col_logical(),
+  pf_wall = col_character(),
+  pf_grnd = col_character(),
+  pf_drwep = col_character(),
+  pf_ptwep = col_character(),
+  pf_baton = col_character(),
+  pf_hcuff = col_logical(),
+  pf_pepsp = col_character(),
+  pf_other = col_character(),
+  radio = col_character(),
+  ac_rept = col_character(),
+  ac_inves = col_character(),
+  rf_vcrim = col_character(),
+  rf_othsw = col_character(),
+  ac_proxm = col_character(),
+  rf_attir = col_character(),
+  cs_objcs = col_character(),
+  cs_descr = col_character(),
+  cs_casng = col_character(),
+  cs_lkout = col_character(),
+  rf_vcact = col_character(),
+  cs_cloth = col_character(),
+  cs_drgtr = col_character(),
+  ac_evasv = col_character(),
+  ac_assoc = col_character(),
+  cs_furtv = col_character(),
+  rf_rfcmp = col_character(),
+  ac_cgdir = col_character(),
+  rf_verbl = col_character(),
+  cs_vcrim = col_character(),
+  cs_bulge = col_character(),
+  cs_other = col_character(),
+  ac_incid = col_character(),
+  ac_time = col_character(),
+  rf_knowl = col_character(),
+  ac_stsnd = col_character(),
+  ac_other = col_character(),
+  sb_hdobj = col_character(),
+  sb_outln = col_character(),
+  sb_admis = col_character(),
+  sb_other = col_character(),
+  repcmd = col_double(),
+  revcmd = col_double(),
+  rf_furt = col_character(),
+  rf_bulg = col_character(),
+  offverb = col_character(),
+  offshld = col_character(),
+  forceuse = col_logical(),
+  sex = col_factor(),
+  race = col_factor(),
+  dob = col_logical(),
+  age = col_integer(),
+  ht_feet = col_integer(),
+  ht_inch = col_double(),
+  weight = col_integer(),
+  haircolr = col_character(),
+  eyecolor = col_character(),
+  build = col_factor(),
+  othfeatr = col_character(),
+  addrtyp = col_character(),
+  rescode = col_logical(),
+  premtype = col_logical(),
+  premname = col_character(),
+  addrnum = col_character(),
+  stname = col_character(),
+  stinter = col_character(),
+  crossst = col_character(),
+  aptnum = col_logical(),
+  city = col_factor(),
+  state = col_logical(),
+  zip = col_logical(),
+  addrpct = col_double(),
+  sector = col_character(),
+  beat = col_double(),
+  post = col_double(),
+  xcoord = col_double(),
+  ycoord = col_double(),
+  dettypCM = col_character(),
+  lineCM = col_double(),
+  detailCM = col_double()
+))
 
 NY_StopFrisk_2016 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2016.csv")
 
@@ -132,12 +245,16 @@ NY_StopFrisk_2017 <- read_csv("https://media.githubusercontent.com/media/EnzoNMi
 NY_StopFrisk_2018 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2018.csv")
 
 NY_StopFrisk_2019 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2019.csv")
-
+  
 Washington_post_Shootings <-
   read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/shootings_wash_post.csv")
 
 ```
 
+```{r}
+spec(NY_StopFrisk_2015)
+
+```
 
 
 #### Brief description of the data sets
@@ -843,6 +960,12 @@ Vadir_NY_Join
 
 
 #### **NY_StopFrisk_Merged**
+
+```{r}
+
+```
+
+
 
 We are merging the data sets as they are equal both in rows and columns. First 2015 and 2016
 
