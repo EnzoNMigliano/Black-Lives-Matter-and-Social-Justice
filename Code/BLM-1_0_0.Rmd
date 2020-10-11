@@ -239,6 +239,11 @@ The Dataset is about poverty levels by metro area.
 ####**Washinton Post Shootings**
 This dataset contains names and data for citizens fatally shot by police.
 
+
+
+
+
+
 ### Tidying the Data Sets
 
 Data sets contain incredible value for the most diverse analysis. However, in order to complete extract such intrinsic value all data sets must be tidy, in order words, the data sets must organized in a logical manner for the analysis. In the next section all the tidying performed in the study is registered.
@@ -477,15 +482,17 @@ This data set is tidy, no further action required.
 
 
 
-
-#### Tidying Juan 
 ##### **Equitment_Police**
 
 In order to check if the data is tidy lets visualize the data set.
 
 ```{r}
 view(Equipment_Police)
+Equipment_Police
 ```
+
+This data set is tidy, no further action required.
+
 
 ##### **Housing**
 
@@ -493,7 +500,11 @@ In order to check if the data is tidy lets visualize the data set.
 
 ```{r}
 view(Housing)
+Housing
 ```
+
+This data set is tidy, no further action required.
+
 
 ##### **Juvenile_Arrests**
 
@@ -501,7 +512,11 @@ In order to check if the data is tidy lets visualize the data set.
 
 ```{r}
 view(Juvenile_Arrests)
+Juvenile_Arrests
 ```
+
+This data set is tidy, no further action required.
+
 
 ##### **LA_Crime**
 
@@ -509,7 +524,12 @@ In order to check if the data is tidy lets visualize the data set.
 
 ```{r}
 view(LA_Crime)
+LA_Crime
 ```
+
+
+This data set is tidy, no further action required.
+
 
 #### **NY_StopFrisk_2015**
 
@@ -517,32 +537,48 @@ In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
 view(NY_StopFrisk_2015)
+NY_StopFrisk_2015
 ```
+
 This data set is tidy, no further action required.
+
+
 #### **NY_StopFrisk_2016**
 
 In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
 view(NY_StopFrisk_2016)
+NY_StopFrisk_2016
 ```
+
 This data set is tidy, no further action required.
+
+
 #### **NY_StopFrisk_2017**
 
 In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
 view(NY_StopFrisk_2017)
+NY_StopFrisk_2017
 ```
+
 This data set is tidy, no further action required.
+
+
 #### **NY_StopFrisk_2018**
 
 In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
-view(NY_StopFrisk_2017)
+view(NY_StopFrisk_2018)
+NY_StopFrisk_2018
 ```
+
 This data set is tidy, no further action required.
+
+
 #### **NY_StopFrisk_2019**
 
 In order to check if the data is tidy lets visualize the data sets.
@@ -550,17 +586,25 @@ In order to check if the data is tidy lets visualize the data sets.
 ```{r}
 view(NY_StopFrisk_2018)
 ```
+
 This data set is tidy, no further action required.
-#### Tidying Adriana
 
-####**NYPD_Arrests**
 
-The data set contains some rows missing the description of the type and categoriztion of the arrest which we will change to undetermined or 0 (zero) to keep observation in the analysis. The new tidyed data set will be called NewNYPD.
+
+#### **NYPD_Arrests**
+
+In order to check if the data is tidy lets visualize the data sets.
+
+
 
 
 ```{r}
 NYPD_Arrests
 ```
+
+
+
+The data set contains some rows missing the description of the type and categoriztion of the arrest which we will change to undetermined or 0 (zero) to keep observation in the analysis. The new tidyed data set will be called NewNYPD.
 
 
 ```{r}
@@ -570,11 +614,13 @@ NewNYPD
 ```
 
 ####**Police Budget**
- Data contains missing observations when the city does not percive income per the variable item. 
+
+Data contains missing observations when the city does not percive income per the variable item. 
 
 ```{r}
 Police_Budget
 ```
+
 
 ####**Politics**
 Data is tidy.
@@ -601,15 +647,7 @@ Washington_post_Shootings
 
 The data collected for the study has several distinct data sets. Some data sets, however, have an intrinsic relation with each other, in other words they have a relation in the observations that they recorded. For example, the data sets about the stop and frisk in New York City are almost the same, the difference is the time in which the observations were recorded (i.e., the year in which it was recorded). Therefore, such data sets can be merged into one for a more meaningful analysis with more observations. The current study merged the following data sets together:
 
-##Plot key data --Adriana/ NYPD Arrest
 
-```{r}
-NYPDplot <- NewNYPD%>%
-  ggplot(mapping = aes(x=PERP_RACE, fill= PERP_SEX))+
-  geom_bar(position = "dodge")=
-  theme(axis.text.x = )
-NYPDplot
-```
 
 #### **VADIR_NY**
 
@@ -630,6 +668,8 @@ The new data set merged all the observations from 2010 to 2015 since it had the 
 ```{r}
 Vadir_NY_Join
 ```
+
+
 #### **NY_StopFrisk_Merged**
 
 We are merging the data sets as they are equal both in rows and columns. First 2016 and 2017
@@ -639,13 +679,9 @@ We are merging the data sets as they are equal both in rows and columns. First 2
 
 ```
 
-<<<<<<< HEAD
-whatever
-### Merging Relational Data
-=======
 
 ### Exploratory analysis
->>>>>>> 6d9df9261013a04da4e9da89c22af1cb93b92c74
+
 
 The team performed an exploratory analysis of the tidy and merged data sets in order to get familiarized with the information available in the data sets. The exploratory analysis is strongly related with the results section of the present study.
 
@@ -659,6 +695,16 @@ In order to explore the data lets first visualize the data set.
 Vadir_NY_Join
 ```
 
+
+#### Plot key data --Adriana/ NYPD Arrest
+
+```{r}
+NYPDplot <- NewNYPD%>%
+  ggplot(mapping = aes(x=PERP_RACE, fill= PERP_SEX))+
+  geom_bar(position = "dodge")=
+  theme(axis.text.x = )
+NYPDplot
+```
 
 Now visualizing the data through graph that will further explain the data set attributes.
 
