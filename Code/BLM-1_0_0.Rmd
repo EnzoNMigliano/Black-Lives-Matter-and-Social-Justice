@@ -244,7 +244,7 @@ This dataset contains names and data for citizens fatally shot by police.
 
 
 
-### Tidying the Data Sets
+### Tidying the Data Sets and exploring the data sets 
 
 Data sets contain incredible value for the most diverse analysis. However, in order to complete extract such intrinsic value all data sets must be tidy, in order words, the data sets must organized in a logical manner for the analysis. In the next section all the tidying performed in the study is registered.
 
