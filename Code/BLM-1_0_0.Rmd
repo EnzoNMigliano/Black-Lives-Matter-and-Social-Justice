@@ -559,7 +559,7 @@ This data set is tidy, no further action required.
 In order to check if the data is tidy lets visualize the data set.
 
 ```{r}
-view(LA_Crime)
+
 LA_Crime
 ```
 
@@ -754,8 +754,8 @@ Observing how the different counties behaved through the years.
 
 ```{r}
 NYPDplot <- NewNYPD%>%
-  ggplot(mapping = aes(x=PERP_RACE, fill= PERP_SEX))+
-  geom_bar(position = "dodge")=
+  ggplot(mapping = aes(y = PERP_RACE, fill= PERP_SEX))+
+  geom_bar(position = "dodge") +
   theme(axis.text.x = )
 NYPDplot
 ```
