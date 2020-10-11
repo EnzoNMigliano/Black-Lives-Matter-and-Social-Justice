@@ -73,9 +73,9 @@ The code below will load all the data sets the team stored in the GitHub server.
 ```{r}
 # Analytics-Dream-Team/Data
 
-Covid_Deaths_Race <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/Provisional_COVID-19_Death_Counts_by_County_and_Race_CDC_OCT1.csv")
+Covid_Deaths_Race <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/Provisional_COVID-19_Death_Counts_by_County_and_Race_CDC_OCT1.csv")
 
-All_Illness_Deaths_Rate <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/Cumulative_Provisional_Counts_of_Deaths_by_Sex__Race__and_Age_CDC_AUG10.csv")
+All_Illness_Deaths_Rate <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/Cumulative_Provisional_Counts_of_Deaths_by_Sex__Race__and_Age_CDC_AUG10.csv")
 
 '2010&2011_Vadir_NY' <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/2010-2011_VADIR_INCIDENTS-CITY_OF_NEW_YORK.csv")
 
