@@ -722,7 +722,31 @@ We are merging the data sets as they are equal both in rows and columns. First 2
 
 # Results
 
-**<Your hypothesis>**
+## **In New York incidents in schools happen significantly more frequent in neighborhoods were there more African Americans**
+
+Therefore our Hypothesis are:
+
+H0 - There is no significant difference
+
+HA - There is a significant difference
+
+
+### Exploring the problem
+
+We will create a new column in the vadir_NY_Join called "TotalIncidents"
+
+```{r}
+Vadir_NY_Join$TotalIncidents <- rowSums(Vadir_NY_Join[ ,c(10:45)])
+Vadir_NY_Join$TotalIncidents
+```
+
+
+```{r}
+Vadir_NY_Join %>% group_by(County) %>% 
+  ggplot(mapping = aes(x = TotalIncidents, fill =  County)) + 
+  geom_histogram() 
+```
+
 
 <all the coding with explanations>
 
