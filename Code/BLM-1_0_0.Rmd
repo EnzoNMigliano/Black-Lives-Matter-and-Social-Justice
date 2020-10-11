@@ -1021,6 +1021,29 @@ Vadir_NY_Join %>% group_by(County) %>%
 
 The mean values and the standard deviation of the variables give a better understanding of how each county struggles with incidents such drug trafficking, robbery, and violence in general.
 
+### Cheking for normality
+
+
+Before we test the hypothesis that the number of incidents reported is different, it is necessery define if the data sets being analyzed are normally distributed.
+
+
+**Bronx**
+
+Lets see if how is the distrbution of the incidents in the Bronx.
+
+```{r}
+TotalBronkx <- Vadir_NY_Join %>%
+  select(County, TotalIncidents) %>%
+  filter(County == "Bronx") %>%
+  na.omit()
+```
+
+
+```{r}
+shapiro.test(TotalBronkx$TotalIncidents)
+```
+
+The observations of the incidents in the Bronx are not normally distributed. The P-value is lower than the alpha (0.05).
 <all the coding with explanations>
 
 <results>
