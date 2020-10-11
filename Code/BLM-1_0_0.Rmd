@@ -134,6 +134,8 @@ Washington_post_Shootings <-
 
 ```
 
+
+
 #### Brief description of the data sets
 
 ##### **VADIR_NY**
@@ -183,29 +185,54 @@ This data set maintained by the Federal Bureau of Investigation has information 
 
 ##### **Equipment_police**
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a1d2f6b9bc52c57c2b9dc2cb177dd6b2ca91948c
 This data set is maintained by the Department of Defense 
 and has information on most equipment purchases by State, City, and County. 
 
 ##### **Housing**
 
-
 This data set is data set hosted by the Census Bureau and contains an approximate calculation of the housing occupancy, housing units, vacant units per state.
 
-
+<<<<<<< HEAD
+This data set is data set hosted by the Census Bureau and contains an approximate calculation of the housing occupancy, housing units, vacant units per state.
+=======
 ##### **Juvenile_Arrests**
-
+>>>>>>> a1d2f6b9bc52c57c2b9dc2cb177dd6b2ca91948c
 
 This data set was created by Bureau of Justice, it reflects Juvenile Arrest rates sorted from 1980 to 2018.
 
 ##### **LA_Crime**
 
+This data set was developed by the LA police departement and reflects all crime incidents in the city of Los Angeles from 2010 to ... . In this data, it is specified the type of activity, location, victim, sex, age among other variables. 
 
+<<<<<<< HEAD
+This data set was created by Bureau of Justice, it reflects Juvenile Arrest rates sorted from 1980 to 2018.
+=======
+##### **NY_StopFrisk_2015**
+>>>>>>> a1d2f6b9bc52c57c2b9dc2cb177dd6b2ca91948c
+
+This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2015.
+
+##### **NY_StopFrisk_2016**
+
+This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2016.
+
+<<<<<<< HEAD
 This data set was developed by the LA police departement and reflects all crime incidents in the city of Los Angeles from 2010 to ... . In this data, it is specified the type of activity, location, victim, sex, age among other variables. 
 
 ##### **NY_StopFrisk_2015**
+=======
+##### **NY_StopFrisk_2017**
 
+This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2017.
+>>>>>>> a1d2f6b9bc52c57c2b9dc2cb177dd6b2ca91948c
 
+##### **NY_StopFrisk_2018**
+
+<<<<<<< HEAD
 This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2015.
 
 ##### **NY_StopFrisk_2016**
@@ -221,26 +248,38 @@ This data set was created by New York police department. It expoxes all stop and
 ##### **NY_StopFrisk_2018**
 
 
+=======
+>>>>>>> a1d2f6b9bc52c57c2b9dc2cb177dd6b2ca91948c
 This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2018.
 
 ##### **NY_StopFrisk_2019**
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a1d2f6b9bc52c57c2b9dc2cb177dd6b2ca91948c
 This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2019
 
 
 ##### **NYPD_Arrests**
 
 
-This
+This data set is a compilation of every arrest in NYC from 2006 until the end of 2018, some key variables are the type of ofense, the sex and the age group of the induvisula arrested.
 
 
 ##### **Police_Budget**
 
 
-This
+This dataset contais information about the finances for 150 large US ities across 120 categories including population, revenue per city and taxes.
 
+####**Politics**
+DataSet containing the political party inclination and segregation for metro areas.
 
+####**Poverty Census**
+The Dataset is about poverty levels by metro area.
+
+####**Washinton Post Shootings**
+This dataset contains names and data for citizens fatally shot by police.
 
 ### Tidying the Data Sets
 
@@ -356,7 +395,7 @@ ChicagoTidy2
 ```
 
 
-##### **COntract_Police**
+##### **Contract_Police**
 
 
 In order to check if the data is tidy lets visualize the data set.
@@ -474,11 +513,6 @@ Employment_FBI
 
 This data set is tidy, no further action required.
 
-
-
-
-#### Tidying Juan 
-
 ##### **Equitment_Police**
 
 In order to check if the data is tidy lets visualize the data set.
@@ -491,6 +525,20 @@ view(Equipment_Police)
 
 In order to check if the data is tidy lets visualize the data set.
 
+<<<<<<< HEAD
+##### **Equitment_Police**
+
+In order to check if the data is tidy lets visualize the data set.
+
+```{r}
+view(Equipment_Police)
+```
+
+##### **Housing**
+
+In order to check if the data is tidy lets visualize the data set.
+
+
 ```{r}
 view(Housing)
 ```
@@ -498,6 +546,7 @@ view(Housing)
 ##### **Juvenile_Arrests**
 
 In order to check if the data is tidy lets visualize the data set.
+<<<<<<< HEAD
 
 ```{r}
 view(Juvenile_Arrests)
@@ -517,7 +566,19 @@ In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
 view(NY_StopFrisk_2015)
+
+NY_StopFrisk_2015
 ```
+
+We are subseting the data with relevant values
+
+```{r}
+NY_StopFrisk_2015Tidy <- NY_StopFrisk_2015 %>% subset(select = c(year, datestop, crimsusp, explnstp, 
+                                                                  offunif, frisked, searched, contrabn,pf_hcuff, forceuse, sex, race, age, ht_feet, weight, build, city)) %>% rename(Year = year, `Date of Frisk` = datestop,`Crime Suspected` = crimsusp, `Officer Explained Reason` = explnstp, `Officer Wearing Uniform` = offunif, Frisked = frisked, `Body Searched` = searched, Contraband = contrabn, `Hanfcuff Used` = pf_hcuff, `Force Used` = forceuse, Sex = sex, Race = race, Age = age, Height = ht_feet, Weight = weight, `Body Type` = build, City = city)
+
+NY_StopFrisk_2015Tidy
+```
+
 This data set is tidy, no further action required.
 
 #### **NY_StopFrisk_2016**
@@ -526,7 +587,21 @@ In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
 view(NY_StopFrisk_2016)
+
+
 ```
+
+We are subseting the data with relevant values
+
+```{r}
+NY_StopFrisk_2016Tidy <- NY_StopFrisk_2016 %>% subset(select = c(year, datestop, crimsusp, explnstp, 
+                                                                  offunif, frisked, searched, contrabn,pf_hcuff, forceuse, sex, race, age, ht_feet, weight, build, city)) %>% rename(Year = year, `Date of Frisk` = datestop,`Crime Suspected` = crimsusp, `Officer Explained Reason` = explnstp, `Officer Wearing Uniform` = offunif, Frisked = frisked, `Body Searched` = searched, Contraband = contrabn, `Hanfcuff Used` = pf_hcuff, `Force Used` = forceuse, Sex = sex, Race = race, Age = age, Height = ht_feet, Weight = weight, `Body Type` = build, City = city)
+                                     
+
+NY_StopFrisk_2016Tidy
+
+```
+
 This data set is tidy, no further action required.
 
 #### **NY_StopFrisk_2017**
@@ -536,6 +611,20 @@ In order to check if the data is tidy lets visualize the data sets.
 ```{r}
 view(NY_StopFrisk_2017)
 ```
+
+We are subseting the data with relevant values
+
+```{r}
+NY_StopFrisk_2017Tidy <- NY_StopFrisk_2017 %>% subset(select = c(YEAR2, STOP_FRISK_DATE,SUSPECTED_CRIME_DESCRIPTION, OFFICER_EXPLAINED_STOP_FLAG, 
+                                                                  OFFICER_IN_UNIFORM_FLAG, FRISKED_FLAG, SEARCHED_FLAG, OTHER_CONTRABAND_FLAG,
+                                                                 PHYSICAL_FORCE_HANDCUFF_SUSPECT_FLAG, PHYSICAL_FORCE_RESTRAINT_USED_FLAG, SUSPECT_SEX, SUSPECT_RACE_DESCRIPTION, 
+                                                                 SUSPECT_REPORTED_AGE, SUSPECT_HEIGHT, SUSPECT_WEIGHT, SUSPECT_BODY_BUILD_TYPE, STOP_LOCATION_BORO_NAME)) %>% rename(Year = YEAR2,`Date of Frisk` = STOP_FRISK_DATE,`Crime Suspected` = SUSPECTED_CRIME_DESCRIPTION, `Officer Explained Reason` = OFFICER_EXPLAINED_STOP_FLAG, `Officer Wearing Uniform` = OFFICER_IN_UNIFORM_FLAG, Frisked = FRISKED_FLAG, `Body Searched` = SEARCHED_FLAG, Contraband = OTHER_CONTRABAND_FLAG, `Hanfcuff Used` = PHYSICAL_FORCE_HANDCUFF_SUSPECT_FLAG, `Force Used` = PHYSICAL_FORCE_RESTRAINT_USED_FLAG, Sex = SUSPECT_SEX, Race = SUSPECT_RACE_DESCRIPTION, Age = SUSPECT_REPORTED_AGE, Height = SUSPECT_HEIGHT, Weight = SUSPECT_WEIGHT, `Body Type` = SUSPECT_BODY_BUILD_TYPE, City = STOP_LOCATION_BORO_NAME)
+                                                                  
+                                                         
+
+NY_StopFrisk_2017Tidy
+```
+
 This data set is tidy, no further action required.
 
 #### **NY_StopFrisk_2018**
@@ -543,7 +632,20 @@ This data set is tidy, no further action required.
 In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
-view(NY_StopFrisk_2017)
+view(NY_StopFrisk_2018)
+```
+
+We are subseting the data with relevant values
+
+```{r}
+NY_StopFrisk_2018Tidy <- NY_StopFrisk_2018 %>% subset(select = c(YEAR2, STOP_FRISK_DATE, SUSPECTED_CRIME_DESCRIPTION, OFFICER_EXPLAINED_STOP_FLAG, 
+                                                                  OFFICER_IN_UNIFORM_FLAG, FRISKED_FLAG, SEARCHED_FLAG, OTHER_CONTRABAND_FLAG,
+                                                                 PHYSICAL_FORCE_HANDCUFF_SUSPECT_FLAG, PHYSICAL_FORCE_RESTRAINT_USED_FLAG, SUSPECT_SEX, SUSPECT_RACE_DESCRIPTION, 
+                                                                 SUSPECT_REPORTED_AGE, SUSPECT_HEIGHT, SUSPECT_WEIGHT, SUSPECT_BODY_BUILD_TYPE, STOP_LOCATION_BORO_NAME)) %>% rename(Year = YEAR2,`Date of Frisk` = STOP_FRISK_DATE,`Crime Suspected` = SUSPECTED_CRIME_DESCRIPTION, `Officer Explained Reason` = OFFICER_EXPLAINED_STOP_FLAG, `Officer Wearing Uniform` = OFFICER_IN_UNIFORM_FLAG, Frisked = FRISKED_FLAG, `Body Searched` = SEARCHED_FLAG, Contraband = OTHER_CONTRABAND_FLAG, `Hanfcuff Used` = PHYSICAL_FORCE_HANDCUFF_SUSPECT_FLAG, `Force Used` = PHYSICAL_FORCE_RESTRAINT_USED_FLAG, Sex = SUSPECT_SEX, Race = SUSPECT_RACE_DESCRIPTION, Age = SUSPECT_REPORTED_AGE, Height = SUSPECT_HEIGHT, Weight = SUSPECT_WEIGHT, `Body Type` = SUSPECT_BODY_BUILD_TYPE, City = STOP_LOCATION_BORO_NAME)
+                                                                  
+                                                         
+
+NY_StopFrisk_2018Tidy
 ```
 
 This data set is tidy, no further action required.
@@ -553,18 +655,98 @@ This data set is tidy, no further action required.
 In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
-view(NY_StopFrisk_2018)
+view(NY_StopFrisk_2019)
+```
+
+We are subseting the data with relevant values
+
+```{r}
+NY_StopFrisk_2019Tidy <- NY_StopFrisk_2019 %>% subset(select = c(YEAR2, STOP_FRISK_DATE, SUSPECTED_CRIME_DESCRIPTION, OFFICER_EXPLAINED_STOP_FLAG, 
+                                                                  OFFICER_IN_UNIFORM_FLAG, FRISKED_FLAG, SEARCHED_FLAG, OTHER_CONTRABAND_FLAG,
+                                                                 PHYSICAL_FORCE_HANDCUFF_SUSPECT_FLAG, PHYSICAL_FORCE_RESTRAINT_USED_FLAG, SUSPECT_SEX, SUSPECT_RACE_DESCRIPTION, 
+                                                                 SUSPECT_REPORTED_AGE, SUSPECT_HEIGHT, SUSPECT_WEIGHT, SUSPECT_BODY_BUILD_TYPE, STOP_LOCATION_BORO_NAME)) %>% rename(Year = YEAR2,`Date of Frisk` = STOP_FRISK_DATE,`Crime Suspected` = SUSPECTED_CRIME_DESCRIPTION, `Officer Explained Reason` = OFFICER_EXPLAINED_STOP_FLAG, `Officer Wearing Uniform` = OFFICER_IN_UNIFORM_FLAG, Frisked = FRISKED_FLAG, `Body Searched` = SEARCHED_FLAG, Contraband = OTHER_CONTRABAND_FLAG, `Hanfcuff Used` = PHYSICAL_FORCE_HANDCUFF_SUSPECT_FLAG, `Force Used` = PHYSICAL_FORCE_RESTRAINT_USED_FLAG, Sex = SUSPECT_SEX, Race = SUSPECT_RACE_DESCRIPTION, Age = SUSPECT_REPORTED_AGE, Height = SUSPECT_HEIGHT, Weight = SUSPECT_WEIGHT, `Body Type` = SUSPECT_BODY_BUILD_TYPE, City = STOP_LOCATION_BORO_NAME)
+                                                                  
+                                                         
+
+NY_StopFrisk_2019Tidy
+```
+
+This data set is tidy, no further action required.
+
+
+```{r}
+view(Juvenile_Arrests)
+```
+
+##### **LA_Crime**
+
+In order to check if the data is tidy lets visualize the data set.
+
+```{r}
+view(LA_Crime)
 ```
 
 This data set is tidy, no further action required.
 
 #### Tidying Adriana
 
+####**NYPD_Arrests**
+
+The data set contains some rows missing the description of the type and categoriztion of the arrest which we will change to undetermined or 0 (zero) to keep observation in the analysis. The new tidyed data set will be called NewNYPD.
+
+
+```{r}
+NYPD_Arrests
+```
+
+
+```{r}
+NewNYPD<- NYPD_Arrests%>%
+  replace_na(list(designation="Missing", PD_DESC = "Undertermined", OFNS_DESC="Undertermined", KY_CD="0"))
+NewNYPD
+```
+
+####**Police Budget**
+ Data contains missing observations when the city does not percive income per the variable item. 
+
+```{r}
+Police_Budget
+```
+
+####**Politics**
+Data is tidy.
+
+```{r}
+Politics_538
+```
+
+####**Politics**
+The Dataset is about poverty levels by metro area.
+```{r}
+Poverty_Census
+```
+
+
+####**Washinton Post Shootings**
+This dataset contains names and data for citizens fatally shot by police. 
+```{r}
+Washington_post_Shootings
+
+```
 
 ### Merging Relational Data
 
 The data collected for the study has several distinct data sets. Some data sets, however, have an intrinsic relation with each other, in other words they have a relation in the observations that they recorded. For example, the data sets about the stop and frisk in New York City are almost the same, the difference is the time in which the observations were recorded (i.e., the year in which it was recorded). Therefore, such data sets can be merged into one for a more meaningful analysis with more observations. The current study merged the following data sets together:
 
+##Plot key data --Adriana/ NYPD Arrest
+
+```{r}
+NYPDplot <- NewNYPD%>%
+  ggplot(mapping = aes(x=PERP_RACE, fill= PERP_SEX))+
+  geom_bar(position = "dodge")=
+  theme(axis.text.x = )
+NYPDplot
+```
 
 #### **VADIR_NY**
 
@@ -588,9 +770,10 @@ Vadir_NY_Join
 
 #### **NY_StopFrisk_Merged**
 
-We are merging the data sets as they are equal both in rows and columns. First 2016 and 2017
+We are merging the data sets as they are equal both in rows and columns. First 2015 and 2016
 
 ```{r}
+
 
 
 
