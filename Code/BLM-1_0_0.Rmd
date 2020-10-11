@@ -366,6 +366,7 @@ ChicagoTidy <-
            sep = " ")
 ```
 
+
 ```{r}
 # This code will rm the varible "Updated on"
 
@@ -561,9 +562,6 @@ view(Equipment_Police)
 
 In order to check if the data is tidy lets visualize the data set.
 
-<<<<<<< HEAD
-=======
->>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 ##### **Equitment_Police**
 
 In order to check if the data is tidy lets visualize the data set.
@@ -592,7 +590,6 @@ This data set is tidy, no further action required.
 ##### **Juvenile_Arrests**
 
 In order to check if the data is tidy lets visualize the data set.
-<<<<<<< HEAD
 
 ```{r}
 view(Juvenile_Arrests)
@@ -653,7 +650,9 @@ We are subseting the data with relevant values
 ```{r}
 NY_StopFrisk_2016Tidy <- NY_StopFrisk_2016 %>% subset(select = c(year, datestop, crimsusp, explnstp, 
                                                                   offunif, frisked, searched, contrabn,pf_hcuff, forceuse, sex, race, age, ht_feet, weight, build, city)) %>% rename(Year = year, `Date of Frisk` = datestop,`Crime Suspected` = crimsusp, `Officer Explained Reason` = explnstp, `Officer Wearing Uniform` = offunif, Frisked = frisked, `Body Searched` = searched, Contraband = contrabn, `Hanfcuff Used` = pf_hcuff, `Force Used` = forceuse, Sex = sex, Race = race, Age = age, Height = ht_feet, Weight = weight, `Body Type` = build, City = city)
-                                     
+                 
+
+NY_StopFrisk_2016Tidy$Age <- as.double(NY_StopFrisk_2016Tidy$Age)                    
 
 NY_StopFrisk_2016Tidy
 
@@ -848,7 +847,107 @@ We are merging the data sets as they are equal both in rows and columns. First 2
 
 
 
+```{r}
+NY_StopFrisk1 <- full_join(NY_StopFrisk_2015Tidy, NY_StopFrisk_2016Tidy)
+```
 
+```{r}
+NY_StopFrisk1
+```
+
+
+Then, the merged data set with 2017
+
+
+In order to do so, there some issues between the data sets regarding its compatibility. THerefore, the colunm were fixed with the code below:
+
+
+
+```{r}
+NY_StopFrisk1$`Day Of Frisk` <-  str_sub(NY_StopFrisk1$`Date of Frisk`, 1, 2)
+NY_StopFrisk1$`Date of Friskm` <-  NY_StopFrisk1$`Date of Frisk`
+str_sub(NY_StopFrisk1$`Date of Friskm`, 2, 2) <- "0"
+str_sub(NY_StopFrisk1$`Date of Friskm`, 1, 1) <- "-"
+NY_StopFrisk1$`Month Of Frisk` <-  str_sub(NY_StopFrisk1$`Date of Friskm`, 1, 3)
+NY_StopFrisk1$`Date of Frisky` <-  NY_StopFrisk1$`Date of Frisk`
+str_sub(NY_StopFrisk1$`Date of Frisky`, 3, 3) <- "-"
+NY_StopFrisk1$`Year Of Frisk` <-  str_sub(NY_StopFrisk1$`Date of Frisky`, 3, 7)
+```
+
+```{r}
+NY_StopFrisk1_1 <-
+  NY_StopFrisk1 %>%
+  unite(`Date of Frisk`,`Year Of Frisk`, `Month Of Frisk`,`Day Of Frisk`, `Year Of Frisk`) %>% 
+  select(Year, `Date of Frisk`, `Crime Suspected`, `Officer Explained Reason`, `Officer Wearing Uniform`, Frisked, `Body Searched`, Contraband, `Hanfcuff Used`, `Force Used`, Sex, Race, Age, Height, Weight, `Body Type`, City)
+```
+
+```{r}
+NY_StopFrisk1_1
+```
+
+```{r}
+NY_StopFrisk1_1$`Date of Frisk` <- str_remove(NY_StopFrisk1_1$`Date of Frisk`, "-")
+NY_StopFrisk1_1$`Date of Frisk` <- str_remove(NY_StopFrisk1_1$`Date of Frisk`, "_")
+NY_StopFrisk1_1$`Date of Friskd` <- str_sub(NY_StopFrisk1_1$`Date of Frisk`, 8,10 ) 
+str_sub(NY_StopFrisk1_1$`Date of Friskd`, 1, 1) <- "-"
+NY_StopFrisk1_1$`Date of FriskGOOD` <- str_sub(NY_StopFrisk1_1$`Date of Frisk`, 1,7 ) 
+NY_StopFrisk1_1F <- NY_StopFrisk1_1 %>%
+  unite(`Date of Frisk`, `Date of FriskGOOD`, `Date of Friskd`  )
+```
+
+```{r}
+NY_StopFrisk1_1F
+```
+
+```{r}
+NY_StopFrisk1_1F$`Date of Frisk` <- str_remove(NY_StopFrisk1_1F$`Date of Frisk`, "_")
+
+```
+
+
+
+```{r}
+NY_StopFrisk1_1F$`Date of Frisk` <- parse_date(NY_StopFrisk1_1F$`Date of Frisk`)
+```
+```{r}
+NY_StopFrisk_2017Tidy$Age <- as.double(NY_StopFrisk_2017Tidy$Age)
+NY_StopFrisk_2017Tidy$Height <- as.double(NY_StopFrisk_2017Tidy$Height)
+NY_StopFrisk_2017Tidy$Weight <- as.double(NY_StopFrisk_2017Tidy$Weight)
+```
+
+```{r}
+NY_StopFrisk_2017Tidy$`Date of Frisk` <- as.character(NY_StopFrisk_2017Tidy$`Date of Frisk`)
+NY_StopFrisk_2017Tidy$`Date of Frisk` <- parse_date(NY_StopFrisk_2017Tidy$`Date of Frisk`)
+
+```
+
+
+
+```{r}
+NY_StopFrisk2 <- full_join(NY_StopFrisk1_1F, NY_StopFrisk_2017Tidy)
+
+```
+
+```{r}
+NY_StopFrisk2
+```
+
+
+Then, the merged dataset with 2018
+
+```{r}
+NY_StopFrisk3 <- full_join(NY_StopFrisk2, NY_StopFrisk_2018Tidy)
+```
+```{r}
+NY_StopFrisk_2018Tidy
+```
+
+
+```{r}
+NY_StopFrisk_2018Tidy$`Date of Frisk` <- parse_date(NY_StopFrisk_2018Tidy$`Date of Frisk`, "%d/%m/%y")
+NY_StopFrisk_2018Tidy$Age <- as.double(NY_StopFrisk_2018Tidy$Age)
+
+```
 
 
 
