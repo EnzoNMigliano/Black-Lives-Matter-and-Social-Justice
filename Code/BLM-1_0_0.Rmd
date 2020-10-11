@@ -99,13 +99,13 @@ Police_Policies <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Ana
 
 # Analytics-Dream-Team/Data/BLM Diverse Data/demographics/
 
-Poverty_Census <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/poverty_census_bureau.csv")
+Poverty_Census <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/poverty_census_bureau.csv")
 
-Politics_538 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/politics_538.csv")
+Politics_538 <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/politics_538.csv")
 
-Housing <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/housing.csv")
+Housing <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/housing.csv")
 
-Eduction_Census <- read.csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/education_census_bureau.csv")
+Eduction_Census <- read.csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/education_census_bureau.csv")
 
 # Analytics-Dream-Team/Data/BLM Diverse Data/crime_data/
 
