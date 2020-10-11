@@ -184,7 +184,8 @@ This data set maintained by the Federal Bureau of Investigation has information 
 ##### **Equipment_police**
 
 
-This
+This data set is maintained by the Department of Defense 
+and has information on most equipment purchases by State, City, and County. 
 
 ##### **Housing**
 
