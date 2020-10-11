@@ -720,34 +720,13 @@ We are merging the data sets as they are equal both in rows and columns. First 2
 
 
 
+# Results
 
+**<Your hypothesis>**
 
-### Exploratory analysis
+<all the coding with explanations>
 
-
-The team performed an exploratory analysis of the tidy and merged data sets in order to get familiarized with the information available in the data sets. The exploratory analysis is strongly related with the results section of the present study.
-
-
-#### **Vadir_NY_Join**
-
-
-In order to explore the data lets first visualize the data set.
-
-```{r}
-Vadir_NY_Join
-```
-
-
-Now visualizing the data through graph that will further explain the data set attributes.
-
-
-*Counties through the Years*
-
-Observing how the different counties behaved through the years. 
-
-```{r}
-
-```
+<results>
 
 
 #### Plot key data --Adriana/ NYPD Arrest
@@ -759,16 +738,6 @@ NYPDplot <- NewNYPD%>%
   theme(axis.text.x = )
 NYPDplot
 ```
-
-
-# Results
-
-**<Your hypothesis>**
-
-<all the coding with explanations>
-
-<results>
-
 
 # conclusion
 
