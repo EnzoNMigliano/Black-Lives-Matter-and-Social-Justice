@@ -211,15 +211,22 @@ This
 ##### **NYPD_Arrests**
 
 
-This
+This data set is a compilation of every arrest in NYC from 2006 until the end of 2018, some key variables are the type of ofense, the sex and the age group of the induvisula arrested.
 
 
 ##### **Police_Budget**
 
 
-This
+This dataset contais information about the finances for 150 large US ities across 120 categories including population, revenue per city and taxes.
 
+####**Politics**
+DataSet containing the political party inclination and segregation for metro areas.
 
+####**Poverty Census**
+The Dataset is about poverty levels by metro area.
+
+####**Washinton Post Shootings**
+This dataset contains names and data for citizens fatally shot by police.
 
 ### Tidying the Data Sets
 
@@ -465,11 +472,63 @@ This data set is tidy, no further action required.
 
 #### Tidying Adriana
 
+####**NYPD_Arrests**
+
+The data set contains some rows missing the description of the type and categoriztion of the arrest which we will change to undetermined or 0 (zero) to keep observation in the analysis. The new tidyed data set will be called NewNYPD.
+
+
+```{r}
+NYPD_Arrests
+```
+
+
+```{r}
+NewNYPD<- NYPD_Arrests%>%
+  replace_na(list(designation="Missing", PD_DESC = "Undertermined", OFNS_DESC="Undertermined", KY_CD="0"))
+NewNYPD
+```
+
+####**Police Budget**
+ Data contains missing observations when the city does not percive income per the variable item. 
+
+```{r}
+Police_Budget
+```
+
+####**Politics**
+Data is tidy.
+
+```{r}
+Politics_538
+```
+
+####**Politics**
+The Dataset is about poverty levels by metro area.
+```{r}
+Poverty_Census
+```
+
+
+####**Washinton Post Shootings**
+This dataset contains names and data for citizens fatally shot by police. 
+```{r}
+Washington_post_Shootings
+
+```
 
 ### Merging Relational Data
 
 The data collected for the study has several distinct data sets. Some data sets, however, have an intrinsic relation with each other, in other words they have a relation in the observations that they recorded. For example, the data sets about the stop and frisk in New York City are almost the same, the difference is the time in which the observations were recorded (i.e., the year in which it was recorded). Therefore, such data sets can be merged into one for a more meaningful analysis with more observations. The current study merged the following data sets together:
 
+##Plot key data --Adriana/ NYPD Arrest
+
+```{r}
+NYPDplot <- NewNYPD%>%
+  ggplot(mapping = aes(x=PERP_RACE, fill= PERP_SEX))+
+  geom_bar(position = "dodge")=
+  theme(axis.text.x = )
+NYPDplot
+```
 
 #### **VADIR_NY**
 
