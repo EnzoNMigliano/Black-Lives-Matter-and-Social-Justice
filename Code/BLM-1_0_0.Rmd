@@ -518,7 +518,7 @@ In order to check if the data is tidy lets visualize the data sets.
 ```{r}
 view(NY_StopFrisk_2015)
 ```
-
+This data set is tidy, no further action required.
 #### **NY_StopFrisk_2016**
 
 In order to check if the data is tidy lets visualize the data sets.
@@ -526,7 +526,7 @@ In order to check if the data is tidy lets visualize the data sets.
 ```{r}
 view(NY_StopFrisk_2016)
 ```
-
+This data set is tidy, no further action required.
 #### **NY_StopFrisk_2017**
 
 In order to check if the data is tidy lets visualize the data sets.
@@ -534,7 +534,7 @@ In order to check if the data is tidy lets visualize the data sets.
 ```{r}
 view(NY_StopFrisk_2017)
 ```
-
+This data set is tidy, no further action required.
 #### **NY_StopFrisk_2018**
 
 In order to check if the data is tidy lets visualize the data sets.
@@ -542,7 +542,7 @@ In order to check if the data is tidy lets visualize the data sets.
 ```{r}
 view(NY_StopFrisk_2017)
 ```
-
+This data set is tidy, no further action required.
 #### **NY_StopFrisk_2019**
 
 In order to check if the data is tidy lets visualize the data sets.
@@ -550,7 +550,7 @@ In order to check if the data is tidy lets visualize the data sets.
 ```{r}
 view(NY_StopFrisk_2018)
 ```
-
+This data set is tidy, no further action required.
 #### Tidying Adriana
 
 ####**NYPD_Arrests**
