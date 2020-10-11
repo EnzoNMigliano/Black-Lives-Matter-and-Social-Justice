@@ -979,12 +979,33 @@ Vadir_NY_Join$TotalIncidents <- rowSums(Vadir_NY_Join[ ,c(10:45)])
 Vadir_NY_Join$TotalIncidents
 ```
 
+Now lets vizualize how is the distribution of the incidents per count:
+
 
 ```{r}
 Vadir_NY_Join %>% group_by(County) %>% 
   ggplot(mapping = aes(x = TotalIncidents, fill =  County)) + 
-  geom_histogram() 
+  geom_histogram() +
+  labs(title = "Number of Incidents per count",
+       subtitle = "New York Schools",
+       x = "Number of observations",
+       y = "Number of Incidents",
+       caption = "Source: New York City")
 ```
+
+
+```{r}
+Vadir_NY_Join %>% group_by(County) %>% 
+  ggplot(mapping = aes(x = TotalIncidents, fill =  County)) + 
+  geom_boxplot() +
+  labs(title = "Number of Incidents per count",
+       subtitle = "New York Schools",
+       x = "Observations",
+       y = "Counts",
+       caption = "Source: New York City")
+```
+
+As we can observe the incidents are somewhat different in the different counts. Therefore, more analysis is required for further explanation of the differences.
 
 
 <all the coding with explanations>
