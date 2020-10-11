@@ -190,23 +190,43 @@ and has information on most equipment purchases by State, City, and County.
 ##### **Housing**
 
 
-This
+This data set is data set hosted by the Census Bureau and contains an approximate calculation of the housing occupancy, housing units, vacant units per state.
 
 
 ##### **Juvenile_Arrests**
 
 
-This
+This data set was created by Bureau of Justice, it reflects Juvenile Arrest rates sorted from 1980 to 2018.
 
 ##### **LA_Crime**
 
 
-This
+This data set was developed by the LA police departement and reflects all crime incidents in the city of Los Angeles from 2010 to ... . In this data, it is specified the type of activity, location, victim, sex, age among other variables. 
 
-##### **NY_StopFrisk**
+##### **NY_StopFrisk_2015**
 
 
-This
+This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2015.
+
+##### **NY_StopFrisk_2016**
+
+
+This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2016.
+
+##### **NY_StopFrisk_2017**
+
+
+This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2017.
+
+##### **NY_StopFrisk_2018**
+
+
+This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2018.
+
+##### **NY_StopFrisk_2019**
+
+
+This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2019
 
 
 ##### **NYPD_Arrests**
@@ -336,8 +356,6 @@ ChicagoTidy2
 ```
 
 
-
-
 ##### **COntract_Police**
 
 
@@ -406,8 +424,6 @@ DallasArrestTidy
 ```
 
 
-
-
 ##### **Eduction_Census**
 
 
@@ -463,6 +479,84 @@ This data set is tidy, no further action required.
 
 #### Tidying Juan 
 
+##### **Equitment_Police**
+
+In order to check if the data is tidy lets visualize the data set.
+
+```{r}
+view(Equipment_Police)
+```
+
+##### **Housing**
+
+In order to check if the data is tidy lets visualize the data set.
+
+```{r}
+view(Housing)
+```
+
+##### **Juvenile_Arrests**
+
+In order to check if the data is tidy lets visualize the data set.
+
+```{r}
+view(Juvenile_Arrests)
+```
+
+##### **LA_Crime**
+
+In order to check if the data is tidy lets visualize the data set.
+
+```{r}
+view(LA_Crime)
+```
+
+#### **NY_StopFrisk_2015**
+
+In order to check if the data is tidy lets visualize the data sets.
+
+```{r}
+view(NY_StopFrisk_2015)
+```
+This data set is tidy, no further action required.
+
+#### **NY_StopFrisk_2016**
+
+In order to check if the data is tidy lets visualize the data sets.
+
+```{r}
+view(NY_StopFrisk_2016)
+```
+This data set is tidy, no further action required.
+
+#### **NY_StopFrisk_2017**
+
+In order to check if the data is tidy lets visualize the data sets.
+
+```{r}
+view(NY_StopFrisk_2017)
+```
+This data set is tidy, no further action required.
+
+#### **NY_StopFrisk_2018**
+
+In order to check if the data is tidy lets visualize the data sets.
+
+```{r}
+view(NY_StopFrisk_2017)
+```
+
+This data set is tidy, no further action required.
+
+#### **NY_StopFrisk_2019**
+
+In order to check if the data is tidy lets visualize the data sets.
+
+```{r}
+view(NY_StopFrisk_2018)
+```
+
+This data set is tidy, no further action required.
 
 #### Tidying Adriana
 
@@ -492,37 +586,20 @@ The new data set merged all the observations from 2010 to 2015 since it had the 
 Vadir_NY_Join
 ```
 
-<<<<<<< HEAD
-whatever
-### Merging Relational Data
-=======
+#### **NY_StopFrisk_Merged**
+
+We are merging the data sets as they are equal both in rows and columns. First 2016 and 2017
+
+```{r}
+
+
+
+```
+
 
 ### Exploratory analysis
->>>>>>> 6d9df9261013a04da4e9da89c22af1cb93b92c74
 
 The team performed an exploratory analysis of the tidy and merged data sets in order to get familiarized with the information available in the data sets. The exploratory analysis is strongly related with the results section of the present study.
-
-
-#### **Vadir_NY_Join**
-
-
-In order to explore the data lets first visualize the data set.
-
-```{r}
-Vadir_NY_Join
-```
-
-
-Now visualizing the data through graph that will further explain the data set attributes.
-
-
-*Counties through the Years*
-
-Observing how the different counties behaved through the years. 
-
-```{r}
-
-```
 
 
 # Results
