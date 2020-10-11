@@ -1028,6 +1028,8 @@ The mean values and the standard deviation of the variables give a better unders
 
 Before we test the hypothesis that the number of incidents reported is different, it is necessery define if the data sets being analyzed are normally distributed.
 
+For the statistical test we will compare the Bronx which 36% of its pupolation is African American and Richmond which 98% of its population is caucasian according to the last census. 
+
 
 **Bronx**
 
