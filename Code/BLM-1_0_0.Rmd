@@ -189,10 +189,7 @@ This data set maintained by the Federal Bureau of Investigation has information 
 
 ##### **Equipment_police**
 
-<<<<<<< HEAD
 
-=======
->>>>>>> a1d2f6b9bc52c57c2b9dc2cb177dd6b2ca91948c
 This data set is maintained by the Department of Defense 
 and has information on most equipment purchases by State, City, and County. 
 
@@ -200,47 +197,38 @@ and has information on most equipment purchases by State, City, and County.
 
 This data set is data set hosted by the Census Bureau and contains an approximate calculation of the housing occupancy, housing units, vacant units per state.
 
-<<<<<<< HEAD
-This data set is data set hosted by the Census Bureau and contains an approximate calculation of the housing occupancy, housing units, vacant units per state.
-=======
 ##### **Juvenile_Arrests**
->>>>>>> a1d2f6b9bc52c57c2b9dc2cb177dd6b2ca91948c
 
 This data set was created by Bureau of Justice, it reflects Juvenile Arrest rates sorted from 1980 to 2018.
 
 ##### **LA_Crime**
 
-This data set was developed by the LA police departement and reflects all crime incidents in the city of Los Angeles from 2010 to ... . In this data, it is specified the type of activity, location, victim, sex, age among other variables. 
+This data set was developed by the LA police departement and reflects all crime incidents in the city of Los Angeles from 2010 to 2020 In this data, it is specified the type of activity, location, victim, sex, age among other variables. 
 
-<<<<<<< HEAD
-This data set was created by Bureau of Justice, it reflects Juvenile Arrest rates sorted from 1980 to 2018.
-=======
+
 ##### **NY_StopFrisk_2015**
->>>>>>> a1d2f6b9bc52c57c2b9dc2cb177dd6b2ca91948c
+
 
 This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2015.
+
 
 ##### **NY_StopFrisk_2016**
 
 This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2016.
 
-<<<<<<< HEAD
-This data set was developed by the LA police departement and reflects all crime incidents in the city of Los Angeles from 2010 to ... . In this data, it is specified the type of activity, location, victim, sex, age among other variables. 
 
-##### **NY_StopFrisk_2015**
-=======
+
 ##### **NY_StopFrisk_2017**
 
 This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2017.
->>>>>>> a1d2f6b9bc52c57c2b9dc2cb177dd6b2ca91948c
+
 
 ##### **NY_StopFrisk_2018**
 
-<<<<<<< HEAD
+
 This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2015.
 
 ##### **NY_StopFrisk_2016**
-
 
 This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2016.
 
@@ -251,17 +239,12 @@ This data set was created by New York police department. It expoxes all stop and
 
 ##### **NY_StopFrisk_2018**
 
-
-=======
->>>>>>> a1d2f6b9bc52c57c2b9dc2cb177dd6b2ca91948c
 This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2018.
+
 
 ##### **NY_StopFrisk_2019**
 
-<<<<<<< HEAD
 
-=======
->>>>>>> a1d2f6b9bc52c57c2b9dc2cb177dd6b2ca91948c
 This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2019
 
 
@@ -400,9 +383,8 @@ ChicagoTidy2
 ```
 
 
-<<<<<<< HEAD
 ##### **Contract_Police**
-=======
+
 There are, however some observaitons that are NA.
 
 ```{r}
@@ -431,7 +413,6 @@ ChicagoTidyFinal
 
 
 ##### **COntract_Police**
->>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 
 
 In order to check if the data is tidy lets visualize the data set.
@@ -512,12 +493,10 @@ DallasArrestTidy
 ```
 
 
-<<<<<<< HEAD
-=======
 
 
 
->>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
+
 ##### **Eduction_Census**
 
 
@@ -683,8 +662,7 @@ NY_StopFrisk_2016Tidy
 This data set is tidy, no further action required.
 
 
-NY_StopFrisk_2016
-```
+#### **NY_StopFrisk_2017**
 
 
 In order to check if the data is tidy lets visualize the data sets.
@@ -711,7 +689,7 @@ NY_StopFrisk_2017Tidy
 
 This data set is tidy, no further action required.
 
-
+#### **NY_StopFrisk_2018**
 
 In order to check if the data is tidy lets visualize the data sets.
 
@@ -737,7 +715,6 @@ NY_StopFrisk_2018Tidy
 This data set is tidy, no further action required.
 
 
->>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 #### **NY_StopFrisk_2019**
 
 In order to check if the data is tidy lets visualize the data sets.
@@ -762,11 +739,15 @@ NY_StopFrisk_2019Tidy
 This data set is tidy, no further action required.
 
 
+##### **Juvenile_Arrests**
+
+THis data set is tidy.
+
 ```{r}
 view(Juvenile_Arrests)
 ```
 
-<<<<<<< HEAD
+
 ##### **LA_Crime**
 
 In order to check if the data is tidy lets visualize the data set.
@@ -777,24 +758,15 @@ view(LA_Crime)
 
 This data set is tidy, no further action required.
 
-#### Tidying Adriana
-=======
-This data set is tidy, no further action required.
->>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
-
-
 
 #### **NYPD_Arrests**
 
 In order to check if the data is tidy lets visualize the data sets.
 
 
-
-
 ```{r}
 NYPD_Arrests
 ```
-
 
 
 The data set contains some rows missing the description of the type and categoriztion of the arrest which we will change to undetermined or 0 (zero) to keep observation in the analysis. The new tidyed data set will be called NewNYPD.
@@ -869,21 +841,13 @@ The new data set merged all the observations from 2010 to 2015 since it had the 
 Vadir_NY_Join
 ```
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 #### **NY_StopFrisk_Merged**
 
 We are merging the data sets as they are equal both in rows and columns. First 2015 and 2016
 
 
 
-<<<<<<< HEAD
-
-
-```
-=======
 
 
 
@@ -895,15 +859,14 @@ We are merging the data sets as they are equal both in rows and columns. First 2
 Therefore our Hypothesis are:
 
 H0 - There is no significant difference
->>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 
 HA - There is a significant difference
 
-<<<<<<< HEAD
+
 ### Exploratory analysis
 
 The team performed an exploratory analysis of the tidy and merged data sets in order to get familiarized with the information available in the data sets. The exploratory analysis is strongly related with the results section of the present study.
-=======
+
 
 ### Exploring the problem
 
@@ -913,7 +876,6 @@ We will create a new column in the vadir_NY_Join called "TotalIncidents"
 Vadir_NY_Join$TotalIncidents <- rowSums(Vadir_NY_Join[ ,c(10:45)])
 Vadir_NY_Join$TotalIncidents
 ```
->>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 
 
 ```{r}
