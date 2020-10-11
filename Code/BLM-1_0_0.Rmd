@@ -1008,6 +1008,18 @@ Vadir_NY_Join %>% group_by(County) %>%
 As we can observe the incidents are somewhat different in the different counts. Therefore, more analysis is required for further explanation of the differences.
 
 
+### Exploring with numbers
+
+```{r}
+Vadir_NY_Join %>% group_by(County) %>% 
+  select(TotalIncidents) %>%
+  na.omit() %>%
+  summarize(avgExtra = mean(TotalIncidents),
+            sdExtra = sd(TotalIncidents),
+            count = n())
+```
+
+
 <all the coding with explanations>
 
 <results>
