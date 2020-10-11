@@ -1089,6 +1089,46 @@ HypothesisTestSchoolI
 The P-value was higher than he the alpha. THerefore, we failed to reject the null Hypothesis, in other words there is no sufficient evidence to support the claim that there is a significant difference in the Total incidents.
 
 
+## **In New York incidents with weapons in schools happen significantly more frequent in neighborhoods were there more African Americans**
+
+Therefore our Hypothesis are:
+
+H0 - There is no significant difference
+
+HA - There is a significant difference
+
+
+### Exploratory analysis
+
+The team performed an exploratory analysis of the tidy and merged data sets in order to get familiarized with the information available in the data sets. The exploratory analysis is strongly related with the results section of the present study.
+
+
+### Exploring the problem
+
+lets vizualize how is the distribution of the incidents in which a minor was assaulted:
+
+```{r}
+Vadir_NY_Join %>% group_by(County) %>% 
+  ggplot(mapping = aes(x = `Assault With Serious Physical Injury With Weapon(s)`, fill =  County)) + 
+  geom_histogram() +
+  labs(title = "Number of Assaults per count",
+       subtitle = "Serious Physical Injury With Weapon(s)",
+       x = "Number of observations",
+       y = "Number of Incidents",
+       caption = "Source: New York City")
+```
+```{r}
+Vadir_NY_Join %>% group_by(County) %>% 
+  ggplot(mapping = aes(x = `Assault with Physical Injury With Weapon(s)`, fill =  County)) + 
+  geom_histogram() +
+  labs(title = "Number of Assaults per count",
+       subtitle = "Physical Injury With Weapon(s)",
+       x = "Number of observations",
+       y = "Number of Incidents",
+       caption = "Source: New York City")
+```
+
+
 
 
 
