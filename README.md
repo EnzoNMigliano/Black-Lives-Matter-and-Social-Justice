@@ -129,6 +129,6 @@ The entire coding for the project can be found inside the folder named code. In 
 
 [4]	US Department of Justice, “Homicide trends in the United States, 1980-2008,” 2011. [Online}. Available: https://www.bjs.gov/content/pub/pdf/htus8008.pdf
 
-
-
+[5] Crime and Enforcement Activity in New York City, 2019. [Online] Available:https://www1.nyc.gov/assets/nypd/downloads/pdf/analysis_and_planning/year-end-2019-enforcement-report.pdf​
+​
 # “Keep calm and be (P < 0.05)”
