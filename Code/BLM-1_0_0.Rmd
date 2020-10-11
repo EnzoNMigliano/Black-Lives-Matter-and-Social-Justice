@@ -10,7 +10,7 @@ output: html_notebook
 The lives of African Americans have historically been disrespected. The treatment disparity of different ethnicities in the American society has a long and diverse scope. However, Under the following research question and problem statement: Do African Americans are significantly treated different in society than to other ethnicities in the United States? The presented study focused on the facets of the education, health, and law enforcement societal interaction. Through an archival analysis of governmental and public available data different statistical tests such as time series, linear and non-linear predictive models, and descriptive statistics will address the following hypothesis: **<THe hypothesis are missing>** . The current study provided great insight on the current situation of the Ethnical disparity of the American, as well possible solutions for the problem **<We Need to make a better COnclusion>**.
 
 
-# Title of the Study
+# Black Lives Matter
 
 Black Lives Matter (BLM) is a movement that started as a hashtag for Twitter, and it has evolved to a political and social movement, aiming to visualize and intervene in violence inflicted on Black communities, under the BLM movements many protests have been promoted around the globe advocating against police violence towards black people. The main focus of the movement is to end with police brutality.
 
@@ -324,7 +324,6 @@ In order to check if the data is tidy lets visualize the data set.
 
 
 ```{r}
-View(Chicago_Crimes_2011topresent)
 Chicago_Crimes_2011topresent
 ```
 
@@ -656,7 +655,7 @@ NewNYPD
 
 ####**Police Budget**
 
-Data contains missing observations when the city does not percive income per the variable item. 
+Data contains missing observations when the city does not percive income per the variable item. , but is tidy
 
 ```{r}
 Police_Budget
@@ -664,21 +663,26 @@ Police_Budget
 
 
 ####**Politics**
+
 Data is tidy.
 
 ```{r}
 Politics_538
 ```
 
-####**Politics**
-The Dataset is about poverty levels by metro area.
+####**Poverty Census**
+
+The data set is tidy.
+
 ```{r}
 Poverty_Census
 ```
 
 
 ####**Washinton Post Shootings**
-This dataset contains names and data for citizens fatally shot by police. 
+
+The data set is tidy.
+ 
 ```{r}
 Washington_post_Shootings
 
@@ -717,21 +721,8 @@ Vadir_NY_Join
 
 We are merging the data sets as they are equal both in rows and columns. First 2016 and 2017
 
-```{r}
-
-NY_StopFrisk_2016Tidy <- NY_StopFrisk_2016 %>% subset(select = c(year, datestop, timestop, crimsusp, explnstp, 
-                                                                  offunif, frisked, searched, contrabn,                                                              
-                                                                  pf_hcuff, forceuse, sex, race, age, ht_feet,
-                                                                  weight, build, city, pistol, riflshot, asltweap, knifcuti))
 
 
-
-
-
-```
-```{r}
-WEAOIN_FOUND_FLAG
-```
 
 
 
