@@ -4,24 +4,43 @@ author: "Adriana Ortiz, Enzo Novi Migliano, and Juan Zambrano"
 output: html_notebook
 ---
 
-**What should be in our R markdown**
-
-R Code
-Produce a R markdown of your analyses as a nb.html (not from knitr). 
-Your code must contain title, authors, project abstract (problem statement, description, and conclusions), appropriate headings (#), detailed explanations of what each chunk does, and code chunks with comments.
-Do not leave unused code in the file.
-
 # Abstract
 
 
-The lives of African Americans have historically been disrespected. The treatment disparity of different ethnicities in the American society has a long and diverse scope. However, Under the following research question and problem statement: Do African Americans are significantly treated different in society than to other ethnicities in the United States? The presented study focused on the facets of the education, health, and law enforcement societal interaction. Through an archival analysis of governmental and public available data different statistical tests such as time series, linear and non-linear predictive models, and descriptive statistics will address the following hypothesis: **THe hypothesis are missing** . The current study provided great insight on the current situation of the Ethnical disparity of the American, as well possible solutions for the problem **We Need to make a better COnclusion**.
+The lives of African Americans have historically been disrespected. The treatment disparity of different ethnicities in the American society has a long and diverse scope. However, Under the following research question and problem statement: Do African Americans are significantly treated different in society than to other ethnicities in the United States? The presented study focused on the facets of the education, health, and law enforcement societal interaction. Through an archival analysis of governmental and public available data different statistical tests such as time series, linear and non-linear predictive models, and descriptive statistics will address the following hypothesis: **<THe hypothesis are missing>** . The current study provided great insight on the current situation of the Ethnical disparity of the American, as well possible solutions for the problem **<We Need to make a better COnclusion>**.
 
-# Instaling Necessary Packages
+
+# Title of the Study
+
+**<WE NEED AN INTRODUCTION>**
+
+
+# Method
+
+## Data
+
+The data utilized in the analysis was collected from different reliable sources (e.g., government, news papers, Kaggle). The data was collected in throughout the months of September and October of 2020, and the files were uploaded into an online repository in the web server "GitHub" (link to the online repository:
+https://github.com/EnzoNMigliano/Analytics-Dream-Team).
+
+
+## Instruments
+
+### SOftware
+
+In order to perform the analysis of the data we utilized the software R(Version 4.0.2) [1], emulated in the Rstudio(Version 1.3.1073) [2]. In order to perform the version control of the documents throughout the study, the team utilized the Software Git [3] in connection with the server of GitHub [4].
+
+### Packages
+
+In order to perform the analysis of the data we utilized the following packages: Tidyverse [5], Corrplot [6], CaTools [7], caret [8], and forecast [9].
+
+#### Installing Necessary Packages
+
+The code below is with hash tags to prevent people from installing the packages twice. If your computer does not have one of the packages below, please take way the hash tag and install the package at your convenience.
 
 ```{r}
 
 # install.packages("tidyverse")
-# install.packages(corrplot)
+# install.packages("corrplot")
 # install.packages("caTools")
 # install.packeges("caret")
 # install.packages("forecast")
@@ -29,7 +48,9 @@ The lives of African Americans have historically been disrespected. The treatmen
 ```
 
 
-# Loading Necessary Libraries
+#### Loading Necessary Libraries
+
+The code below will load the installed packages into your Rstudio.
 
 ```{r}
 library(tidyverse)
@@ -39,8 +60,11 @@ library(caret)
 library(forecast)
 ```
 
-# Loading Data sets for the analysis
+## Procedures
 
+### Loading Data sets for the analysis
+
+The code below will load all the data sets the team stored in the GitHub server.
 
 ```{r}
 # Analytics-Dream-Team/Data
@@ -110,92 +134,428 @@ Washington_post_Shootings <-
 
 ```
 
-# Tidying the data
+#### Brief description of the data sets
 
-## Tidying Enzo
+##### **VADIR_NY**
 
-**NYC SCHOOLS DATA**
 
-This data set is tidy, no further action.
+This is a conjunct of three data sets on reports of different schools according to its neighborhood in New York City. The reports range from fights to murder. There are three data sets with data collected by the local government of New York City from 2010 to 2015.
+
+
+##### **All_Illnesses_Deaths_rate**
+
+
+This data set is maintained by the Center of Disease Control and Prevention. It contains the most recent updated in all the most prevalent cause of deaths in the American society. THe data set is detailed and it gives the information regarding the different ethnicities in the American society.
+
+
+##### **Chicago Crimes**
+
+
+THis is incredible data set maintained by the local government from Chicago where it lists a detailed description of the crimes committed in the city of Chicago. THe data reported in the data set was collected from 2011 up to the most recent data collection.
+
+
+##### **COntract_Police**
+
+
+This data set maintained by the non governmental organization "Check the Police" lists the contract provisions with the police unions in the United States.
+
+##### **Covid_Deaths_Race**
+
+
+This data set maintained by the Center for Disease COntrol and Prevention lists the deaths by ethnicity in the united States up to August of 2020. 
+
+
+##### **Dallas_Arrests**
+
+
+This data set maintained by the local government of Dallas lists multiple information of arrest performed from 2014 to 2020 in the city of Dallas.
+
+##### **Eduction_Census**
+
+
+This Data maintained by the United States Census Bureau lists several indicators for the education in the United States. The data represents the most up to date available data from the Census Bureau. 
+
+##### **Employment_FBI**
+
+
+This data set maintained by the Federal Bureau of Investigation has information by the civilians employed in the law enforcement agencies, as the number of active officer in different regions of the United States.
+
+
+##### **Equipment_police**
+
+
+This
+
+##### **Housing**
+
+
+This
+
+
+##### **Juvenile_Arrests**
+
+
+This
+
+##### **LA_Crime**
+
+
+This
+
+##### **NY_StopFrisk**
+
+
+This
+
+
+##### **NYPD_Arrests**
+
+
+This
+
+
+##### **Police_Budget**
+
+
+This
+
+
+
+### Tidying the Data Sets
+
+Data sets contain incredible value for the most diverse analysis. However, in order to complete extract such intrinsic value all data sets must be tidy, in order words, the data sets must organized in a logical manner for the analysis. In the next section all the tidying performed in the study is registered.
+
+
+#### Tidying
+
+This section contains the names of the data sets and it status regarding its organization.
+
+##### **VADIR_NY**
+
+
+In order to check if the data is tidy lets visualize the data set.
+
+*2010-2011*
 
 ```{r}
 View(`2010&2011_Vadir_NY`)
-
+`2010&2011_Vadir_NY`
 ```
 
 ```{r}
 summary(`2010&2011_Vadir_NY`)
 ```
 
-```{r}
-#THis data set is tidy
+*2012-2013*
 
+```{r}
 View(`2012&2013_Vadir_NY`)
+`2012&2013_Vadir_NY`
 ```
 
 ```{r}
 summary(`2012&2013_Vadir_NY`)
+
 ```
 
-```{r}
-# This data set is tidy
+*2014-2015*
 
+```{r}
 View(`2014&2015_Vadir_NY`)
+`2014&2015_Vadir_NY`
 ```
 
 ```{r}
 summary(`2014&2015_Vadir_NY`)
 ```
 
-**All Ilnesses DATA**
+All the New York Schools data sets are tidy, no further action required.
+
+
+##### **All_Illnesses_Deaths_rate**
+
+
+In order to check if the data is tidy lets visualize the data set.
+
 
 ```{r}
 View(All_Illness_Deaths_Rate)
+All_Illness_Deaths_Rate
 ```
 
 ```{r}
 summary(All_Illness_Deaths_Rate)
 ```
 
-**CHICAGO_Crimes**
+This data set is tidy, no further action required.
+
+
+##### **Chicago_Crimes**
+
+
+In order to check if the data is tidy lets visualize the data set.
+
 
 ```{r}
 View(Chicago_Crimes_2011topresent)
+Chicago_Crimes_2011topresent
 ```
 
 
-The Chicago Crimes 2011 to present is not Tidy yet. The variable data has two values the date and time. Therefore, we need to separate the values into two cells.
+The Chicago Crimes 2011 to present is not Tidy yet. The variable "Date" has two values the date and time, as well as "Updated On". Therefore, we need to separate the values into two cells. One cell will be for the variable date and the other will be for the variable time. 
+
+```{r}
+# This code will fix the variable "Date"
+
+ChicagoTidy <-
+  Chicago_Crimes_2011topresent %>%
+  separate(Date,
+           into = c("Day",
+                    "Time"),
+           sep = " ")
+```
+
+```{r}
+# This code will fiz the varible "Updated on"
+
+ChicagoTidy2 <- ChicagoTidy %>%
+  separate('Updated On',
+           into = c("Updated_Date",
+                    "Updated_Time"),
+           sep = " ")
+```
+
+*The Tidy data set*
+
+
+The tidy data set will be called ChigagoTidy2. In such data set we separed the values that were present in the same cell. Therefore, the variables "Date" and "Updated On" were dived into four new variables.The variable "Date" into the variables "Day" and "Time". The variable "Updated On" into the variables "Updated_Date" and "Updated_Time". See the new data set below:
+
+```{r}
+ChicagoTidy2
+```
 
 
 
-## Tidying Juan 
+
+##### **COntract_Police**
 
 
-## Tidying Adriana
+In order to check if the data is tidy lets visualize the data set.
+
+```{r}
+View(Contract_Police)
+Contract_Police
+```
+```{r}
+summary(Contract_Police)
+```
+
+This data set is tidy, no further action required.
+
+
+##### **Covid_Deaths_Race**
+
+
+In order to check if the data is tidy lets visualize the data set.
+
+
+```{r}
+view(Covid_Deaths_Race)
+Covid_Deaths_Race
+```
+
+
+This data set is tidy, no further action required.
+
+
+##### **Dallas_Arrests**
+
+
+In order to check if the data is tidy lets visualize the data set.
+
+```{r}
+View(Dallas_Arrests)
+Dallas_Arrests
+```
+
+
+The Dallas Arrest Data set is not tidy yet. The data data set has some variables with two values in one cell. For example,  the observations of the variable "ArArrestDate" have two values per cell the day and the time. Therefore, we need to separate the values into to new complete variables. 
+
+```{r}
+# This code will fix all the variables "ArArrestDate" and "ArBkDate"
+
+DallasArrestTidy <-
+  Dallas_Arrests %>%
+  separate(ArArrestDate,
+           into = c("ArArrestDay",
+                    "ArArrestTime"),
+           sep = " ") %>%
+  separate(ArBkDate,
+           into = c("ArBkDay",
+                    "ArBkTime"),
+           sep = " ")
+```
+
+*The tidy data set*
+
+The tidy data set will be called "DallasArrestTidy". In such data set, we transformed through the code above the variable (of the original data set) "ArArrestDate" into the variables "ArArrestDay" and "ArArrestTime" (in the tidy data set), also we the transformed the variable "ArBkDate" (of the original data set) into the variables "ArBkDay" and "ArBkTime" (in the tidy data set). See the new data set below:
+
+```{r}
+DallasArrestTidy
+```
+
+
+
+
+##### **Eduction_Census**
+
+
+In order to check if the data is tidy lets visualize the data set.
+
+```{r}
+View(Eduction_Census)
+Eduction_Census
+```
+
+
+The data set Education Census is not tidy yet. There is one column that cointaing two different types of observations. The variable "Geographic.Area.Name" has three observations in it there is the name of the city, the State, and the classification of the city. Therefore, we need to separate those observations into completly new variables by assign it to new columns.
+
+```{r}
+
+Education_Census_Tidy <- Eduction_Census %>%
+  separate(Geographic.Area.Name,
+           into = c("CityName",
+                    "StateName"),
+           sep = ", ") %>%
+  separate(StateName,
+           into = c("State",
+                    "Area"),
+           sep = " ")
+
+```
+
+
+*The tidy data set*
+
+The tidy data set will be called "Education_Census_Tidy". In such data set, we transformed through the code above the variable (of the original data set) "Geographic.Area.Name" into the variables "CityName", "State", and "Area"(in the tidy data set). See the new data set below:
+
+```{r}
+Education_Census_Tidy
+```
+
+
+##### **Employment_FBI**
+
+
+In order to check if the data is tidy lets visualize the data set.
+
+
+```{r}
+View(Employment_FBI)
+Employment_FBI
+```
+
+This data set is tidy, no further action required.
+
+
+
+
+#### Tidying Juan 
+
+
+#### Tidying Adriana
+
+
+### Merging Relational Data
+
+The data collected for the study has several distinct data sets. Some data sets, however, have an intrinsic relation with each other, in other words they have a relation in the observations that they recorded. For example, the data sets about the stop and frisk in New York City are almost the same, the difference is the time in which the observations were recorded (i.e., the year in which it was recorded). Therefore, such data sets can be merged into one for a more meaningful analysis with more observations. The current study merged the following data sets together:
+
+
+#### **VADIR_NY**
+
+THis data set the same variables being observed over a few years. Therefore, it can be merged into one data set, as bellow:
+
+```{r}
+?cbind
+```
+```{r}
+Vadir_NY <- full_join(`2010&2011_Vadir_NY`, `2012&2013_Vadir_NY`)
+
+Vadir_NY_Join <- full_join(Vadir_NY, `2014&2015_Vadir_NY`)
+```
+
+The new data set merged all the observations from 2010 to 2015 since it had the same column names (variable names). The new data set is called "Vadir_NY_Join" as below:
+
+
+```{r}
+Vadir_NY_Join
+```
+
+
+### Exploratory analysis
+
+The team performed an exploratory analysis of the tidy and merged data sets in order to get familiarized with the information available in the data sets. The exploratory analysis is strongly related with the results section of the present study.
+
+
+# Results
+
+**<Your hypothesis>**
+
+<all the coding with explanations>
+
+<results>
 
 
 # conclusion
 
 
-We need a conclusion.
+**<We need a conclusion>**
+
+# Refences
 
 
+[1]  R Core Team (2020). R: A language and
+  environment for statistical computing. R
+  Foundation for Statistical Computing,
+  Vienna, Austria. URL
+  https://www.R-project.org/.
+  
+[2] RStudio Team (2020). RStudio: Integrated           Development for R. RStudio, PBC, Boston, MA URL      http://www.rstudio.com/.
+
+[3] Software Freedom Conservancy, Inc., 2020. [Online]. Available: https://git-scm.com/
+
+[4] GitHub, Inc., 2020. [Online]. Available: https://github.com/
+
+[5] Wickham et al., (2019). Welcome to the
+  tidyverse. Journal of Open Source
+  Software, 4(43), 1686,
+  https://doi.org/10.21105/joss.01686
+
+[6] Taiyun Wei and Viliam Simko (2017). R
+  package "corrplot": Visualization of a
+  Correlation Matrix (Version 0.84).
+  Available from
+  https://github.com/taiyun/corrplot
 
 
+[7] Jarek Tuszynski (2020). caTools: Tools:
+  Moving Window Statistics, GIF, Base64,
+  ROC AUC, etc. R package version 1.18.0.
+  https://CRAN.R-project.org/package=caTools
+
+[8] Max Kuhn (2020). caret: Classification
+  and Regression Training. R package
+  version 6.0-86.
+  https://CRAN.R-project.org/package=caret
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[9] Hyndman R, Athanasopoulos G, Bergmeir C,
+  Caceres G, Chhay L, O'Hara-Wild M,
+  Petropoulos F, Razbash S, Wang E, Yasmeen F
+  (2020). _forecast: Forecasting functions
+  for time series and linear models_. R
+  package version 8.13, <URL:
+  https://pkg.robjhyndman.com/forecast/>.
+  
+  
 
