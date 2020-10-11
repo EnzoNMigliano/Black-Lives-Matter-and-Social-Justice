@@ -839,9 +839,6 @@ Vadir_NY_Join
 
 #### **NY_StopFrisk_Merged**
 
-```{r}
-
-```
 
 
 
@@ -1048,9 +1045,27 @@ shapiro.test(TotalBronkx$TotalIncidents)
 ```
 
 The observations of the incidents in the Bronx are not normally distributed. The P-value is lower than the alpha (0.05).
-<all the coding with explanations>
 
-<results>
+
+**Richmond**
+
+Lets see how is the distribution of the incidents in Richmond.
+
+```{r}
+TotalRichmond <- Vadir_NY_Join %>%
+  select(County, TotalIncidents) %>%
+  filter(County == "Richmond") %>%
+  na.omit()
+```
+
+```{r}
+shapiro.test(TotalRichmond$TotalIncidents)
+```
+
+The observations of the incidents in the Richmond are not normally distributed. The P-value is lower than the alpha (0.05).
+
+
+
 
 
 
