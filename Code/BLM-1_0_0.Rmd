@@ -479,7 +479,77 @@ This data set is tidy, no further action required.
 
 
 #### Tidying Juan 
+##### **Equitment_Police**
 
+In order to check if the data is tidy lets visualize the data set.
+
+```{r}
+view(Equipment_Police)
+```
+
+##### **Housing**
+
+In order to check if the data is tidy lets visualize the data set.
+
+```{r}
+view(Housing)
+```
+
+##### **Juvenile_Arrests**
+
+In order to check if the data is tidy lets visualize the data set.
+
+```{r}
+view(Juvenile_Arrests)
+```
+
+##### **LA_Crime**
+
+In order to check if the data is tidy lets visualize the data set.
+
+```{r}
+view(LA_Crime)
+```
+
+#### **NY_StopFrisk_2015**
+
+In order to check if the data is tidy lets visualize the data sets.
+
+```{r}
+view(NY_StopFrisk_2015)
+```
+
+#### **NY_StopFrisk_2016**
+
+In order to check if the data is tidy lets visualize the data sets.
+
+```{r}
+view(NY_StopFrisk_2016)
+```
+
+#### **NY_StopFrisk_2017**
+
+In order to check if the data is tidy lets visualize the data sets.
+
+```{r}
+view(NY_StopFrisk_2017)
+```
+
+#### **NY_StopFrisk_2018**
+
+In order to check if the data is tidy lets visualize the data sets.
+
+```{r}
+view(NY_StopFrisk_2017)
+```
+
+#### **NY_StopFrisk_2019**
+
+In order to check if the data is tidy lets visualize the data sets.
+
+```{r}
+view(NY_StopFrisk_2018)
+```
 
 #### Tidying Adriana
 
