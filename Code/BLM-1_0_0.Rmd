@@ -642,7 +642,7 @@ In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
 view(NY_StopFrisk_2015)
-<<<<<<< HEAD
+
 
 NY_StopFrisk_2015
 ```
@@ -654,25 +654,18 @@ NY_StopFrisk_2015Tidy <- NY_StopFrisk_2015 %>% subset(select = c(year, datestop,
                                                                   offunif, frisked, searched, contrabn,pf_hcuff, forceuse, sex, race, age, ht_feet, weight, build, city)) %>% rename(Year = year, `Date of Frisk` = datestop,`Crime Suspected` = crimsusp, `Officer Explained Reason` = explnstp, `Officer Wearing Uniform` = offunif, Frisked = frisked, `Body Searched` = searched, Contraband = contrabn, `Hanfcuff Used` = pf_hcuff, `Force Used` = forceuse, Sex = sex, Race = race, Age = age, Height = ht_feet, Weight = weight, `Body Type` = build, City = city)
 
 NY_StopFrisk_2015Tidy
-=======
-NY_StopFrisk_2015
->>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
+
 ```
 
 This data set is tidy, no further action required.
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 #### **NY_StopFrisk_2016**
 
 In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
 view(NY_StopFrisk_2016)
-<<<<<<< HEAD
-
 
 ```
 
@@ -689,15 +682,10 @@ NY_StopFrisk_2016Tidy
 
 This data set is tidy, no further action required.
 
-=======
+
 NY_StopFrisk_2016
 ```
 
-This data set is tidy, no further action required.
-
-
->>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
-#### **NY_StopFrisk_2017**
 
 In order to check if the data is tidy lets visualize the data sets.
 
@@ -706,7 +694,7 @@ view(NY_StopFrisk_2017)
 NY_StopFrisk_2017
 ```
 
-<<<<<<< HEAD
+
 We are subseting the data with relevant values
 
 ```{r}
@@ -720,20 +708,16 @@ NY_StopFrisk_2017Tidy <- NY_StopFrisk_2017 %>% subset(select = c(YEAR2, STOP_FRI
 NY_StopFrisk_2017Tidy
 ```
 
+
 This data set is tidy, no further action required.
 
-=======
-This data set is tidy, no further action required.
 
-
->>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
-#### **NY_StopFrisk_2018**
 
 In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
 view(NY_StopFrisk_2018)
-<<<<<<< HEAD
+
 ```
 
 We are subseting the data with relevant values
@@ -749,11 +733,6 @@ NY_StopFrisk_2018Tidy <- NY_StopFrisk_2018 %>% subset(select = c(YEAR2, STOP_FRI
 NY_StopFrisk_2018Tidy
 ```
 
-This data set is tidy, no further action required.
-
-=======
-NY_StopFrisk_2018
-```
 
 This data set is tidy, no further action required.
 
