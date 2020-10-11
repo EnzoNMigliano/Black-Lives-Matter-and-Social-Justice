@@ -630,6 +630,14 @@ The new data set merged all the observations from 2010 to 2015 since it had the 
 ```{r}
 Vadir_NY_Join
 ```
+#### **NY_StopFrisk_Merged**
+
+We are merging the data sets as they are equal both in rows and columns. First 2016 and 2017
+
+```{r}
+
+
+```
 
 <<<<<<< HEAD
 whatever
