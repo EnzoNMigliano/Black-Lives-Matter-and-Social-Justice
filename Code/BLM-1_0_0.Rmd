@@ -87,15 +87,15 @@ All_Illness_Deaths_Rate <- read_csv("https://raw.githubusercontent.com/EnzoNMigl
 
 # Analytics-Dream-Team/Data/BLM Diverse Data/police_info/
 
-Police_Budget <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/budgets.csv")
+Police_Budget <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/budgets.csv")
 
-Equipment_Police <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/dod_equipment_purchases.csv")
+Equipment_Police <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/dod_equipment_purchases.csv")
 
-Contract_Police <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/police_contracts.csv")
+Contract_Police <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/police_contracts.csv")
 
 Employment_FBI <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/police_employment_fbi.csv")
 
-Police_Policies <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/police_policies.csv")
+Police_Policies <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/police_policies.csv")
 
 # Analytics-Dream-Team/Data/BLM Diverse Data/demographics/
 
