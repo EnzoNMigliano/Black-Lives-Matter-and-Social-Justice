@@ -369,8 +369,7 @@ ChicagoTidyFinal <- ChicagoTidy2 %>%
                     'Y Coordinate' = "Missing",
                     Latitude ="Missing", 
                    Longitude = "Missing",
-                   Location = "Missing",
-                   Ward = "Missing"))
+                   Location = "Missing"))
 
 ```
 
@@ -410,6 +409,13 @@ view(Covid_Deaths_Race)
 Covid_Deaths_Race
 ```
 
+```{r}
+summary(Covid_Deaths_Race)
+```
+
+
+There are some observations with NA. However, We cannot change such observations. 
+
 
 This data set is tidy, no further action required.
 
@@ -445,6 +451,12 @@ DallasArrestTidy <-
 *The tidy data set*
 
 The tidy data set will be called "DallasArrestTidy". In such data set, we transformed through the code above the variable (of the original data set) "ArArrestDate" into the variables "ArArrestDay" and "ArArrestTime" (in the tidy data set), also we the transformed the variable "ArBkDate" (of the original data set) into the variables "ArBkDay" and "ArBkTime" (in the tidy data set). See the new data set below:
+
+```{r}
+summary(DallasArrestTidy)
+```
+
+
 
 ```{r}
 DallasArrestTidy
@@ -484,6 +496,7 @@ Education_Census_Tidy <- Eduction_Census %>%
 *The tidy data set*
 
 The tidy data set will be called "Education_Census_Tidy". In such data set, we transformed through the code above the variable (of the original data set) "Geographic.Area.Name" into the variables "CityName", "State", and "Area"(in the tidy data set). See the new data set below:
+
 
 ```{r}
 Education_Census_Tidy
