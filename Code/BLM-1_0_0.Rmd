@@ -932,15 +932,6 @@ Vadir_NY_Join %>% group_by(County) %>%
 <results>
 
 
-#### Plot key data --Adriana/ NYPD Arrest
-
-```{r}
-NYPDplot <- NewNYPD%>%
-  ggplot(mapping = aes(y = PERP_RACE, fill= PERP_SEX))+
-  geom_bar(position = "dodge") +
-  theme(axis.text.x = )
-NYPDplot
-```
 
 # conclusion
 
