@@ -538,7 +538,6 @@ This data set is tidy, no further action required.
 
 In order to check if the data is tidy lets visualize the data set.
 
-<<<<<<< HEAD
 ```{r}
 view(Equipment_Police)
 ```
