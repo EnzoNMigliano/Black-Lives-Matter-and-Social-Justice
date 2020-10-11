@@ -5,6 +5,14 @@ Photo: Andrew Kelly - Reuters
 # Black Lives Matter and Social Justice
 This project focus on the Black Lives Matter Movement trough a statistical analysis to compare and contrast the treatment of African Americans and other ethnicities in the American society.
 
+Black Lives Matter (BLM) is a movement that started as a hashtag for Twitter, and it has evolved to a political and social movement, aiming to visualize and intervene in violence inflicted on Black communities, under the BLM movements many protests have been promoted around the globe advocating against police violence towards black people.
+The main focus of the movement is to end with police brutality.
+
+To understand the facts behind the claim of BLM, we are going to examine data from US authorities and how they treat people to assess if there is a difference in the way they treat Black Americans. The supporting data used towards this project comes from the US Census Bureau, New York Police Department, open data sources from some main metro US areas (Chicago, Dallas & LA), demographics including education, housing, and politics, and lastly data from the police authority. 
+By using different statistical analysis techniques we aim to answer some questions such as how the police treatment towards black people has changed over the years, are African Americans being arrested more often than white, whats the group age seeing more disparity in police treatment among others.
+
+
+
 <br />
 
 ## Analytics-Dream-Team Members
@@ -108,6 +116,7 @@ Florida | 329 | 38.2 | 13.8
 
 ## Instructions for Running the Code
 
+The entire coding for the project can be found inside the folder named code. In other to use such code you must have R and Rstudio install in your computer or any R service provider in the cloud. We recommend that you open the R project named BLM not the R Markodown file named BLM-1_0_0. After openning the working directory, we recommend to then open the R Markdown file, and thereafter, before running any code, open the RData file named BLM_Work_Space-1_0_0 that will save some time loading the data sets that are quite large files. Once you are done loading the RData our team recommends to run the hash tags Installing.libraries and Loading libraries (note that if do not have a library install in your local computer you will have to take off the #hash tag before the command "intalling.library"). Finally, once you have your libraries installed our team recommend to run all the chuncks below starting from the hash tag results. 
 <br />
 
 ## References

@@ -10,9 +10,13 @@ output: html_notebook
 The lives of African Americans have historically been disrespected. The treatment disparity of different ethnicities in the American society has a long and diverse scope. However, Under the following research question and problem statement: Do African Americans are significantly treated different in society than to other ethnicities in the United States? The presented study focused on the facets of the education, health, and law enforcement societal interaction. Through an archival analysis of governmental and public available data different statistical tests such as time series, linear and non-linear predictive models, and descriptive statistics will address the following hypothesis: **<THe hypothesis are missing>** . The current study provided great insight on the current situation of the Ethnical disparity of the American, as well possible solutions for the problem **<We Need to make a better COnclusion>**.
 
 
-# Title of the Study
+# Black Lives Matter
 
-**<WE NEED AN INTRODUCTION>**
+Black Lives Matter (BLM) is a movement that started as a hashtag for Twitter, and it has evolved to a political and social movement, aiming to visualize and intervene in violence inflicted on Black communities, under the BLM movements many protests have been promoted around the globe advocating against police violence towards black people. The main focus of the movement is to end with police brutality.
+
+To understand the facts behind the claim of BLM, we are going to examine data from US authorities and how they treat people to assess if there is a difference in the way they treat Black Americans. The supporting data used towards this project comes from the US Census Bureau, New York Police Department, open data sources from some main metro US areas (Chicago, Dallas & LA), demographics including education, housing, and politics, and lastly data from the police authority. By using different statistical analysis techniques we aim to answer some questions such as how the police treatment towards black people has changed over the years, are African Americans being arrested more often than white, whats the group age seeing more disparity in police treatment among others.
+
+
 
 
 # Method
@@ -281,9 +285,14 @@ The Dataset is about poverty levels by metro area.
 ####**Washinton Post Shootings**
 This dataset contains names and data for citizens fatally shot by police.
 
-### Tidying the Data Sets
 
-Data sets contain incredible value for the most diverse analysis. However, in order to complete extract such intrinsic value all data sets must be tidy, in order words, the data sets must organized in a logical manner for the analysis. In the next section all the tidying performed in the study is registered.
+
+
+
+
+### Tidying the Data Sets and exploring the data sets 
+
+Data sets contain incredible value for the most diverse analysis. However, in order to complete extract such intrinsic value all data sets must be tidy, in order words, the data sets must organized in a logical manner for the analysis. In the next section all the tidying performed in the study is registered. In order to tidy the data, the team also explored it and got familiarized with data sets by using funciton such as View() and summary(). 
 
 
 #### Tidying
@@ -357,7 +366,6 @@ In order to check if the data is tidy lets visualize the data set.
 
 
 ```{r}
-View(Chicago_Crimes_2011topresent)
 Chicago_Crimes_2011topresent
 ```
 
@@ -376,13 +384,9 @@ ChicagoTidy <-
 ```
 
 ```{r}
-# This code will fiz the varible "Updated on"
+# This code will rm the varible "Updated on"
 
-ChicagoTidy2 <- ChicagoTidy %>%
-  separate('Updated On',
-           into = c("Updated_Date",
-                    "Updated_Time"),
-           sep = " ")
+ChicagoTidy2 <- within(ChicagoTidy, rm('Updated On'))
 ```
 
 *The Tidy data set*
@@ -390,12 +394,44 @@ ChicagoTidy2 <- ChicagoTidy %>%
 
 The tidy data set will be called ChigagoTidy2. In such data set we separed the values that were present in the same cell. Therefore, the variables "Date" and "Updated On" were dived into four new variables.The variable "Date" into the variables "Day" and "Time". The variable "Updated On" into the variables "Updated_Date" and "Updated_Time". See the new data set below:
 
+
 ```{r}
 ChicagoTidy2
 ```
 
 
+<<<<<<< HEAD
 ##### **Contract_Police**
+=======
+There are, however some observaitons that are NA.
+
+```{r}
+summary(ChicagoTidy2)
+```
+The code below will rename the observations that were NA:
+
+```{r}
+  
+ChicagoTidyFinal <- ChicagoTidy2 %>%
+  replace_na(list( 'X Coordinate' = "Missing",
+                    'Y Coordinate' = "Missing",
+                    Latitude ="Missing", 
+                   Longitude = "Missing",
+                   Location = "Missing"))
+
+```
+
+The data is now tidy, no further action. See below:
+
+```{r}
+ChicagoTidyFinal
+```
+
+
+
+
+##### **COntract_Police**
+>>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 
 
 In order to check if the data is tidy lets visualize the data set.
@@ -421,6 +457,13 @@ In order to check if the data is tidy lets visualize the data set.
 view(Covid_Deaths_Race)
 Covid_Deaths_Race
 ```
+
+```{r}
+summary(Covid_Deaths_Race)
+```
+
+
+There are some observations with NA. However, We cannot change such observations. 
 
 
 This data set is tidy, no further action required.
@@ -459,10 +502,22 @@ DallasArrestTidy <-
 The tidy data set will be called "DallasArrestTidy". In such data set, we transformed through the code above the variable (of the original data set) "ArArrestDate" into the variables "ArArrestDay" and "ArArrestTime" (in the tidy data set), also we the transformed the variable "ArBkDate" (of the original data set) into the variables "ArBkDay" and "ArBkTime" (in the tidy data set). See the new data set below:
 
 ```{r}
+summary(DallasArrestTidy)
+```
+
+
+
+```{r}
 DallasArrestTidy
 ```
 
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 ##### **Eduction_Census**
 
 
@@ -495,6 +550,7 @@ Education_Census_Tidy <- Eduction_Census %>%
 
 The tidy data set will be called "Education_Census_Tidy". In such data set, we transformed through the code above the variable (of the original data set) "Geographic.Area.Name" into the variables "CityName", "State", and "Area"(in the tidy data set). See the new data set below:
 
+
 ```{r}
 Education_Census_Tidy
 ```
@@ -517,6 +573,7 @@ This data set is tidy, no further action required.
 
 In order to check if the data is tidy lets visualize the data set.
 
+<<<<<<< HEAD
 ```{r}
 view(Equipment_Police)
 ```
@@ -526,13 +583,19 @@ view(Equipment_Police)
 In order to check if the data is tidy lets visualize the data set.
 
 <<<<<<< HEAD
+=======
+>>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 ##### **Equitment_Police**
 
 In order to check if the data is tidy lets visualize the data set.
 
 ```{r}
 view(Equipment_Police)
+Equipment_Police
 ```
+
+This data set is tidy, no further action required.
+
 
 ##### **Housing**
 
@@ -541,7 +604,11 @@ In order to check if the data is tidy lets visualize the data set.
 
 ```{r}
 view(Housing)
+Housing
 ```
+
+This data set is tidy, no further action required.
+
 
 ##### **Juvenile_Arrests**
 
@@ -550,15 +617,24 @@ In order to check if the data is tidy lets visualize the data set.
 
 ```{r}
 view(Juvenile_Arrests)
+Juvenile_Arrests
 ```
+
+This data set is tidy, no further action required.
+
 
 ##### **LA_Crime**
 
 In order to check if the data is tidy lets visualize the data set.
 
 ```{r}
-view(LA_Crime)
+
+LA_Crime
 ```
+
+
+This data set is tidy, no further action required.
+
 
 #### **NY_StopFrisk_2015**
 
@@ -566,6 +642,7 @@ In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
 view(NY_StopFrisk_2015)
+<<<<<<< HEAD
 
 NY_StopFrisk_2015
 ```
@@ -577,16 +654,24 @@ NY_StopFrisk_2015Tidy <- NY_StopFrisk_2015 %>% subset(select = c(year, datestop,
                                                                   offunif, frisked, searched, contrabn,pf_hcuff, forceuse, sex, race, age, ht_feet, weight, build, city)) %>% rename(Year = year, `Date of Frisk` = datestop,`Crime Suspected` = crimsusp, `Officer Explained Reason` = explnstp, `Officer Wearing Uniform` = offunif, Frisked = frisked, `Body Searched` = searched, Contraband = contrabn, `Hanfcuff Used` = pf_hcuff, `Force Used` = forceuse, Sex = sex, Race = race, Age = age, Height = ht_feet, Weight = weight, `Body Type` = build, City = city)
 
 NY_StopFrisk_2015Tidy
+=======
+NY_StopFrisk_2015
+>>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 ```
 
 This data set is tidy, no further action required.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 #### **NY_StopFrisk_2016**
 
 In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
 view(NY_StopFrisk_2016)
+<<<<<<< HEAD
 
 
 ```
@@ -604,14 +689,24 @@ NY_StopFrisk_2016Tidy
 
 This data set is tidy, no further action required.
 
+=======
+NY_StopFrisk_2016
+```
+
+This data set is tidy, no further action required.
+
+
+>>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 #### **NY_StopFrisk_2017**
 
 In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
 view(NY_StopFrisk_2017)
+NY_StopFrisk_2017
 ```
 
+<<<<<<< HEAD
 We are subseting the data with relevant values
 
 ```{r}
@@ -627,12 +722,18 @@ NY_StopFrisk_2017Tidy
 
 This data set is tidy, no further action required.
 
+=======
+This data set is tidy, no further action required.
+
+
+>>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 #### **NY_StopFrisk_2018**
 
 In order to check if the data is tidy lets visualize the data sets.
 
 ```{r}
 view(NY_StopFrisk_2018)
+<<<<<<< HEAD
 ```
 
 We are subseting the data with relevant values
@@ -650,6 +751,14 @@ NY_StopFrisk_2018Tidy
 
 This data set is tidy, no further action required.
 
+=======
+NY_StopFrisk_2018
+```
+
+This data set is tidy, no further action required.
+
+
+>>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 #### **NY_StopFrisk_2019**
 
 In order to check if the data is tidy lets visualize the data sets.
@@ -678,6 +787,7 @@ This data set is tidy, no further action required.
 view(Juvenile_Arrests)
 ```
 
+<<<<<<< HEAD
 ##### **LA_Crime**
 
 In order to check if the data is tidy lets visualize the data set.
@@ -689,15 +799,26 @@ view(LA_Crime)
 This data set is tidy, no further action required.
 
 #### Tidying Adriana
+=======
+This data set is tidy, no further action required.
+>>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 
-####**NYPD_Arrests**
 
-The data set contains some rows missing the description of the type and categoriztion of the arrest which we will change to undetermined or 0 (zero) to keep observation in the analysis. The new tidyed data set will be called NewNYPD.
+
+#### **NYPD_Arrests**
+
+In order to check if the data is tidy lets visualize the data sets.
+
+
 
 
 ```{r}
 NYPD_Arrests
 ```
+
+
+
+The data set contains some rows missing the description of the type and categoriztion of the arrest which we will change to undetermined or 0 (zero) to keep observation in the analysis. The new tidyed data set will be called NewNYPD.
 
 
 ```{r}
@@ -707,54 +828,55 @@ NewNYPD
 ```
 
 ####**Police Budget**
- Data contains missing observations when the city does not percive income per the variable item. 
+
+Data contains missing observations when the city does not percive income per the variable item. , but is tidy
 
 ```{r}
 Police_Budget
 ```
 
+
 ####**Politics**
+
 Data is tidy.
 
 ```{r}
 Politics_538
 ```
 
-####**Politics**
-The Dataset is about poverty levels by metro area.
+####**Poverty Census**
+
+The data set is tidy.
+
 ```{r}
 Poverty_Census
 ```
 
 
 ####**Washinton Post Shootings**
-This dataset contains names and data for citizens fatally shot by police. 
+
+The data set is tidy.
+ 
 ```{r}
 Washington_post_Shootings
 
 ```
 
+
+
+
+
+
 ### Merging Relational Data
 
 The data collected for the study has several distinct data sets. Some data sets, however, have an intrinsic relation with each other, in other words they have a relation in the observations that they recorded. For example, the data sets about the stop and frisk in New York City are almost the same, the difference is the time in which the observations were recorded (i.e., the year in which it was recorded). Therefore, such data sets can be merged into one for a more meaningful analysis with more observations. The current study merged the following data sets together:
 
-##Plot key data --Adriana/ NYPD Arrest
 
-```{r}
-NYPDplot <- NewNYPD%>%
-  ggplot(mapping = aes(x=PERP_RACE, fill= PERP_SEX))+
-  geom_bar(position = "dodge")=
-  theme(axis.text.x = )
-NYPDplot
-```
 
 #### **VADIR_NY**
 
 THis data set the same variables being observed over a few years. Therefore, it can be merged into one data set, as bellow:
 
-```{r}
-?cbind
-```
 ```{r}
 Vadir_NY <- full_join(`2010&2011_Vadir_NY`, `2012&2013_Vadir_NY`)
 
@@ -768,31 +890,74 @@ The new data set merged all the observations from 2010 to 2015 since it had the 
 Vadir_NY_Join
 ```
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
 #### **NY_StopFrisk_Merged**
 
 We are merging the data sets as they are equal both in rows and columns. First 2015 and 2016
 
-```{r}
 
 
+<<<<<<< HEAD
 
 
 ```
+=======
 
 
-### Exploratory analysis
-
-The team performed an exploratory analysis of the tidy and merged data sets in order to get familiarized with the information available in the data sets. The exploratory analysis is strongly related with the results section of the present study.
 
 
 # Results
 
-**<Your hypothesis>**
+## **In New York incidents in schools happen significantly more frequent in neighborhoods were there more African Americans**
+
+Therefore our Hypothesis are:
+
+H0 - There is no significant difference
+>>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
+
+HA - There is a significant difference
+
+<<<<<<< HEAD
+### Exploratory analysis
+
+The team performed an exploratory analysis of the tidy and merged data sets in order to get familiarized with the information available in the data sets. The exploratory analysis is strongly related with the results section of the present study.
+=======
+
+### Exploring the problem
+
+We will create a new column in the vadir_NY_Join called "TotalIncidents"
+
+```{r}
+Vadir_NY_Join$TotalIncidents <- rowSums(Vadir_NY_Join[ ,c(10:45)])
+Vadir_NY_Join$TotalIncidents
+```
+>>>>>>> 426b11ab6d400d2475d9fbe5b76da81094dcde2d
+
+
+```{r}
+Vadir_NY_Join %>% group_by(County) %>% 
+  ggplot(mapping = aes(x = TotalIncidents, fill =  County)) + 
+  geom_histogram() 
+```
+
 
 <all the coding with explanations>
 
 <results>
 
+
+#### Plot key data --Adriana/ NYPD Arrest
+
+```{r}
+NYPDplot <- NewNYPD%>%
+  ggplot(mapping = aes(y = PERP_RACE, fill= PERP_SEX))+
+  geom_bar(position = "dodge") +
+  theme(axis.text.x = )
+NYPDplot
+```
 
 # conclusion
 
