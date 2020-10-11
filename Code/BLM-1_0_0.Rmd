@@ -328,7 +328,12 @@ ChicagoTidy2 <- ChicagoTidy %>%
 *The Tidy data set*
 
 
-The tidy data set will be called ChigagoTidy2.
+The tidy data set will be called ChigagoTidy2. In such data set we separed the values that were present in the same cell. Therefore, the variables "Date" and "Updated On" were dived into four new variables.The variable "Date" into the variables "Day" and "Time". The variable "Updated On" into the variables "Updated_Date" and "Updated_Time". See the new data set below:
+
+```{r}
+ChicagoTidy2
+```
+
 
 
 
@@ -360,14 +365,7 @@ Covid_Deaths_Race
 ```
 
 
-The Covid Deaths by Race data set is not tidy yet. THe data set has one one that contains observations which are actually name of other variables, three other variables to be precise. Also, the data set has a column with the values of the variables. Therefore, we need to transform the values of the column "Indicator" into three new columns.
-
-```{r}
-
-```
-
-
-
+This data set is tidy, no further action required.
 
 
 ##### **Dallas_Arrests**
@@ -400,7 +398,7 @@ DallasArrestTidy <-
 
 *The tidy data set*
 
-The tidy data set will be called "DallasArrestTidy". In such data set, we transformed through the code above the variable (of the original data set) "ArArrestDate" into the variables "ArArrestDay" and "ArArrestTime" (in the tidy data set), also we the transformed the variable "ArBkDate" (of the original data set) into the variables "ArBkDay" and "ArBkTime" (in the tidy data set). see the new data set below:
+The tidy data set will be called "DallasArrestTidy". In such data set, we transformed through the code above the variable (of the original data set) "ArArrestDate" into the variables "ArArrestDay" and "ArArrestTime" (in the tidy data set), also we the transformed the variable "ArBkDate" (of the original data set) into the variables "ArBkDay" and "ArBkTime" (in the tidy data set). See the new data set below:
 
 ```{r}
 DallasArrestTidy
@@ -424,11 +422,26 @@ The data set Education Census is not tidy yet. There is one column that cointain
 
 ```{r}
 
+Education_Census_Tidy <- Eduction_Census %>%
+  separate(Geographic.Area.Name,
+           into = c("CityName",
+                    "StateName"),
+           sep = ", ") %>%
+  separate(StateName,
+           into = c("State",
+                    "Area"),
+           sep = " ")
+
 ```
 
 
 *The tidy data set*
 
+The tidy data set will be called "Education_Census_Tidy". In such data set, we transformed through the code above the variable (of the original data set) "Geographic.Area.Name" into the variables "CityName", "State", and "Area"(in the tidy data set). See the new data set below:
+
+```{r}
+Education_Census_Tidy
+```
 
 
 ##### **Employment_FBI**
@@ -457,9 +470,31 @@ This data set is tidy, no further action required.
 
 The data collected for the study has several distinct data sets. Some data sets, however, have an intrinsic relation with each other, in other words they have a relation in the observations that they recorded. For example, the data sets about the stop and frisk in New York City are almost the same, the difference is the time in which the observations were recorded (i.e., the year in which it was recorded). Therefore, such data sets can be merged into one for a more meaningful analysis with more observations. The current study merged the following data sets together:
 
+
+#### **VADIR_NY**
+
+THis data set the same variables being observed over a few years. Therefore, it can be merged into one data set, as bellow:
+
+```{r}
+?cbind
+```
+```{r}
+Vadir_NY <- full_join(`2010&2011_Vadir_NY`, `2012&2013_Vadir_NY`)
+
+Vadir_NY_Join <- full_join(Vadir_NY, `2014&2015_Vadir_NY`)
+```
+
+The new data set merged all the observations from 2010 to 2015 since it had the same column names (variable names). The new data set is called "Vadir_NY_Join" as below:
+
+
+```{r}
+Vadir_NY_Join
+```
+
+
 ### Exploratory analysis
 
-The team performed an exploratory analysis of the data sets in order to get familiarized with the information available in the data sets. The exploratory analysis is strongly related with the results section of the present study.
+The team performed an exploratory analysis of the tidy and merged data sets in order to get familiarized with the information available in the data sets. The exploratory analysis is strongly related with the results section of the present study.
 
 
 # Results
