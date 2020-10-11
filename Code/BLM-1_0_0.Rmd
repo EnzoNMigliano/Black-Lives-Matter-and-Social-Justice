@@ -804,8 +804,6 @@ Then, the merged data set with 2017
 
 In order to do so, there some issues between the data sets regarding its compatibility. THerefore, the colunm were fixed with the code below:
 
-
-
 ```{r}
 NY_StopFrisk1$`Day Of Frisk` <-  str_sub(NY_StopFrisk1$`Date of Frisk`, 1, 2)
 NY_StopFrisk1$`Date of Friskm` <-  NY_StopFrisk1$`Date of Frisk`
@@ -816,6 +814,20 @@ NY_StopFrisk1$`Date of Frisky` <-  NY_StopFrisk1$`Date of Frisk`
 str_sub(NY_StopFrisk1$`Date of Frisky`, 3, 3) <- "-"
 NY_StopFrisk1$`Year Of Frisk` <-  str_sub(NY_StopFrisk1$`Date of Frisky`, 3, 7)
 ```
+
+
+THe data set from 2017 has the variable "Date of Frisk " separated by - and in the order of year, month, and day. Therefore, we need to fix the variable "Date of Frisk" in the "Ny_StopFrisk1" so it able to merge both data sets.
+
+In the code above we divided the variable from "Ny_StopFrisk1" in to day, month and year. Later we substituted the one of the number of the string in another variable so it would be similar to the format in the 2017 data set that contains"-".
+
+
+
+```{r}
+NY_StopFrisk1
+```
+
+
+Now that all the variables are in the right pieces of the original variable, the function unite was utilized to unite the columns with the values from the original "Date of Frisk", but now in the same formar as is in 2017. See the code below:
 
 ```{r}
 NY_StopFrisk1_1 <-
@@ -847,11 +859,17 @@ NY_StopFrisk1_1F$`Date of Frisk` <- str_remove(NY_StopFrisk1_1F$`Date of Frisk`,
 
 ```
 
+```{r}
+NY_StopFrisk1_1F
+```
 
 
 ```{r}
-NY_StopFrisk1_1F$`Date of Frisk` <- parse_date(NY_StopFrisk1_1F$`Date of Frisk`)
+NY_StopFrisk_2017Tidy
 ```
+
+
+
 ```{r}
 NY_StopFrisk_2017Tidy$Age <- as.double(NY_StopFrisk_2017Tidy$Age)
 NY_StopFrisk_2017Tidy$Height <- as.double(NY_StopFrisk_2017Tidy$Height)
@@ -860,7 +878,7 @@ NY_StopFrisk_2017Tidy$Weight <- as.double(NY_StopFrisk_2017Tidy$Weight)
 
 ```{r}
 NY_StopFrisk_2017Tidy$`Date of Frisk` <- as.character(NY_StopFrisk_2017Tidy$`Date of Frisk`)
-NY_StopFrisk_2017Tidy$`Date of Frisk` <- parse_date(NY_StopFrisk_2017Tidy$`Date of Frisk`)
+NY_StopFrisk_2017Tidy$`Date of Frisk` <- as.character(NY_StopFrisk_2017Tidy$`Date of Frisk`)
 
 ```
 
@@ -874,7 +892,6 @@ NY_StopFrisk2 <- full_join(NY_StopFrisk1_1F, NY_StopFrisk_2017Tidy)
 ```{r}
 NY_StopFrisk2
 ```
-
 
 
 
