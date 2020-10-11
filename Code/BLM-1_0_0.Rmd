@@ -73,65 +73,65 @@ The code below will load all the data sets the team stored in the GitHub server.
 ```{r}
 # Analytics-Dream-Team/Data
 
-Covid_Deaths_Race <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/Provisional_COVID-19_Death_Counts_by_County_and_Race_CDC_OCT1.csv")
+Covid_Deaths_Race <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/Provisional_COVID-19_Death_Counts_by_County_and_Race_CDC_OCT1.csv")
 
-All_Illness_Deaths_Rate <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/Cumulative_Provisional_Counts_of_Deaths_by_Sex__Race__and_Age_CDC_AUG10.csv")
+All_Illness_Deaths_Rate <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/Cumulative_Provisional_Counts_of_Deaths_by_Sex__Race__and_Age_CDC_AUG10.csv")
 
-'2010&2011_Vadir_NY' <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/2010-2011_VADIR_INCIDENTS-CITY_OF_NEW_YORK.csv")
+'2010&2011_Vadir_NY' <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/2010-2011_VADIR_INCIDENTS-CITY_OF_NEW_YORK.csv")
 
 '2012&2013_Vadir_NY' <- 
-  read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/2012-2013_VADIR_INCIDENTS-CITY_OF%20_NEW%20YORK.csv")
+  read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/2012-2013_VADIR_INCIDENTS-CITY_OF%20_NEW%20YORK.csv")
 
 '2014&2015_Vadir_NY' <- 
-  read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/2014-2015_VADIR_INCIDENTS-CITY_OF_NEW_YORK.csv")
+  read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/2014-2015_VADIR_INCIDENTS-CITY_OF_NEW_YORK.csv")
 
 # Analytics-Dream-Team/Data/BLM Diverse Data/police_info/
 
-Police_Budget <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/budgets.csv")
+Police_Budget <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/police_info/budgets.csv")
 
-Equipment_Police <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/dod_equipment_purchases.csv")
+Equipment_Police <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/police_info/dod_equipment_purchases.csv")
 
-Contract_Police <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/police_contracts.csv")
+Contract_Police <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/police_info/police_contracts.csv")
 
-Employment_FBI <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/police_employment_fbi.csv")
+Employment_FBI <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/police_info/police_employment_fbi.csv")
 
-Police_Policies <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/police_info/police_policies.csv")
+Police_Policies <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/police_info/police_policies.csv")
 
 # Analytics-Dream-Team/Data/BLM Diverse Data/demographics/
 
-Poverty_Census <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/poverty_census_bureau.csv")
+Poverty_Census <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/demographics/poverty_census_bureau.csv")
 
-Politics_538 <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/politics_538.csv")
+Politics_538 <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/demographics/politics_538.csv")
 
-Housing <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/housing.csv")
+Housing <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/demographics/housing.csv")
 
-Eduction_Census <- read.csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/demographics/education_census_bureau.csv")
+Eduction_Census <- read.csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/demographics/education_census_bureau.csv")
 
 # Analytics-Dream-Team/Data/BLM Diverse Data/crime_data/
 
-Juvenile_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/crime_data/juvenile_arrests.csv")
+Juvenile_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/crime_data/juvenile_arrests.csv")
 
-NYPD_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/crime_data/NYPD_Arrests_Data__Historic_.csv")
+NYPD_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/crime_data/NYPD_Arrests_Data__Historic_.csv")
 
-LA_Crime <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/crime_data/LA%20Crime_Data_from_2010_to_2019.csv")
+LA_Crime <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/crime_data/LA%20Crime_Data_from_2010_to_2019.csv")
 
-Dallas_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/crime_data/Dallas%20Police%20Arrests.csv")
+Dallas_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/crime_data/Dallas%20Police%20Arrests.csv")
 
 Chicago_Crimes_2011topresent <- 
-  read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/crime_data/Chicago%20Crimes_-_2001_to_Present.csv")
+  read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/crime_data/Chicago%20Crimes_-_2001_to_Present.csv")
 
 # Analytics-Dream-Team/Data/BLM Diverse Data/NYC_stop_frisk/
 
 NY_StopFrisk_2015 <- 
-  read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2015.csv")
+  read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2015.csv")
 
-NY_StopFrisk_2016 <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2016.csv")
+NY_StopFrisk_2016 <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2016.csv")
 
-NY_StopFrisk_2017 <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2017.csv")
+NY_StopFrisk_2017 <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2017.csv")
 
   
 Washington_post_Shootings <-
-  read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/shootings_wash_post.csv")
+  read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/shootings_wash_post.csv")
 
 ```
 
