@@ -1064,6 +1064,29 @@ shapiro.test(TotalRichmond$TotalIncidents)
 
 The observations of the incidents in the Richmond are not normally distributed. The P-value is lower than the alpha (0.05).
 
+### TEsting the hypothesis
+
+Since both data sets were not nrmally distributed we will be utilizing a wilcox.test that will compare the two sample for significant differences.
+
+We first create a data set for the analysis, as in the code below:
+ 
+```{r}
+HypothesisTestSchoolR <- as.tibble(TotalRichmond)
+HypothesisTestSchoolB <- as.tibble(TotalBronkx)
+HypothesisTestSchoolJ <- full_join(HypothesisTestSchoolR,            HypothesisTestSchoolB )                                  
+  
+HypothesisTestSchoolJ
+```
+Then we test its significance:
+
+```{r}
+HypothesisTestSchoolI <- wilcox.test(TotalIncidents ~ County, data = HypothesisTestSchoolJ,  paired = FALSE)
+```
+```{r}
+HypothesisTestSchoolI
+```
+
+The P-value was higher than he the alpha. THerefore, we failed to reject the null Hypothesis, in other words there is no sufficient evidence to support the claim that there is a significant difference in the Total incidents.
 
 
 
