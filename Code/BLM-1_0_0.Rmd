@@ -123,11 +123,11 @@ Chicago_Crimes_2011topresent <-
 # Analytics-Dream-Team/Data/BLM Diverse Data/NYC_stop_frisk/
 
 NY_StopFrisk_2015 <- 
-  read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2015.csv")
+  read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2015.csv")
 
-NY_StopFrisk_2016 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2016.csv")
+NY_StopFrisk_2016 <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2016.csv")
 
-NY_StopFrisk_2017 <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2017.csv")
+NY_StopFrisk_2017 <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/main/Data/BLM%20Diverse%20Data/NYC_stop_frisk/sqf-2017.csv")
 
   
 Washington_post_Shootings <-
@@ -231,19 +231,7 @@ This data set was created by New York police department. It expoxes all stop and
 
 ##### **NY_StopFrisk_2017**
 
-
 This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2017.
-
-##### **NY_StopFrisk_2018**
-
-This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2018.
-
-
-##### **NY_StopFrisk_2019**
-
-
-This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2019
-
 
 ##### **NYPD_Arrests**
 
