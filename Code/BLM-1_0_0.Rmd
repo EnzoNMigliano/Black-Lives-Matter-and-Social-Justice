@@ -135,10 +135,6 @@ Washington_post_Shootings <-
 
 ```
 
-```{r}
-spec(NY_StopFrisk_2015)
-
-```
 
 
 #### Brief description of the data sets
