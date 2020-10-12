@@ -1304,7 +1304,26 @@ decomposedResWhite <- decompose(TSWhite, type="additive")
 stlResWhite <- stl(TSWhite, s.window = "periodic")
 plot (decomposedResWhite, type="o", col="red", lty="dashed")
 ```
+#### The prediciton
 
+COnstructing a model to predict the shootings involving CAucasians:
+
+```{r}
+WModelShootings <- auto.arima(TSWhite)
+```
+
+
+```{r}
+WShootingsForecast <- forecast(WModelShootings, h = 12)
+WShootingsForecast
+```
+
+
+##### plotting the prediction
+
+```{r}
+plot(WShootingsForecast)
+```
 
 ### TimeSeries Race = Black
 ```{r}
