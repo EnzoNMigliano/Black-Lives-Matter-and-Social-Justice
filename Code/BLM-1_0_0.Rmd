@@ -1128,6 +1128,32 @@ Vadir_NY_Join %>% group_by(County) %>%
        caption = "Source: New York City")
 ```
 
+As we can observe the incidents are somewhat different in the different counts. Therefore, more analysis is required for further explanation of the differences.
+
+
+### Exploring with numbers
+
+We will exclude the observations that were zero.
+
+```{r}
+Vadir_NY_Join %>% select(`Assault with Physical Injury With Weapon(s)`, County) %>%
+  filter(`Assault with Physical Injury With Weapon(s)` > 0) %>%
+  group_by(County) %>%
+  na.omit() %>%
+  summarize(avgExtra = mean(`Assault with Physical Injury With Weapon(s)`),
+            sdExtra = sd(`Assault with Physical Injury With Weapon(s)`),
+            count = n())
+```
+
+The mean values and the standard deviation of the variables give a better understanding of how each county struggles with incidents of assaults with physical injuries. The numbers are really impressive. However we need to check its significance.
+
+
+### Cheking for normality
+
+
+Before we test the hypothesis that the number of incidents reported is different, it is necessery define if the data sets being analyzed are normally distributed.
+
+For the statistical test we will compare the Bronx which 36% of its pupolation is African American and Richmond which 98% of its population is caucasian according to the last census. 
 
 
 
