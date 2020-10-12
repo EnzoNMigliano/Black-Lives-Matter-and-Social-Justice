@@ -7,7 +7,7 @@ output: html_notebook
 # Abstract
 
 
-The lives of African Americans have historically been disrespected. The treatment disparity of different ethnicities in the American society has a long and diverse scope. However, Under the following research question and problem statement: Do African Americans are significantly treated different in society than to other ethnicities in the United States? The presented study focused on the facets of the education, health, and law enforcement societal interaction. Through an archival analysis of governmental and public available data different statistical tests such as time series, linear and non-linear predictive models, and descriptive statistics will address the following hypothesis: **<THe hypothesis are missing>** . The current study provided great insight on the current situation of the Ethnical disparity of the American, as well possible solutions for the problem **<We Need to make a better COnclusion>**.
+The lives of African Americans have historically been disrespected. The treatment disparity of different ethnicities in the American society has a long and diverse scope. However, Under the following research question and problem statement: Do African Americans are significantly treated different in society than to other ethnicities in the United States? The presented study focused on the facets of the education, health, and law enforcement societal interaction. Through an archival analysis of governmental and public available data different statistical tests such as time series, linear and non-linear predictive models, and descriptive statistics will address the following hypothesis: Are there differences in the incidents of scholls of different neighboor in New York (i,e,. majorly Caucasians neighboorhoods, and majorly African American neighboorhoods), is the number of African American being shot gonna go up or down in the follwing years. The current study provided great insight on the current situation of the Ethnical disparity of the American, as well possible solutions for the problem **<We Need to make a better COnclusion>**.
 
 
 # Black Lives Matter
@@ -108,7 +108,7 @@ Eduction_Census <- read.csv("https://raw.githubusercontent.com/EnzoNMigliano/Ana
 
 # Analytics-Dream-Team/Data/BLM Diverse Data/crime_data/
 
-Juvenile_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/crime_data/juvenile_arrests.csv")
+Juvenile_Arrests <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/crime_data/juvenile_arrests.csv")
 
 
 # Analytics-Dream-Team/Data/BLM Diverse Data/NYC_stop_frisk/
