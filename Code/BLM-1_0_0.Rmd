@@ -1194,6 +1194,60 @@ shapiro.test(WeaponsRichmond$`Assault with Physical Injury With Weapon(s)`)
 
 The observations of the incidents in the Bronx are not normally distributed. The P-value is lower than the alpha (0.05).
 
+### TEsting the hypothesis
+
+Since both data sets were not nrmally distributed we will be utilizing a wilcox.test that will compare the two sample for significant differences.
+
+We first create a data set for the analysis, as in the code below:
+ 
+```{r}
+HypothesisTestSchoolWR <- as.tibble(WeaponsRichmond)
+HypothesisTestSchoolWB <- as.tibble(WeaponsBronkx)
+HypothesisTestSchoolWJ <- full_join(HypothesisTestSchoolWR,            HypothesisTestSchoolWB )                                  
+  
+HypothesisTestSchoolWJ
+```
+
+
+Then we test its significance:
+
+```{r}
+HypothesisTestSchoolWI <- wilcox.test(`Assault with Physical Injury With Weapon(s)` ~ County, data = HypothesisTestSchoolWJ,  paired = FALSE)
+```
+```{r}
+HypothesisTestSchoolWI
+```
+Another analysis given the disparity of observations will be a probability test. 
+
+```{r}
+
+Vadir_NY_Join %>% select(`Assault with Physical Injury With Weapon(s)`, County) %>%
+  group_by(County) %>%
+  na.omit() %>%
+  summarize(avgExtra = mean(`Assault with Physical Injury With Weapon(s)`),
+            sdExtra = sd(`Assault with Physical Injury With Weapon(s)`),
+            count = n())
+
+
+```
+
+```{r}
+Vadir_NY_Join %>% select(`Assault with Physical Injury With Weapon(s)`, County) %>%
+  filter(`Assault with Physical Injury With Weapon(s)` > 0) %>%
+  group_by(County) %>%
+  na.omit() %>%
+  summarize(avgExtra = mean(`Assault with Physical Injury With Weapon(s)`),
+            sdExtra = sd(`Assault with Physical Injury With Weapon(s)`),
+            count = n())
+```
+
+Now we test the significance of the probabilities:
+
+```{r}
+prop.test(c(57, 331), c(207, 1109))
+```
+
+For both statistical tests the p-value was lower the alpha. Therefore, we fail to reject the null hypothesis, in other words there is note sufficient evidence to support the claim that there is a significant difference in the number of weapon incidents in the two counties.
 
 
 
