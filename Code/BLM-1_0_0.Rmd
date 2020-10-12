@@ -1156,6 +1156,46 @@ Before we test the hypothesis that the number of incidents reported is different
 For the statistical test we will compare the Bronx which 36% of its pupolation is African American and Richmond which 98% of its population is caucasian according to the last census. 
 
 
+**Bronx**
+
+Lets see how is the distrbution of the incidents in the Bronx.
+
+```{r}
+WeaponsBronkx <- Vadir_NY_Join %>%
+  select(County, `Assault with Physical Injury With Weapon(s)`) %>%
+  filter(County == "Bronx") %>%
+  na.omit()
+```
+
+
+```{r}
+shapiro.test(WeaponsBronkx$`Assault with Physical Injury With Weapon(s)`)
+```
+
+The observations of the incidents in the Bronx are not normally distributed. The P-value is lower than the alpha (0.05).
+
+
+
+**Richmond**
+
+Lets see how is the distribution of the incidents in Richmond.
+```{r}
+WeaponsRichmond <- Vadir_NY_Join %>%
+  select(County, `Assault with Physical Injury With Weapon(s)`) %>%
+  filter(County == "Richmond") %>%
+  na.omit()
+```
+
+
+```{r}
+shapiro.test(WeaponsRichmond$`Assault with Physical Injury With Weapon(s)`)
+```
+
+
+The observations of the incidents in the Bronx are not normally distributed. The P-value is lower than the alpha (0.05).
+
+
+
 
 
 # conclusion
