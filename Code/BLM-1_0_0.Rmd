@@ -142,16 +142,12 @@ This is a conjunct of three data sets on reports of different schools according 
 This data set is maintained by the Center of Disease Control and Prevention. It contains the most recent updated in all the most prevalent cause of deaths in the American society. THe data set is detailed and it gives the information regarding the different ethnicities in the American society.
 
 
-##### **Chicago Crimes**
-
-
-THis is incredible data set maintained by the local government from Chicago where it lists a detailed description of the crimes committed in the city of Chicago. THe data reported in the data set was collected from 2011 up to the most recent data collection.
-
 
 ##### **COntract_Police**
 
 
 This data set maintained by the non governmental organization "Check the Police" lists the contract provisions with the police unions in the United States.
+
 
 ##### **Covid_Deaths_Race**
 
@@ -159,20 +155,12 @@ This data set maintained by the non governmental organization "Check the Police"
 This data set maintained by the Center for Disease COntrol and Prevention lists the deaths by ethnicity in the united States up to August of 2020. 
 
 
-##### **Dallas_Arrests**
-
-
-This data set maintained by the local government of Dallas lists multiple information of arrest performed from 2014 to 2020 in the city of Dallas.
 
 ##### **Eduction_Census**
 
 
 This Data maintained by the United States Census Bureau lists several indicators for the education in the United States. The data represents the most up to date available data from the Census Bureau. 
 
-##### **Employment_FBI**
-
-
-This data set maintained by the Federal Bureau of Investigation has information by the civilians employed in the law enforcement agencies, as the number of active officer in different regions of the United States.
 
 
 ##### **Equipment_police**
@@ -189,9 +177,6 @@ This data set is data set hosted by the Census Bureau and contains an approximat
 
 This data set was created by Bureau of Justice, it reflects Juvenile Arrest rates sorted from 1980 to 2018.
 
-##### **LA_Crime**
-
-This data set was developed by the LA police departement and reflects all crime incidents in the city of Los Angeles from 2010 to 2020 In this data, it is specified the type of activity, location, victim, sex, age among other variables. 
 
 
 ##### **NY_StopFrisk_2015**
@@ -223,11 +208,6 @@ This data set was created by New York police department. It expoxes all stop and
 ##### **NY_StopFrisk_2017**
 
 This data set was created by New York police department. It expoxes all stop and frisk activity in the City of New York in 2017.
-
-##### **NYPD_Arrests**
-
-
-This data set is a compilation of every arrest in NYC from 2006 until the end of 2018, some key variables are the type of ofense, the sex and the age group of the induvisula arrested.
 
 
 ##### **Police_Budget**
@@ -318,47 +298,6 @@ summary(All_Illness_Deaths_Rate)
 This data set is tidy, no further action required.
 
 
-##### **Chicago_Crimes**
-
-
-In order to check if the data is tidy lets visualize the data set.
-
-
-```{r}
-Chicago_Crimes_2011topresent
-```
-
-
-The Chicago Crimes 2011 to present is not Tidy yet. The variable "Date" has two values the date and time, as well as "Updated On". Therefore, we need to separate the values into two cells. One cell will be for the variable date and the other will be for the variable time. 
-
-```{r}
-# This code will fix the variable "Date"
-
-ChicagoTidy <-
-  Chicago_Crimes_2011topresent %>%
-  separate(Date,
-           into = c("Day",
-                    "Time"),
-           sep = " ")
-```
-
-
-```{r}
-# This code will rm the varible "Updated on"
-
-ChicagoTidy2 <- within(ChicagoTidy, rm('Updated On'))
-```
-
-*The Tidy data set*
-
-
-The tidy data set will be called ChigagoTidy2. In such data set we separed the values that were present in the same cell. Therefore, the variables "Date" and "Updated On" were dived into four new variables.The variable "Date" into the variables "Day" and "Time". The variable "Updated On" into the variables "Updated_Date" and "Updated_Time". See the new data set below:
-
-
-```{r}
-ChicagoTidy2
-```
-
 
 ##### **Contract_Police**
 
@@ -427,51 +366,6 @@ There are some observations with NA. However, We cannot change such observations
 This data set is tidy, no further action required.
 
 
-##### **Dallas_Arrests**
-
-
-In order to check if the data is tidy lets visualize the data set.
-
-```{r}
-View(Dallas_Arrests)
-Dallas_Arrests
-```
-
-
-The Dallas Arrest Data set is not tidy yet. The data data set has some variables with two values in one cell. For example,  the observations of the variable "ArArrestDate" have two values per cell the day and the time. Therefore, we need to separate the values into to new complete variables. 
-
-```{r}
-# This code will fix all the variables "ArArrestDate" and "ArBkDate"
-
-DallasArrestTidy <-
-  Dallas_Arrests %>%
-  separate(ArArrestDate,
-           into = c("ArArrestDay",
-                    "ArArrestTime"),
-           sep = " ") %>%
-  separate(ArBkDate,
-           into = c("ArBkDay",
-                    "ArBkTime"),
-           sep = " ")
-```
-
-*The tidy data set*
-
-The tidy data set will be called "DallasArrestTidy". In such data set, we transformed through the code above the variable (of the original data set) "ArArrestDate" into the variables "ArArrestDay" and "ArArrestTime" (in the tidy data set), also we the transformed the variable "ArBkDate" (of the original data set) into the variables "ArBkDay" and "ArBkTime" (in the tidy data set). See the new data set below:
-
-```{r}
-summary(DallasArrestTidy)
-```
-
-
-
-```{r}
-DallasArrestTidy
-```
-
-
-
-
 
 
 ##### **Eduction_Census**
@@ -511,27 +405,6 @@ The tidy data set will be called "Education_Census_Tidy". In such data set, we t
 Education_Census_Tidy
 ```
 
-
-##### **Employment_FBI**
-
-
-In order to check if the data is tidy lets visualize the data set.
-
-
-```{r}
-View(Employment_FBI)
-Employment_FBI
-```
-
-This data set is tidy, no further action required.
-
-##### **Equitment_Police**
-
-In order to check if the data is tidy lets visualize the data set.
-
-```{r}
-view(Equipment_Police)
-```
 
 ##### **Housing**
 
@@ -573,18 +446,6 @@ Juvenile_Arrests
 
 This data set is tidy, no further action required.
 
-
-##### **LA_Crime**
-
-In order to check if the data is tidy lets visualize the data set.
-
-```{r}
-
-LA_Crime
-```
-
-
-This data set is tidy, no further action required.
 
 
 #### **NY_StopFrisk_2015**
@@ -674,35 +535,6 @@ view(Juvenile_Arrests)
 ```
 
 
-##### **LA_Crime**
-
-In order to check if the data is tidy lets visualize the data set.
-
-```{r}
-view(LA_Crime)
-```
-
-This data set is tidy, no further action required.
-
-
-#### **NYPD_Arrests**
-
-In order to check if the data is tidy lets visualize the data sets.
-
-
-```{r}
-NYPD_Arrests
-```
-
-
-The data set contains some rows missing the description of the type and categoriztion of the arrest which we will change to undetermined or 0 (zero) to keep observation in the analysis. The new tidyed data set will be called NewNYPD.
-
-
-```{r}
-NewNYPD<- NYPD_Arrests%>%
-  replace_na(list(designation="Missing", PD_DESC = "Undertermined", OFNS_DESC="Undertermined", KY_CD="0"))
-NewNYPD
-```
 
 ####**Police Budget**
 
