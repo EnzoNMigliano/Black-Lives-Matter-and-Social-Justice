@@ -1073,37 +1073,44 @@ prop.test(c(57, 331), c(207, 1109))
 For both statistical tests the p-value was lower the alpha. Therefore, we fail to reject the null hypothesis, in other words there is note sufficient evidence to support the claim that there is a significant difference in the number of weapon incidents in the two counties.
 
 ## Time Series Analysis
-### Gettin the date vecto to split into new colums Year, montnh day
+#Gettin the date vecto to split into new colums Year, montnh day
 ```{r}
+#Getting the date vector
 WashDate <- data.frame(Washington_post_Shootings$date)
 WashDate
 ```
 
-#### Spliting date variable
+#Spliting date variable
 ```{r}
+#Spliting Year 
 WashDate$Year <-  str_sub(WashDate$Washington_post_Shootings.date , 1, 4)
 ```
 
 ```{r}
+#Spliting Month
 WashDate$Month <-  str_sub(WashDate$Washington_post_Shootings.date , 6, 7)
 ```
 
 ```{r}
+#Spliting Day
 WashDate$Day <-  str_sub(WashDate$Washington_post_Shootings.date , 9, 10 )
 ```
 
 ```{r}
+#Printing the splitted data
 WashDate
 ```
 
-#### Merging data sets WashPostDates
+#Merging data sets WashPostDates
 ```{r}
+#Merging datased with new columns creadted for Year, Month and Day
 WashPostDates <- cbind(Washington_post_Shootings,WashDate)
 WashPostDates
 ```
 
-### Time Series Race =White
+#Time Series Race =White
 ```{r}
+#Preapearing data frame for time series analysis
 WashWHiteOnly <- WashPostDates %>%
   filter(race== "W")%>%
   select(Year, Month)%>%
@@ -1113,43 +1120,28 @@ WashWHiteOnly
 ```
 
 ```{r}
+#Separating numeric vector for Time Series
 QtyCasesWhite<- WashWHiteOnly$count
 ```
 
 
 ```{r}
+#Getting the time seris table
 TSWhite <- ts(QtyCasesWhite, start = c(2015), frequency=12)
 TSWhite
 ```
 
 ```{r}
+#Decomposition of the Time Series and visualization of the results
 decomposedResWhite <- decompose(TSWhite, type="additive")
 stlResWhite <- stl(TSWhite, s.window = "periodic")
 plot (decomposedResWhite, type="o", col="red", lty="dashed")
 ```
-#### The prediciton
 
-COnstructing a model to predict the shootings involving CAucasians:
 
+#TimeSeries Race = Black
 ```{r}
-WModelShootings <- auto.arima(TSWhite)
-```
-
-
-```{r}
-WShootingsForecast <- forecast(WModelShootings, h = 12)
-WShootingsForecast
-```
-
-
-##### plotting the prediction
-
-```{r}
-plot(WShootingsForecast)
-```
-
-### TimeSeries Race = Black
-```{r}
+#Preapearing data frame for time series analysis
 WashBlackOnly <- WashPostDates %>%
   filter(race== "B")%>%
   select(Year, Month)%>%
@@ -1159,20 +1151,22 @@ WashBlackOnly
 ```
 
 ```{r}
+#Separating numeric vector for Time Series
 QtyCasesBlack <- WashBlackOnly$count
 ```
 
 
 ```{r}
+#Getting the time seris table
 TSBlack <- ts(QtyCasesBlack, start = c(2015), frequency=12)
 TSBlack
 ```
 
 ```{r}
+#Decomposition of the Time Series and visualization of the results
 decomposedResBlack <- decompose(TSBlack, type="additive")
 stlResBlack <- stl(TSBlack, s.window = "periodic")
 plot (decomposedResBlack, type="o", col="red", lty="dashed")
-```
 
 #### The prediciton
 
