@@ -115,6 +115,7 @@ Florida | 329 | 38.2 | 13.8
 
 
 #### Graphs
+![BLM PHOTO](https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Images/Boxplot.jpeg) <br />
 
 
 <br />
