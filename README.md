@@ -81,6 +81,7 @@ we performed several statistical tests
 
 1. **Hyphotesis testing (2)**
 2. **Time Series Analysis**
+
 <br />
 
 
@@ -93,6 +94,9 @@ we performed several statistical tests
 
 ## Conclusion
 
+The Black Lives Matter movement is a complexed issue in our society as a whole. Although, our results did not show significant difference in our Hypothesis, the problem in disparity between races is much complex than the analysis available in this study. 
+
+In future studies, in order to achieve meaningful results, more complex analysis must be done.   
 
 <br />
 
