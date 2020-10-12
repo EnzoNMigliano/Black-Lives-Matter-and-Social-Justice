@@ -77,10 +77,19 @@ Our team collected more than 2gb worth of data from different reliable sources s
 
 # The Analysis
 
-we performed several statistical tests
+we performed several statistical tests, including the following:
 
-1. **Hyphotesis testing (2)**
+1. **Hyphotesis testing:**
+   
+   - Unpaired T-test
+   
+   - Probability Test
+
 2. **Time Series Analysis**
+
+
+
+3. **Non-Linear Regression** 
 
 <br />
 
@@ -88,7 +97,12 @@ we performed several statistical tests
 ## Method
 
 1. **T-Test / Wilcoxx**
+
+
 2. **Forecast**
+
+
+3. **Loess Method**
 <br />
 
 
