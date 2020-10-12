@@ -1189,6 +1189,166 @@ BShootingsForecast
 plot(BShootingsForecast)
 ```
 
+## REgression
+
+In this study will built two models one for the schools located in the Bronx and the other for the ones located in Richmond.
+
+
+**Bronx**
+
+First lets select the data set for the analysis
+
+```{r}
+RegressionBronx <-
+  Vadir_NY_Join %>% 
+  filter(County == "Bronx", 
+         TotalIncidents > 0,
+         Enrollment < 2000) %>%
+  select(Enrollment, TotalIncidents)
+```
+
+### Visualization 
+
+lets visualize to better understand the relationship of the variables
+
+```{r}
+ggplot(data = RegressionBronx, 
+       mapping = aes(
+         x = Enrollment,
+         y =TotalIncidents
+       ))+
+  geom_point() +
+  geom_abline() +
+  labs(title = "Relationship Enrollments VS Incidents",
+  subtitle = "Bronx",
+  caption = "Source: New York GoV")
+```
+
+### Checking for correlation
+
+```{r}
+cor(RegressionBronx$Enrollment, 
+    RegressionBronx$TotalIncidents)
+```
+
+### non-linear 
+
+```{r}
+ggplot(data = RegressionBronx, 
+       mapping = aes(
+         x = Enrollment,
+         y =TotalIncidents
+       ))+
+  geom_point() +
+  geom_smooth(method = loess) +
+  labs(title = "Relationship Enrollments VS Incidents",
+  subtitle = "Bronx",
+  caption = "Source: New York GoV")
+```
+### building the model
+
+Since there was no coorrelatio between the variables, the best model will be a no-linear regression.
+
+Our independent variable is the enrollment.
+
+OUr dependent varible is the Incidents.
+
+```{r}
+PredicitonBronx <- loess(RegressionBronx$TotalIncidents ~ RegressionBronx$Enrollment)
+```
+
+### Testing the model
+
+Given 1000 enrollments what would be nurbers of incidents
+
+```{r}
+testB <- 1000
+```
+
+```{r}
+PredictionB <- predict(PredicitonBronx, testB)
+PredictionB
+```
+
+
+
+**Richmond**
+
+First lets select the data set for the analysis
+
+```{r}
+RegressionRichmond <-
+  Vadir_NY_Join %>% 
+  filter(County == "Richmond", 
+         TotalIncidents > 0,
+         Enrollment < 2000) %>%
+  select(Enrollment, TotalIncidents)
+```
+
+### Visualization 
+
+lets visualize to better understand the relationship of the variables
+
+```{r}
+ggplot(data = RegressionRichmond, 
+       mapping = aes(
+         x = Enrollment,
+         y =TotalIncidents
+       ))+
+  geom_point() +
+  geom_abline() +
+  labs(title = "Relationship Enrollments VS Incidents",
+  subtitle = "Richmond",
+  caption = "Source: New York GoV")
+```
+
+### Checking for correlation
+
+```{r}
+cor(RegressionRichmond$Enrollment, 
+    RegressionRichmond$TotalIncidents)
+```
+
+### non-linear 
+
+```{r}
+ggplot(data = RegressionRichmond, 
+       mapping = aes(
+         x = Enrollment,
+         y =TotalIncidents
+       ))+
+  geom_point() +
+  geom_smooth(method = loess) +
+  labs(title = "Relationship Enrollments VS Incidents",
+  subtitle = "Richmond",
+  caption = "Source: New York GoV")
+```
+### building the model
+
+Since there was no coorrelatio between the variables, the best model will be a no-linear regression.
+
+Our independent variable is the enrollment.
+
+OUr dependent varible is the Incidents.
+
+```{r}
+PredicitonRichmond <- loess(RegressionRichmond$TotalIncidents ~ RegressionRichmond$Enrollment)
+```
+
+### Testing the model
+
+Given 1000 enrollments what would be nurbers of incidents
+
+```{r}
+testR <- 1000
+```
+
+```{r}
+PredictionR <- predict(PredicitonRichmond, testR)
+PredictionR
+```
+
+
 # conclusion
 
 
