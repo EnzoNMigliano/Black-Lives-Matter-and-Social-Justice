@@ -93,7 +93,6 @@ Equipment_Police <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/An
 
 Contract_Police <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/police_info/police_contracts.csv")
 
-Employment_FBI <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/police_info/police_employment_fbi.csv")
 
 Police_Policies <- read_csv("https://raw.githubusercontent.com/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/police_info/police_policies.csv")
 
@@ -111,14 +110,6 @@ Eduction_Census <- read.csv("https://raw.githubusercontent.com/EnzoNMigliano/Ana
 
 Juvenile_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/crime_data/juvenile_arrests.csv")
 
-NYPD_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/crime_data/NYPD_Arrests_Data__Historic_.csv")
-
-LA_Crime <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/crime_data/LA%20Crime_Data_from_2010_to_2019.csv")
-
-Dallas_Arrests <- read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/crime_data/Dallas%20Police%20Arrests.csv")
-
-Chicago_Crimes_2011topresent <- 
-  read_csv("https://media.githubusercontent.com/media/EnzoNMigliano/Analytics-Dream-Team/Backup/Data/BLM%20Diverse%20Data/crime_data/Chicago%20Crimes_-_2001_to_Present.csv")
 
 # Analytics-Dream-Team/Data/BLM Diverse Data/NYC_stop_frisk/
 
