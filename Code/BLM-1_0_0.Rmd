@@ -1351,8 +1351,10 @@ PredictionR
 
 # conclusion
 
+**The Black Lives Matter movement is a complexed issue in our society as a whole. Although, our results did not show significant difference in our Hypothesis, the problem in disparity between races is much complex than the analysis available in this study.**
 
-**<We need a conclusion>**
+**In future studies, in order to achieve meaningful results, more complex analysis must be done.**
+
 
 # Refences
 
