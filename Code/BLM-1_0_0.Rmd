@@ -1250,7 +1250,86 @@ prop.test(c(57, 331), c(207, 1109))
 For both statistical tests the p-value was lower the alpha. Therefore, we fail to reject the null hypothesis, in other words there is note sufficient evidence to support the claim that there is a significant difference in the number of weapon incidents in the two counties.
 
 
+#Gettin the date vecto to split into new colums Year, montnh day
+```{r}
+WashDate <- data.frame(Washington_post_Shootings$date)
+WashDate
+```
 
+#Spliting date variable
+```{r}
+WashDate$Year <-  str_sub(WashDate$Washington_post_Shootings.date , 1, 4)
+```
+
+```{r}
+WashDate$Month <-  str_sub(WashDate$Washington_post_Shootings.date , 6, 7)
+```
+
+```{r}
+WashDate$Day <-  str_sub(WashDate$Washington_post_Shootings.date , 9, 10 )
+```
+
+```{r}
+WashDate
+```
+
+#Merging data sets WashPostDates
+```{r}
+WashPostDates <- cbind(Washington_post_Shootings,WashDate)
+WashPostDates
+```
+
+#Time Series Race =White
+```{r}
+WashWHiteOnly <- WashPostDates %>%
+  filter(race== "W")%>%
+  select(Year, Month)%>%
+  group_by(Year,Month)%>%
+  summarise(count= n())
+WashWHiteOnly 
+```
+
+```{r}
+QtyCasesWhite<- WashWHiteOnly$count
+```
+
+
+```{r}
+TSWhite <- ts(QtyCasesWhite, start = c(2015), frequency=12)
+TSWhite
+```
+
+```{r}
+decomposedResWhite <- decompose(TSWhite, type="additive")
+stlResWhite <- stl(TSWhite, s.window = "periodic")
+plot (decomposedResWhite, type="o", col="red", lty="dashed")
+```
+
+
+#TimeSeries Race = Black
+```{r}
+WashBlackOnly <- WashPostDates %>%
+  filter(race== "B")%>%
+  select(Year, Month)%>%
+  group_by(Year,Month)%>%
+  summarise(count= n())
+WashBlackOnly 
+```
+
+```{r}
+QtyCasesBlack <- WashBlackOnly$count
+```
+
+
+```{r}
+TSBlack <- ts(QtyCasesBlack, start = c(2015), frequency=12)
+TSBlack
+```
+
+```{r}
+decomposedResBlack <- decompose(TSBlack, type="additive")
+stlResBlack <- stl(TSBlack, s.window = "periodic")
+plot (decomposedResBlack, type="o", col="red", lty="dashed")
 
 # conclusion
 
