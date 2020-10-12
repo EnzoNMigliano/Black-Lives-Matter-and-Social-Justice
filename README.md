@@ -78,10 +78,15 @@ Our team collected more than 2gb worth of data from different reliable sources s
 # The Analysis
 
 we performed several statistical tests
+
+1. **2 Hyphotesis testing**
+2. **Time Series Analysis**
 <br />
 
 
 ## Method
+
+1. **T-Test / Wilcoxx**
 
 <br />
 
