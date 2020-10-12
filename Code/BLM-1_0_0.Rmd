@@ -1351,6 +1351,27 @@ stlResBlack <- stl(TSBlack, s.window = "periodic")
 plot (decomposedResBlack, type="o", col="red", lty="dashed")
 ```
 
+#### The prediciton
+
+COnstructing a model to predict the shootings involving African Americans:
+
+```{r}
+BModelShootings <- auto.arima(TSBlack)
+```
+
+
+```{r}
+BShootingsForecast <- forecast(BModelShootings, h = 12)
+BShootingsForecast
+```
+
+
+##### plotting the prediction
+
+```{r}
+plot(BShootingsForecast)
+```
+
 # conclusion
 
 
