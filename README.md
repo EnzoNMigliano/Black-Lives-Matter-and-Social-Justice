@@ -79,7 +79,7 @@ Our team collected more than 2gb worth of data from different reliable sources s
 
 we performed several statistical tests
 
-1. **2 Hyphotesis testing**
+1. **Hyphotesis testing (2)**
 2. **Time Series Analysis**
 <br />
 
@@ -87,7 +87,7 @@ we performed several statistical tests
 ## Method
 
 1. **T-Test / Wilcoxx**
-
+2. **Forecast**
 <br />
 
 
